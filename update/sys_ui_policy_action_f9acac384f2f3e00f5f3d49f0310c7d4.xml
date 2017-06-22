@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_caller</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-06-21 16:53:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f9acac384f2f3e00f5f3d49f0310c7d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_caller</sys_name>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f9acac384f2f3e00f5f3d49f0310c7d4</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-06-21 16:53:07</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <ui_policy display_value="(IHC) General Rules">651ae0f44f2f3e00f5f3d49f0310c7f1</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
