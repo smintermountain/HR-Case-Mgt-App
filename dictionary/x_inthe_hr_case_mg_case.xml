@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Case" max_length="40" name="x_inthe_hr_case_mg_case" sizeclass="4" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="Case" max_length="40" name="x_inthe_hr_case_mg_case" sizeclass="11" type="collection">
         <element label="Caller" max_length="32" name="u_caller" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Case Type" max_length="40" name="u_case_type" type="string">
             <choice>
                 <element label="Benefits" sequence="0" value="Benefits"/>
-                <element label="Retirement" sequence="1" value="Retirement"/>
-                <element label="LOA" sequence="2" value="LOA"/>
+                <element label="LOA" sequence="1" value="LOA"/>
+                <element label="Retirement" sequence="2" value="Retirement"/>
             </choice>
         </element>
     </element>
