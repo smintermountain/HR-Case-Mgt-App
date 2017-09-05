@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Assignment Matrix" max_length="40" name="x_inthe_hr_case_mg_assignment_matrix" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Assignment Group" max_length="32" name="u_assignment_group" reference="sys_user_group" reference_qual="typeLIKEea06e3e54fb84300548be28d0210c780^active=true^EQ" reference_qual_condition="typeLIKEea06e3e54fb84300548be28d0210c780^active=true^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" dependent="u_case_type" dependent_on_field="u_case_type" label="Case Sub-Type" max_length="40" name="u_case_sub_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Retirement" label="401(k)/403(b)" sequence="0" value="401_k_403_b"/>
+                <element dependent_value="Leave of Absence NCOL" label="Check Application Status" sequence="0" value="Check Application Status"/>
+                <element dependent_value="Educational Assistance" label="Check Request Form Status" sequence="0" value="Check Request Form Status"/>
+                <element dependent_value="Leave of Absence COL" label="Extending Leave" sequence="0" value="Extending Leave"/>
+                <element dependent_value="Benefits" label="New Hire/Newly Eligible" sequence="0" value="New Hire_Newly Eligible"/>
+                <element dependent_value="Retirement" label="Appeals" sequence="1" value="Appeals"/>
+                <element dependent_value="Educational Assistance" label="Eligibility" sequence="1" value="Eligibility"/>
+                <element dependent_value="Leave of Absence NCOL" label="Eligibility/Policy" sequence="1" value="Eligibility_Policy"/>
+                <element dependent_value="Benefits" label="Open Enrollment" sequence="1" value="Open Enrollment"/>
+                <element dependent_value="Leave of Absence COL" label="Premium Payments" sequence="1" value="Premium Payments"/>
+                <element dependent_value="Retirement" label="Begin Retirement Process" sequence="2" value="Begin Retirement Process"/>
+                <element dependent_value="Benefits" label="Life Event - Status Change" sequence="2" value="Life Event - Status Change"/>
+                <element dependent_value="Leave of Absence COL" label="Returning to Work" sequence="2" value="Returning to Work"/>
+                <element dependent_value="Leave of Absence NCOL" label="Submit Application" sequence="2" value="Submit Application"/>
+                <element dependent_value="Educational Assistance" label="Submit Education Plan" sequence="2" value="Submit Education Plan"/>
+                <element dependent_value="Benefits" label="Benefits Eligibility" sequence="3" value="Benefits Eligibility"/>
+                <element dependent_value="Leave of Absence NCOL" label="Other" sequence="3" value="Other"/>
+                <element dependent_value="Retirement" label="Pension" sequence="3" value="Pension"/>
+                <element dependent_value="Leave of Absence COL" label="Short/Long-Term Disability" sequence="3" value="Short_Long-Term Disability"/>
+                <element dependent_value="Educational Assistance" label="Submit Request Form" sequence="3" value="Submit Request Form"/>
+                <element dependent_value="Benefits" label="Involuntary Termination" sequence="4" value="Involuntary Termination"/>
+                <element dependent_value="Educational Assistance" label="Other" sequence="4" value="Other"/>
+                <element dependent_value="Leave of Absence COL" label="Other" sequence="4" value="Other"/>
+                <element dependent_value="Retirement" label="Retiree - General" sequence="4" value="Retiree - General"/>
+                <element dependent_value="Benefits" label="PAR Form" sequence="5" value="PAR Form"/>
+                <element dependent_value="Retirement" label="Retiree Medical/Dental/Vision/Life" sequence="5" value="Retiree Medical_Dental_Vision_Life"/>
+                <element dependent_value="Retirement" label="Other" sequence="6" value="Other"/>
+                <element dependent_value="Benefits" label="PTO/Time Off" sequence="6" value="PTO_Time Off"/>
+                <element dependent_value="Benefits" label="Benefits Appeal" sequence="7" value="Benefits Appeal"/>
+                <element dependent_value="Benefits" label="HSA/FSA" sequence="8" value="HSA_FSA"/>
+                <element dependent_value="Benefits" label="Other" sequence="9" value="Other"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Case Type" max_length="40" name="u_case_type" type="choice">
+            <choice>
+                <element label="Benefits" sequence="100" value="Benefits"/>
+                <element label="Educational Assistance" sequence="200" value="Educational Assistance"/>
+                <element label="Leave of Absence (Currently On Leave)" sequence="300" value="Leave of Absence COL"/>
+                <element label="Leave of Absence (NOT Currently on Leave)" sequence="400" value="Leave of Absence NCOL"/>
+                <element label="Retirement" sequence="500" value="Retirement"/>
+                <element label="Other" sequence="600" value="Other"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Organization" max_length="40" name="u_organization" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Physician" max_length="40" name="u_physician" type="boolean"/>
+        <index name="index">
+            <element name="u_assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="u_case_type"/>
+        </index>
+    </element>
+</database>

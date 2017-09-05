@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_ui_policy" version="2" view="advanced">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>6cab8f244f3b3200af76d0af0310c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>ecab8f244f3b3200af76d0af0310c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>60ab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>e0ab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ui_type</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>64ab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>conditions</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>e4ab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reverse_if_false</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>68ab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>on_load</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>e8ab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>6cab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>ecab8f244f3b3200af76d0af0310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="sys_ui_policy" element="NULL" name="sys_ui_policy" parent="NULL" relationship="NULL" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">68ab8f244f3b3200af76d0af0310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-07-03 20:04:48</sys_created_on>
+            <sys_id>60ab8f244f3b3200af76d0af0310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-07-03 20:04:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_ui_policy</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-14 20:23:38</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ab2a3464fa88b00f5f3d49f0310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_ui_policy</sys_name>
+            <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+            <sys_update_name>sys_ui_list_sys_ui_policy_advanced</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-14 20:23:38</sys_updated_on>
+            <sys_user display_value="Tyler Kaneko">f6633c034f784600af76d0af0310c74e</sys_user>
+            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

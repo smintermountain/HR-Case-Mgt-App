@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_case_type" table="x_inthe_hr_case_mg_assignment_matrix" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Benefits</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <sequence>100</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:24:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6d764b54fb40340f5f3d49f0310c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:24:37</sys_updated_on>
+            <u_task/>
+            <value>Benefits</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Educational Assistance</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <sequence>200</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d808e4754fb40340f5f3d49f0310c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:25:05</sys_updated_on>
+            <u_task/>
+            <value>Educational Assistance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave of Absence (Currently On Leave)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <sequence>300</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:25:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>361864b54fb40340f5f3d49f0310c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:25:32</sys_updated_on>
+            <u_task/>
+            <value>Leave of Absence COL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave of Absence (NOT Currently on Leave)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <sequence>400</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:25:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>303864b54fb40340f5f3d49f0310c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:25:57</sys_updated_on>
+            <u_task/>
+            <value>Leave of Absence NCOL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retirement</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <sequence>500</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d458e4b54fb40340f5f3d49f0310c772</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:26:27</sys_updated_on>
+            <u_task/>
+            <value>Retirement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <sequence>600</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:26:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f5860754fb40340f5f3d49f0310c7e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:26:39</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_case_type</element>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:24:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a9e764b54fb40340f5f3d49f0310c7de</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>u_case_type</sys_name>
+            <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_hr_case_mg_assignment_matrix_u_case_type</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:26:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

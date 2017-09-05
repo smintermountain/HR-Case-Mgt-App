@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Need help?">2ed122564feffe00f5f3d49f0310c7fe</catalog_item>
+        <catalog_variable>IO:6a012c874f7cc340af76d0af0310c75d</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 19:09:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3d8124c74f7cc340af76d0af0310c717</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_case_sub_type</sys_name>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3d8124c74f7cc340af76d0af0310c717</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 19:11:39</sys_updated_on>
+        <table/>
+        <ui_policy display_value="(IHC) Case Type is --None-- or Other">095120c74f7cc340af76d0af0310c71c</ui_policy>
+        <variable>u_case_sub_type</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

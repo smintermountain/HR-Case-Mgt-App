@@ -5,167 +5,293 @@
             <element>u_caller</element>
             <position>0</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>873d24784f2f3e00f5f3d49f0310c723</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a5c60b234ff04740af76d0af0310c7a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_caller.manager</element>
+            <element>u_caller.u_employee_id</element>
             <position>1</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>0b3d24784f2f3e00f5f3d49f0310c723</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>29c60b234ff04740af76d0af0310c7a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_caller.location</element>
+            <element>u_caller_organization</element>
             <position>2</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>8b3d24784f2f3e00f5f3d49f0310c723</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a9c60b234ff04740af76d0af0310c7a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_caller_person_type</element>
+            <position>3</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>2dc60b234ff04740af76d0af0310c7a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_case_type</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>0f3d24784f2f3e00f5f3d49f0310c723</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>adc60b234ff04740af76d0af0310c7a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_case_sub_type</element>
+            <position>5</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>21c60b234ff04740af76d0af0310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_case_type</element>
+            <position>6</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a1c60b234ff04740af76d0af0310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_physician</element>
+            <position>7</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>25c60b234ff04740af76d0af0310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_executive</element>
+            <position>8</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a5c60b234ff04740af76d0af0310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>9</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>8f3d24784f2f3e00f5f3d49f0310c723</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>29c60b234ff04740af76d0af0310c7a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>5</position>
+            <position>10</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>033d24784f2f3e00f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a9c60b234ff04740af76d0af0310c7a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
+            <position>11</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>833d24784f2f3e00f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>2dc60b234ff04740af76d0af0310c7a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>12</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>adc60b234ff04740af76d0af0310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>7</position>
+            <position>13</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>073d24784f2f3e00f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>21c60b234ff04740af76d0af0310c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>8</position>
+            <position>14</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>873d24784f2f3e00f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a1c60b234ff04740af76d0af0310c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contain_phi</element>
+            <position>15</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>25c60b234ff04740af76d0af0310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>9</position>
+            <position>16</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>0b3d24784f2f3e00f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a5c60b234ff04740af76d0af0310c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>10</position>
+            <position>17</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>8b3d24784f2f3e00f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>29c60b234ff04740af76d0af0310c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>11</position>
+            <element>u_additional_details</element>
+            <position>18</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:55:32</sys_created_on>
-            <sys_id>0f3d24784f2f3e00f5f3d49f0310c724</sys_id>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>a9c60b234ff04740af76d0af0310c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:55:32</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resolution_notes</element>
+            <position>19</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>2dc60b234ff04740af76d0af0310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resolution_date</element>
+            <position>20</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-31 20:28:08</sys_created_on>
+            <sys_id>adc60b234ff04740af76d0af0310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">4768a0f04f2f3e00f5f3d49f0310c7f3</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -181,7 +307,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4768a0f04f2f3e00f5f3d49f0310c7f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>23</sys_mod_count>
             <sys_name>x_inthe_hr_case_mg_case</sys_name>
             <sys_overrides/>
             <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -190,7 +316,7 @@
             <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
             <sys_update_name>sys_ui_section_4768a0f04f2f3e00f5f3d49f0310c7f3</sys_update_name>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:34:30</sys_updated_on>
+            <sys_updated_on>2017-08-31 20:28:08</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

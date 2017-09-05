@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="Category">f0e2ae564feffe00f5f3d49f0310c784</question>
+        <question display_value="Case Type">f0e2ae564feffe00f5f3d49f0310c784</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_inthe_hr_case_mg_case">u_case_type=Other^ORu_case_sub_type=Other^EQ<item endquery="false" field="u_case_type" goto="false" newquery="false" operator="=" or="false" value="Other"/>
+            <item endquery="false" field="u_case_sub_type" goto="false" newquery="false" operator="=" or="true" value="Other"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>1100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setValue('u_other_case_type', '');
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>(IHC)) Case Type or Case Sub-Type is 'Other'</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-24 18:14:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ddd4eed94f704340af76d0af0310c7f0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>(IHC)) Case Type or Case Sub-Type is 'Other'</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sys_ui_policy_ddd4eed94f704340af76d0af0310c7f0</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-30 15:15:34</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

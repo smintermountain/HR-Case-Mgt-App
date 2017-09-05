@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_physician" label="Physician" language="en" table="x_inthe_hr_case_mg_assignment_matrix">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_physician</element>
+            <help/>
+            <hint/>
+            <label>Physician</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_assignment_matrix</name>
+            <plural>Physicians</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-25 22:18:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d576acb14fb40340f5f3d49f0310c741</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Physician</sys_name>
+            <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+            <sys_update_name>sys_documentation_x_inthe_hr_case_mg_assignment_matrix_u_physician_en</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2017-08-25 22:18:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

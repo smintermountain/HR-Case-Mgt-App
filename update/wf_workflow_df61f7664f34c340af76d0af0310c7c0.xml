@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["9761f7664f34c340af76d0af0310c7c1"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description>Fulfillment workflow for HR Case Management tickets</description>
+        <expected_sequences>9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764,a4a3f7aa4f34c340af76d0af0310c740,76a57bea4f34c340af76d0af0310c74e,9761f7664f34c340af76d0af0310c7c1|9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764,a4a3f7aa4f34c340af76d0af0310c740,76a57bea4f34c340af76d0af0310c74e,7983508b4f3cc340af76d0af0310c7f1|9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764,a4a3f7aa4f34c340af76d0af0310c740|9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764,a4a3f7aa4f34c340af76d0af0310c740,76a57bea4f34c340af76d0af0310c74e,9761f7664f34c340af76d0af0310c7c1|9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764,a4a3f7aa4f34c340af76d0af0310c740,76a57bea4f34c340af76d0af0310c74e,7983508b4f3cc340af76d0af0310c7f1,9761f7664f34c340af76d0af0310c7c1|9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764,a4a3f7aa4f34c340af76d0af0310c740,9761f7664f34c340af76d0af0310c7c1|9361f7664f34c340af76d0af0310c7c1,1e71f76a4f34c340af76d0af0310c7b0,883b8fa34ff04740af76d0af0310c764,9761f7664f34c340af76d0af0310c7c1</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>(IHC) HR Case Mgt Fulfillment</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">9361f7664f34c340af76d0af0310c7c1</start>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:00:33</sys_created_on>
+        <sys_id>7d31b76a4f34c340af76d0af0310c70b</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>kormsbee</sys_updated_by>
+        <sys_updated_on>2017-09-01 20:20:54</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="(IHC) HR Case Mgt Fulfillment">df61f7664f34c340af76d0af0310c7c0</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Fulfillment workflow for HR Case Management tickets</description>
+        <name>(IHC) HR Case Mgt Fulfillment</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:00:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df61f7664f34c340af76d0af0310c7c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(IHC) HR Case Mgt Fulfillment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>wf_workflow_df61f7664f34c340af76d0af0310c7c0</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:00:33</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <template>false</template>
+        <u_active>false</u_active>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assign Default Group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 18:08:15</sys_created_on>
+        <sys_id>7983508b4f3cc340af76d0af0310c7f1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 20:47:52</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+        <x>994</x>
+        <y>470</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7983508b4f3cc340af76d0af0310c7f1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 18:08:15</sys_created_on>
+        <sys_id>0d93508b4f3cc340af76d0af0310c7d0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-30 21:37:42</sys_updated_on>
+        <value>//If we cannot find group on the Assignment Matrix table and it is not found in the manually assign script then set default group based on Case Type&#13;
+&#13;
+setDefaultGroup(current.u_case_type);&#13;
+&#13;
+function setDefaultGroup(x){&#13;
+	switch(x){	&#13;
+		case 'Benefits':&#13;
+			current.assignment_group = 'e9e863a14ff84300548be28d0210c74d'; //Benefits Triage&#13;
+			break;&#13;
+			&#13;
+		case 'Educational Assistance':&#13;
+			current.assignment_group = '272aeb254ff84300548be28d0210c7e4'; //Educational Assistance&#13;
+			break;&#13;
+			&#13;
+		case 'Leave of Absence COL':&#13;
+			current.assignment_group = '6dd9abe14ff84300548be28d0210c794'; //LOA Triage&#13;
+			break;	&#13;
+&#13;
+		case 'Leave of Absence NCOL':&#13;
+			current.assignment_group = '6dd9abe14ff84300548be28d0210c794'; //LOA Triage&#13;
+			break;	&#13;
+&#13;
+		case 'Retirement':&#13;
+			current.assignment_group = '7b196fa14ff84300548be28d0210c774'; //Retirement Triage&#13;
+			break;&#13;
+			&#13;
+		case 'Other': &#13;
+			current.assignment_group = 'e9e863a14ff84300548be28d0210c74d'; //Benefits Triage&#13;
+			break;&#13;
+		&#13;
+		default:&#13;
+			current.assignment_group = 'e9e863a14ff84300548be28d0210c74d'; //Benefits Triage&#13;
+			&#13;
+	}&#13;
+	&#13;
+		&#13;
+}&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assign Default Group">7983508b4f3cc340af76d0af0310c7f1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 18:08:15</sys_created_on>
+        <sys_id>8193508b4f3cc340af76d0af0310c7d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:08:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:00:33</sys_created_on>
+        <sys_id>9361f7664f34c340af76d0af0310c7c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:00:33</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">9361f7664f34c340af76d0af0310c7c1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:00:33</sys_created_on>
+        <sys_id>1761f7664f34c340af76d0af0310c7c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:00:33</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:00:33</sys_created_on>
+        <sys_id>9761f7664f34c340af76d0af0310c7c1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 20:47:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+        <x>1365</x>
+        <y>646</y>
+    </wf_activity>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Find Group for Doctors</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-31 20:47:45</sys_created_on>
+        <sys_id>883b8fa34ff04740af76d0af0310c764</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:16:35</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+        <x>358</x>
+        <y>127</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>883b8fa34ff04740af76d0af0310c764</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-31 20:47:45</sys_created_on>
+        <sys_id>4d4b83a34ff04740af76d0af0310c70b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:16:35</sys_updated_on>
+        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
+var o = workflow.scratchpad.title.startsWith('DO-');&#13;
+var retVal = null;&#13;
+&#13;
+workflow.scratchpad.doctorGroupFound = 'false';&#13;
+//Check if Title starts with MD or DO&#13;
+if(n == true || o == true ){	&#13;
+	workflow.scratchpad.doctorGroupFound = lookupGroup(workflow.scratchpad.caseType);&#13;
+	&#13;
+}&#13;
+&#13;
+function lookupGroup(x){&#13;
+	switch(x){&#13;
+		case 'Benefits':&#13;
+			current.assignment_group = '391667e54fb84300548be28d0210c7c9'; //Benefits Group 5&#13;
+			retVal = 'true';&#13;
+			break;&#13;
+			&#13;
+		case 'Leave of Absence COL':&#13;
+			current.assignment_group = 'a4c923254ff84300548be28d0210c7e1'; //LOA Group 5&#13;
+			retVal = 'true';&#13;
+			break;	&#13;
+			&#13;
+		case 'Leave of Absence NCOL':&#13;
+			current.assignment_group = 'a4c923254ff84300548be28d0210c7e1'; //LOA Group 5&#13;
+			retVal = 'true';&#13;
+			break;&#13;
+			&#13;
+		default :&#13;
+			retVal = 'false';&#13;
+	}&#13;
+return retVal;&#13;
+		&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Find Group for Doctors">883b8fa34ff04740af76d0af0310c764</activity>
+        <condition>workflow.scratchpad.doctorGroupFound == 'true'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Group Found</name>
+        <order>0</order>
+        <short_description>Group is found</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-31 20:47:45</sys_created_on>
+        <sys_id>c14b83a34ff04740af76d0af0310c70c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:04:14</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Find Group for Doctors">883b8fa34ff04740af76d0af0310c764</activity>
+        <condition>workflow.scratchpad.doctorGroupFound == 'false'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Group Not Found</name>
+        <order>1</order>
+        <short_description>Group Not Found</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-31 21:04:43</sys_created_on>
+        <sys_id>841f4b274ff04740af76d0af0310c78a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:04:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Initialize Variables</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:09:40</sys_created_on>
+        <sys_id>1e71f76a4f34c340af76d0af0310c7b0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:11:08</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+        <x>140</x>
+        <y>129</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e71f76a4f34c340af76d0af0310c7b0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:09:40</sys_created_on>
+        <sys_id>c1837be64f34c340af76d0af0310c768</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:11:08</sys_updated_on>
+        <value>workflow.scratchpad.caseType = current.u_case_type;&#13;
+workflow.scratchpad.caseSubType = current.u_case_sub_type;&#13;
+workflow.scratchpad.physician = current.u_is_physician;&#13;
+workflow.scratchpad.title = current.u_caller.title;&#13;
+&#13;
+//Parse out Cost Center&#13;
+if(current.u_caller_organization){&#13;
+	var orgArray = current.u_caller_organization.split('-');&#13;
+	workflow.scratchpad.org = orgArray[0];&#13;
+}&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Initialize Variables">1e71f76a4f34c340af76d0af0310c7b0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:09:40</sys_created_on>
+        <sys_id>49837be64f34c340af76d0af0310c768</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:09:40</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Lookup Assignment Group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:15:19</sys_created_on>
+        <sys_id>a4a3f7aa4f34c340af76d0af0310c740</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 20:48:04</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+        <x>531</x>
+        <y>242</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a4a3f7aa4f34c340af76d0af0310c740</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:15:19</sys_created_on>
+        <sys_id>bbc4fbaa4f34c340af76d0af0310c70d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:24:05</sys_updated_on>
+        <value>workflow.scratchpad.lookupGroupFound = 'false';&#13;
+workflow.scratchpad.lookupGroupFound = lookupGroup();&#13;
+&#13;
+&#13;
+function lookupGroup(){&#13;
+	//Look for a match on the Assignment Matrix table&#13;
+	var grAssign = new GlideRecord('x_inthe_hr_case_mg_assignment_matrix');&#13;
+	grAssign.addQuery('u_case_type', workflow.scratchpad.caseType);&#13;
+	grAssign.addQuery('u_case_sub_type', workflow.scratchpad.caseSubType);&#13;
+	grAssign.addQuery('u_organization', workflow.scratchpad.org);&#13;
+	grAssign.addQuery('u_physician', workflow.scratchpad.physician);&#13;
+	grAssign.query();&#13;
+&#13;
+	//If a match is found then assign to group&#13;
+	if(grAssign.next()){&#13;
+		current.assignment_group = grAssign.u_assignment_group;&#13;
+		return 'true';&#13;
+		&#13;
+	} else {&#13;
+		return 'false';&#13;
+	}&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Lookup Assignment Group">a4a3f7aa4f34c340af76d0af0310c740</activity>
+        <condition>workflow.scratchpad.lookupGroupFound == 'true'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Group Found</name>
+        <order>0</order>
+        <short_description>Group Found</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:15:19</sys_created_on>
+        <sys_id>33c4fbaa4f34c340af76d0af0310c70e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:20:06</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Lookup Assignment Group">a4a3f7aa4f34c340af76d0af0310c740</activity>
+        <condition>workflow.scratchpad.lookupGroupFound == 'false';</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Group Not Found</name>
+        <order>1</order>
+        <short_description>Group Not Found</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:18:51</sys_created_on>
+        <sys_id>b4853bea4f34c340af76d0af0310c70e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:20:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Manually Assign Group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:19:15</sys_created_on>
+        <sys_id>76a57bea4f34c340af76d0af0310c74e</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 20:47:53</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+        <x>814</x>
+        <y>368</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>76a57bea4f34c340af76d0af0310c74e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:19:15</sys_created_on>
+        <sys_id>99b5b7aa4f34c340af76d0af0310c7e5</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-30 15:12:35</sys_updated_on>
+        <value>//Determine which group to assign to&#13;
+workflow.scratchpad.manualGroupFound = 'false';&#13;
+&#13;
+workflow.scratchpad.manualGroupFound = findGroup();&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+function findGroup(){&#13;
+	//*******************************************&#13;
+	//Case Type = Benefits&#13;
+	//Physician = true&#13;
+	//Group = Benefits Group 5&#13;
+	if(workflow.scratchpad.caseType == 'Benefits' &amp;&amp; workflow.scratchpad.physician == 'true'){&#13;
+		current.assignment_group = '391667e54fb84300548be28d0210c7c9'; //Benefits Group 5&#13;
+		return 'true';&#13;
+	}&#13;
+&#13;
+	//*******************************************	&#13;
+	//Case Type = Benefits&#13;
+	//Case Sub-Type = Open Enrollment&#13;
+	//Case Sub-Type = New Hire/Newly Eligible&#13;
+		//Case Sub-Type = HSA/FSA&#13;
+	//Case Sub-Type = PTO/Time Off&#13;
+	//Case Sub-Type = Other&#13;
+	//Physician = false&#13;
+	//Group = Benefits Triage&#13;
+	if(workflow.scratchpad.caseType == 'Benefits' &amp;&amp; (workflow.scratchpad.caseSubType == 'Open Enrollment' || workflow.scratchpad.caseSubType == 'New Hire_Newly Eligible' || workflow.scratchpad.caseSubType == 'PTO_Time Off' || workflow.scratchpad.caseSubType == 'HSA_FSA' || workflow.scratchpad.caseSubType == 'Other') &amp;&amp; workflow.scratchpad.physician == 'false'){&#13;
+	current.assignment_group = 'e9e863a14ff84300548be28d0210c74d'; //Benefits Triage&#13;
+	return 'true';&#13;
+	}&#13;
+&#13;
+	//*******************************************	&#13;
+	//Case Type = Benefits&#13;
+	//Case Sub-Type = Benefits Appeal&#13;
+	//Case Sub-Type = New Hire/Newly Eligible&#13;
+	//Case Sub-Type = PTO/Time Off&#13;
+	//Case Sub-Type = HSA/FSA&#13;
+	//Physician = N/A&#13;
+	//Group = Benefits Escalation&#13;
+	if(workflow.scratchpad.caseType == 'Benefits' &amp;&amp; workflow.scratchpad.caseSubType == 'Benefits Appeal'){&#13;
+	current.assignment_group = 'ed696fa14ff84300548be28d0210c7ee'; //Benefits Escalation&#13;
+	return 'true';&#13;
+	}	&#13;
+		&#13;
+	//*******************************************	&#13;
+	//Case Type = Educational Assistance&#13;
+	//Case Sub-Type = Check Request Form Status&#13;
+	//Case Sub-Type = Elgibility&#13;
+	//Case Sub-Type = Submit Education Plan&#13;
+	//Case Sub-Type = Submit Request Form&#13;
+	//Case Sub-Type = Other&#13;
+	//Physician = N/A&#13;
+	//Group = Educational Assistance&#13;
+	if(workflow.scratchpad.caseType == 'Educational Assistance' &amp;&amp; (workflow.scratchpad.caseSubType == 'Check Request Form Status' || workflow.scratchpad.caseSubType == 'Eligibility' || workflow.scratchpad.caseSubType == 'Submit Education Plan' || workflow.scratchpad.caseSubType == 'Submit Request Form' || workflow.scratchpad.caseSubType == 'Other')){&#13;
+	current.assignment_group = '272aeb254ff84300548be28d0210c7e4'; //Educational Assistance&#13;
+	return 'true';&#13;
+	}	&#13;
+&#13;
+	//*******************************************	&#13;
+	//Case Type = Leave of Absence (Currently on Leave)&#13;
+	//Case Type = Leave of Absence (NOT Currently on Leave)&#13;
+	//Case Sub-Type = N/A&#13;
+	//Physician = true&#13;
+	//Group = LOA Group 5&#13;
+	if((workflow.scratchpad.caseType == 'Leave of Absence COL' || workflow.scratchpad.caseType == 'Leave of Absence NCOL') &amp;&amp; workflow.scratchpad.physician == 'true'){&#13;
+		current.assignment_group = 'a4c923254ff84300548be28d0210c7e1'; //LOA Group 5&#13;
+		return 'true';&#13;
+	}&#13;
+	&#13;
+	//*******************************************	&#13;
+	//Case Type = Leave of Absence (NOT Currently on Leave)&#13;
+	//Case Sub-Type = Check Application Status&#13;
+	//Case Sub-Type = Eligibility Policy&#13;
+	//Case Sub-Type = Submit Application&#13;
+	//Case Sub-Type = Other&#13;
+	//Physician = false&#13;
+	//Group = LOA Triage&#13;
+	if(workflow.scratchpad.caseType == 'Leave of Absence NCOL' &amp;&amp; (workflow.scratchpad.caseSubType == 'Check Application Status' || workflow.scratchpad.caseSubType == 'Eligibility_Policy' || workflow.scratchpad.caseSubType == 'Submit Application' || workflow.scratchpad.caseSubType == 'Other') &amp;&amp; workflow.scratchpad.physician == 'false'){&#13;
+		current.assignment_group = '6dd9abe14ff84300548be28d0210c794'; //LOA Triage&#13;
+		return 'true';&#13;
+	}&#13;
+	&#13;
+	//*******************************************	&#13;
+	//Case Type = Retirement&#13;
+	//Case Sub-Type = 401(k)/403(b)&#13;
+	//Case Sub-Type = Begin Retirement Process&#13;
+	//Case Sub-Type = Pension&#13;
+	//Case Sub-Type = Retiree - General&#13;
+	//Case Sub-Type = Retiree - Medical/Dental/Vision/Life&#13;
+	//Case Sub-Type = Other&#13;
+	//Physician = N/A&#13;
+	//Group = Retirement Triage&#13;
+	if(workflow.scratchpad.caseType == 'Retirement' &amp;&amp; (workflow.scratchpad.caseSubType == '401_k_403_b' || workflow.scratchpad.caseSubType == 'Begin Retirement Process' || workflow.scratchpad.caseSubType == 'Pension' || workflow.scratchpad.caseSubType == 'Retiree - General' || workflow.scratchpad.caseSubType == 'Retiree Medical_Dental_Vision_Life' || workflow.scratchpad.caseSubType == 'Other')){&#13;
+		current.assignment_group = '7b196fa14ff84300548be28d0210c774'; //Retirement Triage&#13;
+		return 'true';&#13;
+	}&#13;
+	&#13;
+	//*******************************************	&#13;
+	//Case Type = Retirement&#13;
+	//Case Sub-Type = Appeals&#13;
+	//Physician = N/A&#13;
+	//Group = Retirement Escalation&#13;
+	if(workflow.scratchpad.caseType == 'Retirement' &amp;&amp; workflow.scratchpad.caseSubType == 'Appeals'){&#13;
+		current.assignment_group = '38a9abe14ff84300548be28d0210c7d2'; //Retirement Escalation&#13;
+		return 'true';&#13;
+	}&#13;
+	&#13;
+	//If no conditions are met then return false&#13;
+	return 'false';&#13;
+&#13;
+}	</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Manually Assign Group">76a57bea4f34c340af76d0af0310c74e</activity>
+        <condition>workflow.scratchpad.manualGroupFound == 'true'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Group Found</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:19:15</sys_created_on>
+        <sys_id>11b5b7aa4f34c340af76d0af0310c7e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:20:47</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Manually Assign Group">76a57bea4f34c340af76d0af0310c74e</activity>
+        <condition>workflow.scratchpad.manualGroupFound == 'false'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Group Not Found</name>
+        <order>1</order>
+        <short_description>Group Not Found</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 18:06:01</sys_created_on>
+        <sys_id>cfe25c4b4f3cc340af76d0af0310c7aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:20:56</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Group Not Found">b4853bea4f34c340af76d0af0310c70e</condition>
+        <from display_value="Lookup Assignment Group">a4a3f7aa4f34c340af76d0af0310c740</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:19:18</sys_created_on>
+        <sys_id>06b5b7ea4f34c340af76d0af0310c7d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:19:18</sys_updated_on>
+        <to display_value="Manually Assign Group">76a57bea4f34c340af76d0af0310c74e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1761f7664f34c340af76d0af0310c7c1</condition>
+        <from display_value="Begin">9361f7664f34c340af76d0af0310c7c1</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:09:49</sys_created_on>
+        <sys_id>4783b7aa4f34c340af76d0af0310c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:09:49</sys_updated_on>
+        <to display_value="Initialize Variables">1e71f76a4f34c340af76d0af0310c7b0</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Group Not Found">841f4b274ff04740af76d0af0310c78a</condition>
+        <from display_value="Find Group for Doctors">883b8fa34ff04740af76d0af0310c764</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-31 21:04:58</sys_created_on>
+        <sys_id>4d3f8b274ff04740af76d0af0310c71b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:04:58</sys_updated_on>
+        <to display_value="Lookup Assignment Group">a4a3f7aa4f34c340af76d0af0310c740</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">49837be64f34c340af76d0af0310c768</condition>
+        <from display_value="Initialize Variables">1e71f76a4f34c340af76d0af0310c7b0</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:15:25</sys_created_on>
+        <sys_id>81d4ffaa4f34c340af76d0af0310c778</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 20:47:47</sys_updated_on>
+        <to display_value="Find Group for Doctors">883b8fa34ff04740af76d0af0310c764</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8193508b4f3cc340af76d0af0310c7d1</condition>
+        <from display_value="Assign Default Group">7983508b4f3cc340af76d0af0310c7f1</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 18:08:20</sys_created_on>
+        <sys_id>9693184b4f3cc340af76d0af0310c75e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:08:20</sys_updated_on>
+        <to display_value="End">9761f7664f34c340af76d0af0310c7c1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Group Found">c14b83a34ff04740af76d0af0310c70c</condition>
+        <from display_value="Find Group for Doctors">883b8fa34ff04740af76d0af0310c764</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-31 21:05:04</sys_created_on>
+        <sys_id>a63f8fa34ff04740af76d0af0310c706</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-31 21:05:04</sys_updated_on>
+        <to display_value="End">9761f7664f34c340af76d0af0310c7c1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Group Found">33c4fbaa4f34c340af76d0af0310c70e</condition>
+        <from display_value="Lookup Assignment Group">a4a3f7aa4f34c340af76d0af0310c740</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:16:18</sys_created_on>
+        <sys_id>c205bfaa4f34c340af76d0af0310c74f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:16:18</sys_updated_on>
+        <to display_value="End">9761f7664f34c340af76d0af0310c7c1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Group Found">11b5b7aa4f34c340af76d0af0310c7e6</condition>
+        <from display_value="Manually Assign Group">76a57bea4f34c340af76d0af0310c74e</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 18:05:16</sys_created_on>
+        <sys_id>e1e2544b4f3cc340af76d0af0310c77f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:05:16</sys_updated_on>
+        <to display_value="End">9761f7664f34c340af76d0af0310c7c1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Group Not Found">cfe25c4b4f3cc340af76d0af0310c7aa</condition>
+        <from display_value="Manually Assign Group">76a57bea4f34c340af76d0af0310c74e</from>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-29 18:08:18</sys_created_on>
+        <sys_id>f19318074f3cc340af76d0af0310c7cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-29 18:08:18</sys_updated_on>
+        <to display_value="Assign Default Group">7983508b4f3cc340af76d0af0310c7f1</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-08-28 21:00:33</sys_created_on>
+        <sys_id>1f61f7664f34c340af76d0af0310c7c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-08-28 21:00:33</sys_updated_on>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">7d31b76a4f34c340af76d0af0310c70b</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=df61f7664f34c340af76d0af0310c7c0^sys_id!=7d31b76a4f34c340af76d0af0310c70b">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

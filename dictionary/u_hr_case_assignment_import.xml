@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="HR Case Assignments" max_length="40" name="u_hr_case_assignment_import" type="collection">
+        <element attributes="import_attribute_name=Case Type,edge_encryption_enabled=true" label="Case Type" max_length="40" name="u_case_type" type="string"/>
+        <element attributes="import_attribute_name=Group,edge_encryption_enabled=true" label="Group" max_length="40" name="u_group" type="string"/>
+        <element attributes="import_attribute_name=Organization,edge_encryption_enabled=true" label="Organization" max_length="40" name="u_organization" type="string"/>
+        <element attributes="import_attribute_name=Physician Box Checked,edge_encryption_enabled=true" label="Physician Box Checked" max_length="40" name="u_physician_box_checked" type="string"/>
+        <element attributes="import_attribute_name=Sub-type,edge_encryption_enabled=true" label="Sub-type" max_length="40" name="u_sub_type" type="string"/>
+    </element>
+</database>
