@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary: #428bca;
+$body-bg: #f0f3f4;
+$state-success-text: #5cb85c;
+$sp-homepage-bg: #fff;
+$sp-navbar-divider-color: #455464;
+$text-color: #717171;
+$sp-logo-margin-y: 15px;
+$navbar-inverse-link-hover-color: #ffffff;
+$panel-bg: #fff;
+$brand-success: #5cb85c;
+$navbar-inverse-bg: #3a3f51;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$sp-tagline-color: #717171;
+$navbar-inverse-link-color: #bdc0c4;
+$brand-info: #5bc0de;
+$link-color: #428bca;
+$sp-logo-margin-x: 2px;
+$btn-default-bg: #fff;
+$text-muted: #979797;
+</css_variables>
+        <default>false</default>
+        <homepage display_value="hr_index">5513435d4f19c300af76d0af0310c738</homepage>
+        <icon/>
+        <kb_knowledge_base display_value="HR Answers">9c623e4e4fe48b00f5f3d49f0310c785</kb_knowledge_base>
+        <kb_knowledge_page display_value="find_knowledge">cf795f3a4fcb6200af76d0af0310c774</kb_knowledge_page>
+        <login_page display_value="intermountain_login">bd17d3b64f507a00f5f3d49f0310c79d</login_page>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Intermountain Healthcare Header">f3f938444f076200af76d0af0310c7b2</sp_rectangle_menu>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2017-09-18 16:48:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>54a003d54f19c300af76d0af0310c7d8</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Human Resources Portal</sys_name>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sp_portal_54a003d54f19c300af76d0af0310c7d8</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2017-09-18 18:05:32</sys_updated_on>
+        <theme display_value="Intermountain Healthcare">729a0d404f476200af76d0af0310c7ef</theme>
+        <title>Human Resources Portal</title>
+        <url_suffix>intermountain_hr_do_not_use</url_suffix>
+    </sp_portal>
+</record_update>

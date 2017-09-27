@@ -47,7 +47,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>PLEASE READ - ${Number} has a new comment</subject>
+        <subject>PLEASE READ - A new comment has been added to ${Number} - ${short_description}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
@@ -56,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fafd736d4f340340f5f3d49f0310c70e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>(IHC) Comments Added to Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_fafd736d4f340340f5f3d49f0310c70e</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-08-31 20:21:11</sys_updated_on>
+        <sys_updated_on>2017-09-26 15:18:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

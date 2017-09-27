@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>200</order>
-        <question display_value="Does this request contain PHI Data?">109e18034f7cc340af76d0af0310c752</question>
+        <question display_value="Does this request contain sensitive information? (i.e. Protected Health, Identifiable, or Credit Information)">109e18034f7cc340af76d0af0310c752</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>

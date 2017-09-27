@@ -7,7 +7,9 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_inthe_hr_case_mg_case</collection>
-        <condition/>
+        <condition table="x_inthe_hr_case_mg_case">u_bypass_notification=false^EQ<item endquery="false" field="u_bypass_notification" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <content_type>text/html</content_type>
         <description>Send notification to the caller when a new case is submitted</description>
         <event_name>approval.cancelled</event_name>
@@ -55,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c1c772d4f340340f5f3d49f0310c7d0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>(IHC) Case is Submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -64,7 +66,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_8c1c772d4f340340f5f3d49f0310c7d0</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-08-31 20:11:58</sys_updated_on>
+        <sys_updated_on>2017-09-20 15:00:52</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

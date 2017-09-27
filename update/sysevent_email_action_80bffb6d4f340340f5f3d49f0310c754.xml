@@ -25,7 +25,9 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>****INSERT BODY HERE****</p>]]></message_html>
+        <message_html><![CDATA[<p>A new work not was recently added to this task. &nbsp;Please read and respond as appropriate.</p>
+<p>Click here for more details: ${URI_REF}</p>
+<p><strong>Work Notes:</strong> ${work_notes}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>(IHC) Work Note is Added</name>
@@ -39,7 +41,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>****INSERT SUBJECT HERE****</subject>
+        <subject>A new work note was recently added to ${number} - ${short_description}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
@@ -48,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>80bffb6d4f340340f5f3d49f0310c754</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>(IHC) Work Note is Added</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -57,7 +59,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_80bffb6d4f340340f5f3d49f0310c754</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-08-25 19:30:20</sys_updated_on>
+        <sys_updated_on>2017-09-11 15:18:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
