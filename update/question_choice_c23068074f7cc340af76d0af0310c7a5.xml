@@ -31,12 +31,12 @@
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2017-08-29 19:03:43</sys_created_on>
-        <sys_id>f940e8c34f7cc340af76d0af0310c759</sys_id>
+        <sys_created_by>tcrane1</sys_created_by>
+        <sys_created_on>2017-10-18 17:51:18</sys_created_on>
+        <sys_id>183f2d834fbd4340af76d0af0310c7ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-08-29 19:03:43</sys_updated_on>
+        <sys_updated_by>tcrane1</sys_updated_by>
+        <sys_updated_on>2017-10-18 17:51:18</sys_updated_on>
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>
@@ -48,12 +48,12 @@
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2017-08-29 19:03:43</sys_created_on>
-        <sys_id>7940e8c34f7cc340af76d0af0310c759</sys_id>
+        <sys_created_by>tcrane1</sys_created_by>
+        <sys_created_on>2017-10-18 17:51:18</sys_created_on>
+        <sys_id>983f2d834fbd4340af76d0af0310c7ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-08-29 19:03:43</sys_updated_on>
+        <sys_updated_by>tcrane1</sys_updated_by>
+        <sys_updated_on>2017-10-18 17:51:18</sys_updated_on>
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>
