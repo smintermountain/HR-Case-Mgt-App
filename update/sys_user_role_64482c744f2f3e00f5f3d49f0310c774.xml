@@ -5,7 +5,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context display_value="">d2237ec213ec8704a0e25d122244b05f</encryption_context>
+        <encryption_context display_value="HR Teams">d2237ec213ec8704a0e25d122244b05f</encryption_context>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_inthe_hr_case_mg.user</name>

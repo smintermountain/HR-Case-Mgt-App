@@ -5,6 +5,7 @@
         <applies_catalog>true</applies_catalog>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:f0e2ae564feffe00f5f3d49f0310c784=^ORIO:f0e2ae564feffe00f5f3d49f0310c784=Other^EQ</catalog_conditions>
         <catalog_item display_value="Need help?">2ed122564feffe00f5f3d49f0310c7fe</catalog_item>

@@ -33,6 +33,7 @@ $text-muted: #979797;
         <quick_start_config/>
         <sc_catalog/>
         <sc_catalog_page/>
+        <sc_category_page/>
         <sp_chat_queue/>
         <sp_rectangle_menu display_value="Intermountain Healthcare Header">f3f938444f076200af76d0af0310c7b2</sp_rectangle_menu>
         <sqanda_knowledge_base/>

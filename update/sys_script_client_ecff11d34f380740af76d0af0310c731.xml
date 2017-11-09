@@ -15,13 +15,20 @@
       return;
    }
 	g_form.clearMessages();
-   if(newValue == 'Submit Application'){
-	   g_form.addErrorMessage('Please include a Leave of Absence form with this selection.  The required form can be found here');
+	var url1 = "<a target='_blank' href = 'https://m.intermountain.net/hr/LeavesofAbsence/Leave%20of%20Absence%20Resources/Employee&#39s%20Own%20Serious%20Health.pdf'>here</a>";
+	var url2 = "<a target='_blank' href = 'https://m.intermountain.net/hr/benefits/educationalassistance/Pages/Home.aspx'>here</a>";
+
+	
+   if(newValue == 'Submit Application'){	   
+	   g_form.addErrorMessage('Please include a Leave of Absence form with this selection.  The required form can be found ' + url1);
 	   //g_form.showFieldMsg('u_case_sub_type', 'Please include a Leave of Absence form with this selection.  The required form can be found here', 'error');
    } else if(newValue == 'Submit Education Plan'){
-	   g_form.addErrorMessage('Please include an Education Plan with this selection. The required document can be found here.');
+		   		   
+	   g_form.addErrorMessage('Please include an Education Plan with this selection. The required document can be found ' + url2);
+	   
    } else if(newValue == 'Submit Request Form'){
-	    g_form.addErrorMessage('Please include a Request Form with this selection. The required document can be found here.');
+	   
+	  g_form.addErrorMessage('Please include a Request Form with this selection. The required document can be found ' + url2);
    } else if(newValue == 'PAR Form'){
 	    g_form.addErrorMessage('An attached PAR form is required here. Please include and resubmit');
    }
@@ -34,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ecff11d34f380740af76d0af0310c731</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>(IHC) Attachment Required Message</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -43,7 +50,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sys_script_client_ecff11d34f380740af76d0af0310c731</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-08-31 21:25:21</sys_updated_on>
+        <sys_updated_on>2017-11-02 16:53:05</sys_updated_on>
         <table>x_inthe_hr_case_mg_case</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

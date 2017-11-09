@@ -6,6 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category/>
         <collection>x_inthe_hr_case_mg_case</collection>
         <condition table="x_inthe_hr_case_mg_case">work_notesVALCHANGES^EQ<item endquery="false" field="work_notes" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

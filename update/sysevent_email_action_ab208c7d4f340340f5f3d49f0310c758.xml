@@ -6,6 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category/>
         <collection>x_inthe_hr_case_mg_case</collection>
         <condition table="x_inthe_hr_case_mg_case">assignment_groupCHANGESTOed696fa14ff84300548be28d0210c7ee^ORassignment_groupCHANGESTOfa89e7e14ff84300548be28d0210c705^ORassignment_groupCHANGESTO38a9abe14ff84300548be28d0210c7d2^EQ<item display_table="sys_user_group" display_value="Benefits Escalation" endquery="false" field="assignment_group" goto="false" newquery="false" operator="CHANGESTO" or="false" value="ed696fa14ff84300548be28d0210c7ee"/>
             <item display_table="sys_user_group" display_value="LOA Escalation" endquery="false" field="assignment_group" goto="false" newquery="false" operator="CHANGESTO" or="true" value="fa89e7e14ff84300548be28d0210c705"/>

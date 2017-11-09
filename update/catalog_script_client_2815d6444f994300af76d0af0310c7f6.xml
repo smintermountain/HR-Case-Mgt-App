@@ -6,6 +6,7 @@
         <applies_extended>false</applies_extended>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Need help?">2ed122564feffe00f5f3d49f0310c7fe</cat_item>
         <cat_variable>IO:6a012c874f7cc340af76d0af0310c75d</cat_variable>
@@ -14,21 +15,29 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>(IHC) Require Attachment Messages</name>
+        <name>(IHC) All Info or Error Messages</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
       return;
    }
-
 	g_form.clearMessages();
-   if(newValue == 'Submit Application'){
-	   g_form.addErrorMessage('Please include a Leave of Absence form with this selection.  The required form can be found here');
+	//URL for Leave of Absence Form
+	var url1 = "<a target='_blank' href = 'https://m.intermountain.net/hr/LeavesofAbsence/Leave%20of%20Absence%20Resources/Employee&#39s%20Own%20Serious%20Health.pdf'>here</a>";
+	//URL for Educational Assistance Forms
+	var url2 = "<a target='_blank' href = 'https://m.intermountain.net/hr/benefits/educationalassistance/Pages/Home.aspx'>here</a>";
+
+	
+   if(newValue == 'Submit Application'){	   
+	   g_form.addErrorMessage('Please include a Leave of Absence form with this selection.  The required form can be found ' + url1);
 	   //g_form.showFieldMsg('u_case_sub_type', 'Please include a Leave of Absence form with this selection.  The required form can be found here', 'error');
    } else if(newValue == 'Submit Education Plan'){
-	   g_form.addErrorMessage('Please include an Education Plan with this selection. The required document can be found here.');
+		   		   
+	   g_form.addErrorMessage('Please include an Education Plan with this selection. The required document can be found ' + url2);
+	   
    } else if(newValue == 'Submit Request Form'){
-	    g_form.addErrorMessage('Please include a Request Form with this selection. The required document can be found here.');
+	   
+	  g_form.addErrorMessage('Please include a Request Form with this selection. The required document can be found ' + url2);
    } else if(newValue == 'PAR Form'){
 	    g_form.addErrorMessage('An attached PAR form is required here. Please include and resubmit');
    }
@@ -41,8 +50,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2815d6444f994300af76d0af0310c7f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>(IHC) Require Attachment Messages</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>(IHC) All Info or Error Messages</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -50,7 +59,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>catalog_script_client_2815d6444f994300af76d0af0310c7f6</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-09-14 16:24:44</sys_updated_on>
+        <sys_updated_on>2017-11-02 20:19:06</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
