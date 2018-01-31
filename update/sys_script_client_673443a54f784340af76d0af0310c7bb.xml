@@ -11,6 +11,9 @@
         <name>(IHC) Populate Caller Fields</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading){
+		return;
+		}
    if (newValue === '') {
 	   g_form.setValue('u_caller_organization', '');
 	   g_form.setValue('u_caller_person_type', '');
@@ -39,7 +42,7 @@ function UserParse(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>673443a54f784340af76d0af0310c7bb</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>(IHC) Populate Caller Fields</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -48,7 +51,7 @@ function UserParse(response) {
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sys_script_client_673443a54f784340af76d0af0310c7bb</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-10-09 20:20:37</sys_updated_on>
+        <sys_updated_on>2018-01-31 21:58:48</sys_updated_on>
         <table>x_inthe_hr_case_mg_case</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
