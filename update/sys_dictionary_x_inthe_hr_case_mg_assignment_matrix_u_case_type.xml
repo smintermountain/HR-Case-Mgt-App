@@ -13,8 +13,8 @@
 &#13;
 })(current);</calculation>
         <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>u_case_type</choice_field>
+        <choice_table>x_inthe_hr_case_mg_case</choice_table>
         <column_label>Case Type</column_label>
         <comments/>
         <create_roles/>
@@ -53,16 +53,16 @@
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-08-25 22:08:26</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>4807180f4f824300f5f3d49f0310c714</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>44a2b56e4fb2c700af76d0af0310c75a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Case Type</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sys_dictionary_x_inthe_hr_case_mg_assignment_matrix_u_case_type</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-10-30 21:41:46</sys_updated_on>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-01-11 22:07:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

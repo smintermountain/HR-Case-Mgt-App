@@ -39,14 +39,17 @@
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <redirect_url/>
+        <redirect_url>generated_record</redirect_url>
         <roles/>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script><![CDATA[current.short_description = 'Self-Service - ' + producer.description;
 current.description = producer.description;
-current.u_caller = producer.requested_for;]]></script>
+current.u_caller = producer.requested_for;
+current.u_origination = 'user_portal';
+current.u_case_type = 'General Inquiries';
+current.u_case_sub_type = 'Triage';]]></script>
         <short_description>Submit your HR questions here</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -55,7 +58,7 @@ current.u_caller = producer.requested_for;]]></script>
         <sys_created_on>2017-06-26 17:18:12</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>2ed122564feffe00f5f3d49f0310c7fe</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Need help?</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -63,7 +66,7 @@ current.u_caller = producer.requested_for;]]></script>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sc_cat_item_producer_2ed122564feffe00f5f3d49f0310c7fe</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-10-31 20:48:47</sys_updated_on>
+        <sys_updated_on>2018-01-17 20:25:34</sys_updated_on>
         <table_name>x_inthe_hr_case_mg_case</table_name>
         <template/>
         <type>item</type>
@@ -86,6 +89,10 @@ current.u_caller = producer.requested_for;]]></script>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow display_value="(CWT) Master RITM Workflow">9b22f9d74f8ec200af76d0af0310c745</workflow>
+        <x_yala_yds_allow_large_quantities>false</x_yala_yds_allow_large_quantities>
+        <x_yala_yds_failsafe_sizing>false</x_yala_yds_failsafe_sizing>
+        <x_yala_yds_render_in_iframe>false</x_yala_yds_render_in_iframe>
+        <x_yala_yds_resize_width>false</x_yala_yds_resize_width>
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=2ed122564feffe00f5f3d49f0310c7fe"/>
     <fx_price action="delete_multiple" query="id=2ed122564feffe00f5f3d49f0310c7fe"/>

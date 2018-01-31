@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_origination" table="x_inthe_hr_case_mg_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_origination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manager Portal</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 17:40:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f78c1bd4f6307c0f5f3d49f0310c7a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 17:40:07</sys_updated_on>
+            <u_task/>
+            <value>manager_portal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_origination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Portal</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 17:40:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5a809bd4f6307c0f5f3d49f0310c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 17:40:23</sys_updated_on>
+            <u_task/>
+            <value>user_portal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_origination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 17:40:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fb809bd4f6307c0f5f3d49f0310c776</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 17:40:46</sys_updated_on>
+            <u_task/>
+            <value>internal</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_origination</element>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 17:40:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>359801bd4f6307c0f5f3d49f0310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_origination</sys_name>
+            <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+            <sys_update_name>sys_choice_x_inthe_hr_case_mg_case_u_origination</sys_update_name>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 17:40:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

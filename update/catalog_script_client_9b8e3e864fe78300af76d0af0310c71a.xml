@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Need Manager Help?">1ddd2a464fe38300af76d0af0310c72d</cat_item>
+        <cat_variable>IO:b091360e4fe38300af76d0af0310c7e3</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>(IHC) Filter Case Sub-Type Selectbox</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading) {
+	   if(newValue == ''){
+		  return;
+	   }
+   }
+	//g_form.clearOptions('u_case_sub_type');
+	if(newValue == ''){
+		//Remove Options
+		removeAllOptions();
+
+	} else if(newValue == 'Benefits'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options		
+		//Benefits	
+		g_form.addOption('u_case_sub_type', 'Benefits Appeal','Benefits Appeal', 1);
+		g_form.addOption('u_case_sub_type', 'Benefits Eligibility', 'Benefits Eligibility', 2);
+		g_form.addOption('u_case_sub_type', 'Demographic and other changes', 'Demographic and other changes', 3);
+		g_form.addOption('u_case_sub_type', 'HSA_FSA_dependent_care', 'HSA/FSA/Dependent Care', 4);
+		g_form.addOption('u_case_sub_type', 'Involuntary Termination', 'Involuntary Termination', 5);
+		g_form.addOption('u_case_sub_type', 'Life Event - Status Change', 'Life Event - Status Change', 6);
+		g_form.addOption('u_case_sub_type', 'New Hire_Newly Eligible', 'New Hire/Newly Eligible', 7);
+		g_form.addOption('u_case_sub_type', 'Open Enrollment', 'Open Enrollment', 8);
+		g_form.addOption('u_case_sub_type', 'PAR Form', 'PAR Form', 9);
+		g_form.addOption('u_case_sub_type', 'PTO_Time Off', 'PTO/Time Off', 10);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 11);		
+		
+
+	} else if(newValue == 'Compensation'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Compensation
+		g_form.addOption('u_case_sub_type', 'Annual Increase Process Support','Annual Increase Process Support',1);
+		g_form.addOption('u_case_sub_type', 'Compensation Audits','Compensation Audits',2);
+		g_form.addOption('u_case_sub_type', 'Incentive Plan/Variable Pay Plan Support','Incentive Plan/Variable Pay Plan Support',3);
+		g_form.addOption('u_case_sub_type', 'Internal Equity','Internal Equity',4);
+		g_form.addOption('u_case_sub_type', 'Merit/Market Increases','Merit/Market Increases',5);
+		g_form.addOption('u_case_sub_type', 'PAR Form','PAR Form',6);
+		g_form.addOption('u_case_sub_type', 'Paycheck/Earnings','Paycheck/Earnings',7);
+		g_form.addOption('u_case_sub_type', 'Policies and Procedures','Policies and Procedures',8);
+		g_form.addOption('u_case_sub_type', 'PTO Cashout','PTO Cashout',9);
+		g_form.addOption('u_case_sub_type', 'Salary Grade/Range','Salary Grade/Range',10);
+		g_form.addOption('u_case_sub_type', 'Thank You Payment','Thank You Payment',11);
+		g_form.addOption('u_case_sub_type', 'Trend Analysis','Trend Analysis (Internal Offer & Adjustments)',12);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 13);	
+		
+
+	} else if(newValue == 'DATA'){
+		//Remove Options
+		removeAllOptions();	
+		
+		//Add Options
+		//DATA
+		g_form.addOption('u_case_sub_type', 'Data Entry and Scanning (including PARS)','Data Entry and Scanning (including PARS)',1);
+		g_form.addOption('u_case_sub_type', 'Data Entry into Oracle (including PARS)','Data Entry into Oracle (including PARS)',2);
+		g_form.addOption('u_case_sub_type', 'Data Purges / Backups / HRIS support','Data Purges / Backups / HRIS support',3);
+		g_form.addOption('u_case_sub_type', 'Licensure/Certification/Registration','Ongoing Licensure / Certification / Registration',4);
+		g_form.addOption('u_case_sub_type', 'OTG Scanning','OTG Scanning',5);
+		g_form.addOption('u_case_sub_type', 'Other Report Writing and Distribution','Other Report Writing and Distribution (including RQI)',6);
+		g_form.addOption('u_case_sub_type', 'Quality Assurance / Auditing','Quality Assurance / Auditing',7);
+		g_form.addOption('u_case_sub_type', 'Regulatory & Compliance Reporting','Regulatory & Compliance Reporting (Joint Commission, DOH, CMS, etc…)',8);
+		g_form.addOption('u_case_sub_type', 'Sanctions and Corrective Action','Sanctions and Corrective Action',9);
+		g_form.addOption('u_case_sub_type', 'Tuition Loan Assistance','Tuition Loan Assistance',10);
+		g_form.addOption('u_case_sub_type', 'Tuition Related','Tuition Related',11);
+		g_form.addOption('u_case_sub_type', 'Unemployment Claim First Response','Unemployment Claim First Response',12);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 13);	
+		
+
+	} else if(newValue == 'Education and Learning'){
+		//Remove Options
+		removeAllOptions();	
+		
+		//Add Options
+		//Education and Learning
+		g_form.addOption('u_case_sub_type', 'Corrective Action and Sanctions','Corrective Action and Sanctions',1);
+		g_form.addOption('u_case_sub_type', 'Education Requirements','Education Requirements',2);
+		g_form.addOption('u_case_sub_type', 'Licensure and Certification','Licensure and Certification including RQI',3);
+		g_form.addOption('u_case_sub_type', 'My Learning Modules and Classes','My Learning Modules and Classes',4);
+		g_form.addOption('u_case_sub_type', 'On the Job Training','On the Job Training',5);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 6);			
+		
+	} else if(newValue == 'Educational Assistance'){
+		//Remove Options
+		removeAllOptions();
+		//Add Options
+		//Educational Assistance
+		g_form.addOption('u_case_sub_type', 'Check Request Form Status','Check Request Form Status',1);
+		g_form.addOption('u_case_sub_type', 'Eligibility','Eligibility',2);
+		g_form.addOption('u_case_sub_type', 'Public Service Loan Forgiveness','Public Service Loan Forgiveness',3);
+		g_form.addOption('u_case_sub_type', 'Submit Education Plan','Submit Education Plan',4);
+		g_form.addOption('u_case_sub_type', 'Submit Request Form','Submit Request Form',5);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 6);
+		
+	} else if(newValue == 'Employee Health'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Employee Health
+		g_form.addOption('u_case_sub_type', 'ADA/Accommodations','ADA/Accommodations',1);
+		g_form.addOption('u_case_sub_type', 'Caregiver Medical Surveillance','Caregiver Medical Surveillance',2);
+		g_form.addOption('u_case_sub_type', 'Exposure Tracking and Reporting','Exposure Tracking and Reporting',3);
+		g_form.addOption('u_case_sub_type', 'Fitness for Duty','Fitness for Duty',4);
+		g_form.addOption('u_case_sub_type', 'Immunization Tracking/Request for Record','Immunization Tracking / Request for Records',5);
+		g_form.addOption('u_case_sub_type', 'Injury / Illness Reporting','Injury / Illness Reporting',6);
+		g_form.addOption('u_case_sub_type', 'Return to Work Coordination','Return to Work Coordination',7);
+		g_form.addOption('u_case_sub_type', 'Safety/Zero Harm','Safety/Zero Harm',8);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 9);	
+				
+	} else if(newValue == 'Employee Relations'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Employee Relations
+		g_form.addOption('u_case_sub_type', 'Caregiver complaints and investigations','Caregiver complaints and investigations',1);
+		g_form.addOption('u_case_sub_type', 'Corrective Action','Corrective Action',2);
+		g_form.addOption('u_case_sub_type', 'Job Eliminations','Job Eliminations',3);
+		g_form.addOption('u_case_sub_type', 'Managing caregiver behavior','Managing caregiver behavior',4);
+		g_form.addOption('u_case_sub_type', 'Policies and Procedures','Policies and Procedures',5);
+		g_form.addOption('u_case_sub_type', 'Unemployment Escalations','Unemployment Escalations',6);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 7);	
+				
+	} else if(newValue == 'Employment Verifications'){
+		//Remove Options
+		removeAllOptions();
+		
+		//All Options
+		//Employment Verifications
+		g_form.addOption('u_case_sub_type', 'General Verifications','General Verifications',1);
+		g_form.addOption('u_case_sub_type', 'Public Service Loan Forgiveness','Public Service Loan Forgiveness',2);
+		g_form.addOption('u_case_sub_type', 'Submit Forms and Paperwork','Submit Forms and Paperwork',3);
+		g_form.addOption('u_case_sub_type', 'Subpoenas','Subpoenas',4);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 5);
+		
+	} else if(newValue == 'Leave of Absence'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Leave of Absence
+		g_form.addOption('u_case_sub_type', 'Applying for Leave','Applying for Leave',1);
+		g_form.addOption('u_case_sub_type', 'Check Application Status','Check Application Status',2);
+		g_form.addOption('u_case_sub_type', 'Check for Eligibility','Check for Eligibility',3);
+		g_form.addOption('u_case_sub_type', 'Extending Leave','Extending Leave',4);
+		g_form.addOption('u_case_sub_type', 'Premium Payments','Premium Payments',5);
+		g_form.addOption('u_case_sub_type', 'Returning to Work','Returning to Work',6);
+		g_form.addOption('u_case_sub_type', 'Short/Long Term Disability','Short/Long Term Disability',7);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 8);
+		
+	} else if(newValue == 'Networks of Expertise (NOE)'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Networks of Expertise (NOE)
+		g_form.addOption('u_case_sub_type', 'Benefits','Benefits',1);
+		g_form.addOption('u_case_sub_type', 'Branding and Sourcing','Branding and Sourcing',2);
+		g_form.addOption('u_case_sub_type', 'Caregiver Education','Caregiver Education',3);
+		g_form.addOption('u_case_sub_type', 'Caregiver Engagement and Retention','Caregiver Engagement and Retention',4);
+		g_form.addOption('u_case_sub_type', 'Caregiver Value Proposition','Caregiver Value Proposition',5);
+		g_form.addOption('u_case_sub_type', 'Compensation','Compensation',6);
+		g_form.addOption('u_case_sub_type', 'Employee Assistance Program (EAP)','Employee Assistance Program (EAP)',7);
+		g_form.addOption('u_case_sub_type', 'Employee Health','Employee Health',8);
+		g_form.addOption('u_case_sub_type', 'Employee Relations','Employee Relations',9);
+		g_form.addOption('u_case_sub_type', 'HR Continuous Improvement','HR Continuous Improvement',10);
+		g_form.addOption('u_case_sub_type', 'HR Program Management','HR Program Management',11);
+		g_form.addOption('u_case_sub_type', 'HR Special Projects and Initiatives','HR Special Projects and Initiatives',12);
+		g_form.addOption('u_case_sub_type', 'HR, Risk, and Compliance','HR, Risk, and Compliance',13);
+		g_form.addOption('u_case_sub_type', 'Leadership and Organization Development','Leadership and Organizational Development',14);
+		g_form.addOption('u_case_sub_type', 'Leadership Institute','Leadership Institute',15);
+		g_form.addOption('u_case_sub_type', 'Live Well','Live Well',16);
+		g_form.addOption('u_case_sub_type', 'LMS Administration','LMS Administration',17);
+		g_form.addOption('u_case_sub_type', 'Management and Leadership Development','Management and Leadership Development',18);
+		g_form.addOption('u_case_sub_type', 'Onboarding and Assimilation','Onboarding and Assimilation',19);
+		g_form.addOption('u_case_sub_type', 'Organizational Design','Organizational Design',20);	
+		g_form.addOption('u_case_sub_type', 'Performance Management','Performance Management',21);
+		g_form.addOption('u_case_sub_type', 'Recognition','Recognition',22);
+		g_form.addOption('u_case_sub_type', 'Recruitment and Selection','Recruitment and Selection',23);
+		g_form.addOption('u_case_sub_type', 'Retirement','Retirement',24);
+		g_form.addOption('u_case_sub_type', 'Succession Planning','Succession Planning',25);
+		g_form.addOption('u_case_sub_type', 'Talent Mobility and Career Management','Talent Mobility and Career Management',26);
+		g_form.addOption('u_case_sub_type', 'Transition and Change Management','Transition and Change Management',27);
+		g_form.addOption('u_case_sub_type', 'Workforce Planning','Workforce Planning',28);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 29);		
+		
+	} else if(newValue == 'Onboarding'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Onboarding
+		g_form.addOption('u_case_sub_type', 'Forms/Paperwork','Forms/Paperwork',1);
+		g_form.addOption('u_case_sub_type', 'Orientation','Orientation',2);
+		g_form.addOption('u_case_sub_type', 'TalentLink Tasks','TalentLink Tasks',3);
+		g_form.addOption('u_case_sub_type', 'Training/Learning','Training/Learning',4);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',5);		
+		
+	} else if(newValue == 'Payroll Questions and Changes'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Payroll Questions and Changes
+		g_form.addOption('u_case_sub_type', '401(k)/403(b)','401(k)/403(b)',1);
+		g_form.addOption('u_case_sub_type', 'Additional Amounts / Lump Sum','Additional Amounts / Lump Sum',2);
+		g_form.addOption('u_case_sub_type', 'Demographic and other changes','Demographic and other changes',3);
+		g_form.addOption('u_case_sub_type', 'Direct Deposit','Direct Deposit',4);
+		g_form.addOption('u_case_sub_type', 'Garnishments','Garnishments',5);
+		g_form.addOption('u_case_sub_type', 'Payroll Deductions','Payroll Deductions',6);
+		g_form.addOption('u_case_sub_type', 'PTO/Leave of Absence','PTO/Leave of Absence',7);
+		g_form.addOption('u_case_sub_type', 'Statement of Earnings','Statement of Earnings',8);
+		g_form.addOption('u_case_sub_type', 'Time Keeping','Time Keeping',9);
+		g_form.addOption('u_case_sub_type', 'W2/Taxes','W2/Taxes',10);
+		g_form.addOption('u_case_sub_type', 'W4 Allowances','W4 Allowances',11);	
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',12);
+		
+	} else if(newValue == 'Retirement'){
+		//Remove Options
+		removeAllOptions();	
+		
+		//Add Options
+		//Retirement
+		g_form.addOption('u_case_sub_type', '401_k_403_b','401(k)/403(b)',1);
+		g_form.addOption('u_case_sub_type', 'Appeals','Appeals',2);
+		g_form.addOption('u_case_sub_type', 'Begin Retirement Process','Begin Retirement Process',3);
+		g_form.addOption('u_case_sub_type', 'Pension','Pension',4);
+		g_form.addOption('u_case_sub_type', 'Retiree - General','Retiree - General',5);
+		g_form.addOption('u_case_sub_type', 'Retiree Medical_Dental_Vision_Life','Retiree Medical/Dental/Vision/Life',6);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',7);		
+		
+	} else if(newValue == 'Talent Acquisition'){
+		//Remove Options
+		removeAllOptions();
+		
+		//ADD OPTIONS
+		//Talent Acquisition
+		g_form.addOption('u_case_sub_type', 'Applicant Inquiry','Applicant Inquiry',1);
+		g_form.addOption('u_case_sub_type', 'Application Process','Application Process',2);
+		g_form.addOption('u_case_sub_type', 'Caregiver Economy Vetting','Caregiver Economy Vetting',3);
+		g_form.addOption('u_case_sub_type', 'Final Dispositioning of Candidates','Final Dispositioning of Candidates',4);
+		g_form.addOption('u_case_sub_type', 'I9 / VISA','I9 / VISA',5);
+		g_form.addOption('u_case_sub_type', 'Interviews / Candidate Travel','Interviews / Candidate Travel',6);
+		g_form.addOption('u_case_sub_type', 'Job Grades','Job Grades',7);
+		g_form.addOption('u_case_sub_type', 'Job Posting','Job Posting',8);
+		g_form.addOption('u_case_sub_type', 'Manual Data Entry (As Needed)','Manual Data Entry (As Needed)',9);
+		g_form.addOption('u_case_sub_type', 'Offer/Compensation/Support','Offer/Compensation/Support',10);
+		g_form.addOption('u_case_sub_type', 'Onboarding/NEO/Background Check','Onboarding/NEO/Background Check',11);
+		g_form.addOption('u_case_sub_type', 'Qualifications','Qualifications',12);
+		g_form.addOption('u_case_sub_type', 'References/File check/Verification','References / File check / Verification of min. requirements',13);
+		g_form.addOption('u_case_sub_type', 'Relocation/Transition Assistance','Relocation/Transition Assistance',14);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',15);		
+		
+	}
+	
+	function removeAllOptions(){
+		//Remove Options
+		//Benefits		
+		g_form.removeOption('u_case_sub_type', 'Benefits Appeal');
+		g_form.removeOption('u_case_sub_type', 'Benefits Eligibility');
+		g_form.removeOption('u_case_sub_type', 'Demographic and other changes');
+		g_form.removeOption('u_case_sub_type', 'HSA_FSA_dependent_care');
+		g_form.removeOption('u_case_sub_type', 'Involuntary Termination');
+		g_form.removeOption('u_case_sub_type', 'Life Event - Status Change');
+		g_form.removeOption('u_case_sub_type', 'New Hire_Newly Eligible');
+		g_form.removeOption('u_case_sub_type', 'Open Enrollment');
+		g_form.removeOption('u_case_sub_type', 'PAR Form');
+		g_form.removeOption('u_case_sub_type', 'PTO_Time Off');
+
+		//Compensation
+		g_form.removeOption('u_case_sub_type', 'Annual Increase Process Support');
+		g_form.removeOption('u_case_sub_type', 'Compensation Audits');
+		g_form.removeOption('u_case_sub_type', 'Incentive Plan/Variable Pay Plan Support');
+		g_form.removeOption('u_case_sub_type', 'Internal Equity');
+		g_form.removeOption('u_case_sub_type', 'Merit/Market Increases');
+		g_form.removeOption('u_case_sub_type', 'PAR Form');
+		g_form.removeOption('u_case_sub_type', 'Paycheck/Earnings');
+		g_form.removeOption('u_case_sub_type', 'Policies and Procedures');
+		g_form.removeOption('u_case_sub_type', 'PTO Cashout');
+		g_form.removeOption('u_case_sub_type', 'Salary Grade/Range');
+		g_form.removeOption('u_case_sub_type', 'Thank You Payment');
+		g_form.removeOption('u_case_sub_type', 'Trend Analysis');
+		
+		//DATA
+		g_form.removeOption('u_case_sub_type', 'Data Entry and Scanning (including PARS)');
+		g_form.removeOption('u_case_sub_type', 'Data Entry into Oracle (including PARS)');
+		g_form.removeOption('u_case_sub_type', 'Data Purges / Backups / HRIS support');
+		g_form.removeOption('u_case_sub_type', 'Licensure/Certification/Registration');
+		g_form.removeOption('u_case_sub_type', 'OTG Scanning');
+		g_form.removeOption('u_case_sub_type', 'Other Report Writing and Distribution');
+		g_form.removeOption('u_case_sub_type', 'Quality Assurance / Auditing');
+		g_form.removeOption('u_case_sub_type', 'Regulatory & Compliance Reporting');
+		g_form.removeOption('u_case_sub_type', 'Sanctions and Corrective Action');
+		g_form.removeOption('u_case_sub_type', 'Tuition Loan Assistance');
+		g_form.removeOption('u_case_sub_type', 'Tuition Related');
+		g_form.removeOption('u_case_sub_type', 'Unemployment Claim First Response');
+		
+		//Education and Learning
+		g_form.removeOption('u_case_sub_type', 'Corrective Action and Sanctions');
+		g_form.removeOption('u_case_sub_type', 'Education Requirements');
+		g_form.removeOption('u_case_sub_type', 'Licensure and Certification');
+		g_form.removeOption('u_case_sub_type', 'My Learning Modules and Classes');
+		g_form.removeOption('u_case_sub_type', 'On the Job Training');
+		
+		//Educational Assistance
+		g_form.removeOption('u_case_sub_type', 'Check Request Form Status');
+		g_form.removeOption('u_case_sub_type', 'Eligibility');
+		g_form.removeOption('u_case_sub_type', 'Public Service Loan Forgiveness');
+		g_form.removeOption('u_case_sub_type', 'Submit Education Plan');
+		g_form.removeOption('u_case_sub_type', 'Submit Request Form');
+		
+		//Employee Health
+		g_form.removeOption('u_case_sub_type', 'ADA/Accommodations');
+		g_form.removeOption('u_case_sub_type', 'Caregiver Medical Surveillance');
+		g_form.removeOption('u_case_sub_type', 'Exposure Tracking and Reporting');
+		g_form.removeOption('u_case_sub_type', 'Fitness for Duty');
+		g_form.removeOption('u_case_sub_type', 'Immunization Tracking/Request for Record');
+		g_form.removeOption('u_case_sub_type', 'Injury / Illness Reporting');
+		g_form.removeOption('u_case_sub_type', 'Return to Work Coordination');
+		g_form.removeOption('u_case_sub_type', 'Safety/Zero Harm');
+		
+		//Employee Relations
+		g_form.removeOption('u_case_sub_type', 'Caregiver complaints and investigations');
+		g_form.removeOption('u_case_sub_type', 'Corrective Action');
+		g_form.removeOption('u_case_sub_type', 'Job Eliminations');
+		g_form.removeOption('u_case_sub_type', 'Managing caregiver behavior');
+		g_form.removeOption('u_case_sub_type', 'Policies and Procedures');
+		g_form.removeOption('u_case_sub_type', 'Unemployment Escalations');
+		
+		//Employment Verifications
+		g_form.removeOption('u_case_sub_type', 'General Verifications');
+		g_form.removeOption('u_case_sub_type', 'Public Service Loan Forgiveness');
+		g_form.removeOption('u_case_sub_type', 'Submit Forms and Paperwork');
+		g_form.removeOption('u_case_sub_type', 'Subpoenas');
+		
+		//Leave of Absence
+		g_form.removeOption('u_case_sub_type', 'Applying for Leave');
+		g_form.removeOption('u_case_sub_type', 'Check Application Status');
+		g_form.removeOption('u_case_sub_type', 'Check for Eligibility');
+		g_form.removeOption('u_case_sub_type', 'Extending Leave');
+		g_form.removeOption('u_case_sub_type', 'Premium Payments');
+		g_form.removeOption('u_case_sub_type', 'Returning to Work');
+		g_form.removeOption('u_case_sub_type', 'Short/Long Term Disability');
+		
+		//Networks of Expertise (NOE)
+		g_form.removeOption('u_case_sub_type', 'Benefits');
+		g_form.removeOption('u_case_sub_type', 'Branding and Sourcing');
+		g_form.removeOption('u_case_sub_type', 'Caregiver Education');
+		g_form.removeOption('u_case_sub_type', 'Caregiver Engagement and Retention');
+		g_form.removeOption('u_case_sub_type', 'Caregiver Value Proposition');
+		g_form.removeOption('u_case_sub_type', 'Compensation');
+		g_form.removeOption('u_case_sub_type', 'Employee Assistance Program (EAP)');
+		g_form.removeOption('u_case_sub_type', 'Employee Health');
+		g_form.removeOption('u_case_sub_type', 'Employee Relations');
+		g_form.removeOption('u_case_sub_type', 'HR Continuous Improvement');
+		g_form.removeOption('u_case_sub_type', 'HR Program Management');
+		g_form.removeOption('u_case_sub_type', 'HR Special Projects and Initiatives');
+		g_form.removeOption('u_case_sub_type', 'HR, Risk, and Compliance');
+		g_form.removeOption('u_case_sub_type', 'Leadership and Organization Development');
+		g_form.removeOption('u_case_sub_type', 'Leadership Institute');
+		g_form.removeOption('u_case_sub_type', 'Live Well');
+		g_form.removeOption('u_case_sub_type', 'LMS Administration');
+		g_form.removeOption('u_case_sub_type', 'Management and Leadership Development');
+		g_form.removeOption('u_case_sub_type', 'Onboarding and Assimilation');
+		g_form.removeOption('u_case_sub_type', 'Organizational Design');	
+		g_form.removeOption('u_case_sub_type', 'Performance Management');
+		g_form.removeOption('u_case_sub_type', 'Recognition');
+		g_form.removeOption('u_case_sub_type', 'Recruitment and Selection');
+		g_form.removeOption('u_case_sub_type', 'Retirement');
+		g_form.removeOption('u_case_sub_type', 'Succession Planning');
+		g_form.removeOption('u_case_sub_type', 'Talent Mobility and Career Management');
+		g_form.removeOption('u_case_sub_type', 'Transition and Change Management');
+		g_form.removeOption('u_case_sub_type', 'Workforce Planning');
+	
+		//Onboarding
+		g_form.removeOption('u_case_sub_type', 'Forms/Paperwork');
+		g_form.removeOption('u_case_sub_type', 'Orientation');
+		g_form.removeOption('u_case_sub_type', 'TalentLink Tasks');
+		g_form.removeOption('u_case_sub_type', 'Training/Learning');
+			
+		//Payroll Questions and Changes
+		g_form.removeOption('u_case_sub_type', '401(k)/403(b)');
+		g_form.removeOption('u_case_sub_type', 'Additional Amounts / Lump Sum');
+		g_form.removeOption('u_case_sub_type', 'Demographic and other changes');
+		g_form.removeOption('u_case_sub_type', 'Direct Deposit');
+		g_form.removeOption('u_case_sub_type', 'Garnishments');
+		g_form.removeOption('u_case_sub_type', 'Payroll Deductions');
+		g_form.removeOption('u_case_sub_type', 'PTO/Leave of Absence');
+		g_form.removeOption('u_case_sub_type', 'Statement of Earnings');
+		g_form.removeOption('u_case_sub_type', 'Time Keeping');
+		g_form.removeOption('u_case_sub_type', 'W2/Taxes');
+		g_form.removeOption('u_case_sub_type', 'W4 Allowances');
+		
+		//Retirement
+		g_form.removeOption('u_case_sub_type', '401_k_403_b');
+		g_form.removeOption('u_case_sub_type', 'Appeals');
+		g_form.removeOption('u_case_sub_type', 'Begin Retirement Process');
+		g_form.removeOption('u_case_sub_type', 'Pension');
+		g_form.removeOption('u_case_sub_type', 'Retiree - General');
+		g_form.removeOption('u_case_sub_type', 'Retiree Medical_Dental_Vision_Life');
+		
+		//Talent Acquisition
+		g_form.removeOption('u_case_sub_type', 'Applicant Inquiry');
+		g_form.removeOption('u_case_sub_type', 'Application Process');
+		g_form.removeOption('u_case_sub_type', 'Caregiver Economy Vetting');
+		g_form.removeOption('u_case_sub_type', 'Final Dispositioning of Candidates');
+		g_form.removeOption('u_case_sub_type', 'I9 / VISA');
+		g_form.removeOption('u_case_sub_type', 'Interviews / Candidate Travel');
+		g_form.removeOption('u_case_sub_type', 'Job Grades');
+		g_form.removeOption('u_case_sub_type', 'Job Posting');
+		g_form.removeOption('u_case_sub_type', 'Manual Data Entry (As Needed)');
+		g_form.removeOption('u_case_sub_type', 'Offer/Compensation/Support');
+		g_form.removeOption('u_case_sub_type', 'Onboarding/NEO/Background Check');
+		g_form.removeOption('u_case_sub_type', 'Qualifications');
+		g_form.removeOption('u_case_sub_type', 'References/File check/Verification');
+		g_form.removeOption('u_case_sub_type', 'Relocation/Transition Assistance');
+		
+		//All Case Types
+		g_form.removeOption('u_case_sub_type', 'Other');  		
+	}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-01-10 20:54:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b8e3e864fe78300af76d0af0310c71a</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>(IHC) Filter Case Sub-Type Selectbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>catalog_script_client_9b8e3e864fe78300af76d0af0310c71a</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-01-13 02:00:01</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

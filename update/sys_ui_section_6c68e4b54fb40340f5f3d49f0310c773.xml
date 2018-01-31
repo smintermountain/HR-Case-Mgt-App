@@ -5,13 +5,13 @@
             <element>u_case_type</element>
             <position>0</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-25 22:27:06</sys_created_on>
-            <sys_id>b978a8b54fb40340f5f3d49f0310c7a2</sys_id>
+            <sys_created_on>2018-01-11 22:13:36</sys_created_on>
+            <sys_id>5b5a90224f6fc300af76d0af0310c74d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_assignment_matrix" sys_domain="global" view="Default view">6c68e4b54fb40340f5f3d49f0310c773</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 22:27:06</sys_updated_on>
+            <sys_updated_on>2018-01-11 22:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,83 +19,41 @@
             <element>u_case_sub_type</element>
             <position>1</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-25 22:27:06</sys_created_on>
-            <sys_id>3d78a8b54fb40340f5f3d49f0310c7a2</sys_id>
+            <sys_created_on>2018-01-11 22:13:36</sys_created_on>
+            <sys_id>db5a90224f6fc300af76d0af0310c74d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_assignment_matrix" sys_domain="global" view="Default view">6c68e4b54fb40340f5f3d49f0310c773</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 22:27:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_organization</element>
-            <position>2</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-25 22:27:06</sys_created_on>
-            <sys_id>bd78a8b54fb40340f5f3d49f0310c7a2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_assignment_matrix" sys_domain="global" view="Default view">6c68e4b54fb40340f5f3d49f0310c773</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 22:27:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_physician</element>
-            <position>3</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-25 22:27:06</sys_created_on>
-            <sys_id>3178a8b54fb40340f5f3d49f0310c7a3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_assignment_matrix" sys_domain="global" view="Default view">6c68e4b54fb40340f5f3d49f0310c773</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 22:27:06</sys_updated_on>
+            <sys_updated_on>2018-01-11 22:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>2</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-25 22:27:06</sys_created_on>
-            <sys_id>b178a8b54fb40340f5f3d49f0310c7a3</sys_id>
+            <sys_created_on>2018-01-11 22:13:36</sys_created_on>
+            <sys_id>5f5a90224f6fc300af76d0af0310c74d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_assignment_matrix" sys_domain="global" view="Default view">6c68e4b54fb40340f5f3d49f0310c773</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 22:27:06</sys_updated_on>
+            <sys_updated_on>2018-01-11 22:13:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_assignment_group</element>
-            <position>5</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-25 22:27:06</sys_created_on>
-            <sys_id>3578a8b54fb40340f5f3d49f0310c7a3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_assignment_matrix" sys_domain="global" view="Default view">6c68e4b54fb40340f5f3d49f0310c773</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 22:27:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_active</element>
-            <position>6</position>
+            <position>3</position>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-28 21:34:25</sys_created_on>
-            <sys_id>db29736e4f34c340af76d0af0310c746</sys_id>
+            <sys_created_on>2018-01-11 22:13:36</sys_created_on>
+            <sys_id>df5a90224f6fc300af76d0af0310c74d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_hr_case_mg_assignment_matrix" sys_domain="global" view="Default view">6c68e4b54fb40340f5f3d49f0310c773</sys_ui_section>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-28 21:34:25</sys_updated_on>
+            <sys_updated_on>2018-01-11 22:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -2,6 +2,26 @@
 <record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="u_case_sub_type" table="x_inthe_hr_case_mg_case" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>401(k)/403(b)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8b7a5794f2707c0f5f3d49f0310c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>401(k)/403(b)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -20,6 +40,106 @@
             <sys_updated_on>2017-08-25 22:39:41</sys_updated_on>
             <u_task/>
             <value>401_k_403_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADA/Accommodations</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>768691754fe307c0f5f3d49f0310c7fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>ADA/Accommodations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Annual Increase Process Support</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c58319b14fe307c0f5f3d49f0310c70c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Annual Increase Process Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Applicant Inquiry</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f3861b94f2707c0f5f3d49f0310c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Applicant Inquiry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Benefits</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bc621b54fe307c0f5f3d49f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Benefits</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caregiver complaints and investigations</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75b32d754fe307c0f5f3d49f0310c7d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:38:38</sys_updated_on>
+            <u_task/>
+            <value>Caregiver complaints and investigations</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence NCOL</dependent_value>
@@ -42,6 +162,26 @@
             <value>Check Application Status</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check for Eligibility</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a974ed754f2707c0f5f3d49f0310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Check for Eligibility</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Educational Assistance</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -60,6 +200,46 @@
             <sys_updated_on>2017-08-24 18:18:04</sys_updated_on>
             <u_task/>
             <value>Check Request Form Status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Education and Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrective Action and Sanctions</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c651d354fe307c0f5f3d49f0310c789</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:35:59</sys_updated_on>
+            <u_task/>
+            <value>Corrective Action and Sanctions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Entry and Scanning (including PARS)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>550519354fe307c0f5f3d49f0310c7ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Data Entry and Scanning (including PARS)</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence COL</dependent_value>
@@ -82,6 +262,46 @@
             <value>Extending Leave</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Onboarding</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Forms/Paperwork</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:53:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b727e1794f2707c0f5f3d49f0310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:53:47</sys_updated_on>
+            <u_task/>
+            <value>Forms/Paperwork</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employment Verifications</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Verifications</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f14ad754f2707c0f5f3d49f0310c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:40:22</sys_updated_on>
+            <u_task/>
+            <value>General Verifications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -102,6 +322,46 @@
             <value>New Hire_Newly Eligible</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>General Inquiries</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Triage</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-17 20:21:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>284abad84f7bc300af76d0af0310c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-17 20:21:34</sys_updated_on>
+            <u_task/>
+            <value>Triage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Additional Amounts / Lump Sum</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b7a5794f2707c0f5f3d49f0310c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>Additional Amounts / Lump Sum</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -120,6 +380,166 @@
             <sys_updated_on>2017-08-25 22:39:41</sys_updated_on>
             <u_task/>
             <value>Appeals</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Process</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb3861b94f2707c0f5f3d49f0310c70d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Application Process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Applying for Leave</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2974a5f54f2707c0f5f3d49f0310c7bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Applying for Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Branding and Sourcing</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87c621b54fe307c0f5f3d49f0310c7d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Branding and Sourcing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caregiver Medical Surveillance</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f28691754fe307c0f5f3d49f0310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>Caregiver Medical Surveillance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compensation Audits</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>458319b14fe307c0f5f3d49f0310c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Compensation Audits</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrective Action</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75b32d754fe307c0f5f3d49f0310c7d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:38:38</sys_updated_on>
+            <u_task/>
+            <value>Corrective Action</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Entry into Oracle (including PARS)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d10519354fe307c0f5f3d49f0310c7d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Data Entry into Oracle (including PARS)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Education and Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Education Requirements</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8651d354fe307c0f5f3d49f0310c78b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:35:59</sys_updated_on>
+            <u_task/>
+            <value>Education Requirements</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Educational Assistance</dependent_value>
@@ -145,7 +565,7 @@
             <dependent_value>Leave of Absence NCOL</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Eligibility/Policy</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
@@ -155,9 +575,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a18c235d4ff04340af76d0af0310c746</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 14:52:24</sys_updated_on>
+            <sys_updated_on>2018-01-10 22:17:24</sys_updated_on>
             <u_task/>
             <value>Eligibility_Policy</value>
         </sys_choice>
@@ -182,6 +602,26 @@
             <value>Open Enrollment</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Onboarding</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Orientation</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:53:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3727e1794f2707c0f5f3d49f0310c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:53:47</sys_updated_on>
+            <u_task/>
+            <value>Orientation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence COL</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -200,6 +640,26 @@
             <sys_updated_on>2017-08-25 14:50:37</sys_updated_on>
             <u_task/>
             <value>Premium Payments</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employment Verifications</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Service Loan Forgiveness</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b14ad754f2707c0f5f3d49f0310c717</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:40:22</sys_updated_on>
+            <u_task/>
+            <value>Public Service Loan Forgiveness</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
@@ -222,6 +682,186 @@
             <value>Begin Retirement Process</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caregiver Economy Vetting</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f38e1b94f2707c0f5f3d49f0310c7a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Caregiver Economy Vetting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caregiver Education</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfc6ed394f2707c0f5f3d49f0310c7da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Caregiver Education</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check Application Status</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a574a5f54f2707c0f5f3d49f0310c7bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Check Application Status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Purges / Backups / HRIS support</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>510519354fe307c0f5f3d49f0310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Data Purges / Backups / HRIS support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Demographic and other changes</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0b7e9794f2707c0f5f3d49f0310c746</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>Demographic and other changes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exposure Tracking and Reporting</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e8611b54fe307c0f5f3d49f0310c766</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>Exposure Tracking and Reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incentive Plan/Variable Pay Plan Support</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c18319b14fe307c0f5f3d49f0310c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Incentive Plan/Variable Pay Plan Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Job Eliminations</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1b32d754fe307c0f5f3d49f0310c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:38:38</sys_updated_on>
+            <u_task/>
+            <value>Job Eliminations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Education and Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Licensure and Certification including RQI</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48651d354fe307c0f5f3d49f0310c78d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-12 17:54:32</sys_updated_on>
+            <u_task/>
+            <value>Licensure and Certification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -240,6 +880,26 @@
             <sys_updated_on>2017-08-24 18:07:48</sys_updated_on>
             <u_task/>
             <value>Life Event - Status Change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Educational Assistance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Service Loan Forgiveness</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:36:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e8551754fe307c0f5f3d49f0310c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:36:41</sys_updated_on>
+            <u_task/>
+            <value>Public Service Loan Forgiveness</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence COL</dependent_value>
@@ -265,7 +925,7 @@
             <dependent_value>Leave of Absence NCOL</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Submit Application</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
@@ -275,31 +935,51 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ad8c235d4ff04340af76d0af0310c746</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 14:52:24</sys_updated_on>
+            <sys_updated_on>2018-01-10 22:19:27</sys_updated_on>
             <u_task/>
             <value>Submit Application</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Educational Assistance</dependent_value>
+            <dependent_value>Employment Verifications</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Submit Education Plan</label>
+            <label>Submit Forms and Paperwork</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
             <sequence>2</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-24 18:18:04</sys_created_on>
+            <sys_created_on>2018-01-09 19:40:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>08e5661d4f704340af76d0af0310c752</sys_id>
+            <sys_id>0b14ad754f2707c0f5f3d49f0310c719</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 18:18:04</sys_updated_on>
+            <sys_updated_on>2018-01-09 19:40:22</sys_updated_on>
             <u_task/>
-            <value>Submit Education Plan</value>
+            <value>Submit Forms and Paperwork</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Onboarding</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TalentLink Tasks</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:53:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b327e1794f2707c0f5f3d49f0310c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:53:47</sys_updated_on>
+            <u_task/>
+            <value>TalentLink Tasks</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
@@ -320,6 +1000,166 @@
             <sys_updated_on>2017-08-24 18:07:48</sys_updated_on>
             <u_task/>
             <value>Benefits Eligibility</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caregiver Engagement and Retention</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fc6ed394f2707c0f5f3d49f0310c7dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Caregiver Engagement and Retention</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Direct Deposit</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60b7e9794f2707c0f5f3d49f0310c748</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>Direct Deposit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Final Dispositioning of Candidates</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b38e1b94f2707c0f5f3d49f0310c7a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Final Dispositioning of Candidates</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fitness for Duty</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa8611b54fe307c0f5f3d49f0310c768</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>Fitness for Duty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Equity</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>418319b14fe307c0f5f3d49f0310c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Internal Equity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ongoing Licensure / Certification / Registration</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd0519354fe307c0f5f3d49f0310c7d3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-12 17:42:00</sys_updated_on>
+            <u_task/>
+            <value>Licensure/Certification/Registration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Managing caregiver behavior</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1b329754f2707c0f5f3d49f0310c747</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:38:38</sys_updated_on>
+            <u_task/>
+            <value>Managing caregiver behavior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Education and Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>My Learning Modules and Classes</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4651d354fe307c0f5f3d49f0310c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:35:59</sys_updated_on>
+            <u_task/>
+            <value>My Learning Modules and Classes</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence NCOL</dependent_value>
@@ -362,10 +1202,30 @@
             <value>Pension</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Leave of Absence COL</dependent_value>
+            <dependent_value>Leave of Absence</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Short/Long Term Disability</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2574a5f54f2707c0f5f3d49f0310c7c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Short/Long Term Disability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence COL</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Short/Long-Term Disability</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
@@ -375,9 +1235,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a98c235d4ff04340af76d0af0310c74a</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-25 14:50:37</sys_updated_on>
+            <sys_updated_on>2018-01-10 22:16:26</sys_updated_on>
             <u_task/>
             <value>Short_Long-Term Disability</value>
         </sys_choice>
@@ -386,7 +1246,7 @@
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Submit Request Form</label>
+            <label>Submit Education Plan</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
             <sequence>3</sequence>
@@ -394,52 +1254,212 @@
             <sys_created_on>2017-08-24 18:18:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>04e5661d4f704340af76d0af0310c753</sys_id>
+            <sys_id>08e5661d4f704340af76d0af0310c752</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:36:41</sys_updated_on>
+            <u_task/>
+            <value>Submit Education Plan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employment Verifications</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subpoenas</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>431469b54f2707c0f5f3d49f0310c79f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 18:18:04</sys_updated_on>
+            <sys_updated_on>2018-01-09 19:40:22</sys_updated_on>
             <u_task/>
-            <value>Submit Request Form</value>
+            <value>Subpoenas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Onboarding</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training/Learning</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:53:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3327e1794f2707c0f5f3d49f0310c7b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:53:47</sys_updated_on>
+            <u_task/>
+            <value>Training/Learning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caregiver Value Proposition</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbc6ed394f2707c0f5f3d49f0310c7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Caregiver Value Proposition</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Involuntary Termination</label>
+            <label>Demographic and other changes</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
             <sequence>4</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-24 18:04:17</sys_created_on>
+            <sys_created_on>2018-01-09 18:22:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>96b222594f704340af76d0af0310c773</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>cd3211714fe307c0f5f3d49f0310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 18:07:48</sys_updated_on>
+            <sys_updated_on>2018-01-09 18:22:08</sys_updated_on>
             <u_task/>
-            <value>Involuntary Termination</value>
+            <value>Demographic and other changes</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Educational Assistance</dependent_value>
+            <dependent_value>Payroll Questions and Changes</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Other</label>
+            <label>Garnishments</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
             <sequence>4</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-24 18:18:04</sys_created_on>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>00e5661d4f704340af76d0af0310c754</sys_id>
+            <sys_id>ecb7e9794f2707c0f5f3d49f0310c749</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 18:18:04</sys_updated_on>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
             <u_task/>
-            <value>Other</value>
+            <value>Garnishments</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>I9 / VISA</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b38e1b94f2707c0f5f3d49f0310c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>I9 / VISA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Immunization Tracking / Request for Records</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a8611b54fe307c0f5f3d49f0310c76a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-12 17:58:45</sys_updated_on>
+            <u_task/>
+            <value>Immunization Tracking/Request for Record</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Merit/Market Increases</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd8319b14fe307c0f5f3d49f0310c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Merit/Market Increases</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Education and Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On the Job Training</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44651d354fe307c0f5f3d49f0310c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:35:59</sys_updated_on>
+            <u_task/>
+            <value>On the Job Training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTG Scanning</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d0519354fe307c0f5f3d49f0310c7d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>OTG Scanning</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence COL</dependent_value>
@@ -462,6 +1482,86 @@
             <value>Other</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Onboarding</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:53:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf27e1794f2707c0f5f3d49f0310c7b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:53:47</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employment Verifications</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf1469b54f2707c0f5f3d49f0310c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:40:22</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policies and Procedures</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31b329754f2707c0f5f3d49f0310c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:38:38</sys_updated_on>
+            <u_task/>
+            <value>Policies and Procedures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Premium Payments</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a174a5f54f2707c0f5f3d49f0310c7c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Premium Payments</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -482,7 +1582,187 @@
             <value>Retiree - General</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Educational Assistance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submit Request Form</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-24 18:18:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04e5661d4f704340af76d0af0310c753</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:36:41</sys_updated_on>
+            <u_task/>
+            <value>Submit Request Form</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compensation</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bc6ed394f2707c0f5f3d49f0310c7e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Compensation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Extending Leave</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2174a5f54f2707c0f5f3d49f0310c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Extending Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Injury / Illness Reporting</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f68611b54fe307c0f5f3d49f0310c76c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>Injury / Illness Reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interviews / Candidate Travel</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8738e1b94f2707c0f5f3d49f0310c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Interviews / Candidate Travel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Involuntary Termination</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-24 18:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96b222594f704340af76d0af0310c773</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:22:08</sys_updated_on>
+            <u_task/>
+            <value>Involuntary Termination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Educational Assistance</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-24 18:18:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00e5661d4f704340af76d0af0310c754</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:36:41</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Education and Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0651d354fe307c0f5f3d49f0310c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:35:59</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Report Writing and Distribution (including RQI)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>510599354fe307c0f5f3d49f0310c71b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-12 17:43:36</sys_updated_on>
+            <u_task/>
+            <value>Other Report Writing and Distribution</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
@@ -491,15 +1771,35 @@
             <name>x_inthe_hr_case_mg_case</name>
             <sequence>5</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-24 18:04:17</sys_created_on>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5ab2ae994f704340af76d0af0310c70a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>4d8319b14fe307c0f5f3d49f0310c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 18:07:48</sys_updated_on>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
             <u_task/>
             <value>PAR Form</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payroll Deductions</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cb7e9794f2707c0f5f3d49f0310c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>Payroll Deductions</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
@@ -520,6 +1820,86 @@
             <sys_updated_on>2017-08-25 22:39:41</sys_updated_on>
             <u_task/>
             <value>Retiree Medical_Dental_Vision_Life</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unemployment Escalations</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdb329754f2707c0f5f3d49f0310c74a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:38:38</sys_updated_on>
+            <u_task/>
+            <value>Unemployment Escalations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Assistance Program (EAP)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7c6ed394f2707c0f5f3d49f0310c7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Employee Assistance Program (EAP)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Job Grades</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0738e1b94f2707c0f5f3d49f0310c7aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Job Grades</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Relations</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:38:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3db329754f2707c0f5f3d49f0310c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:38:38</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
@@ -546,7 +1926,7 @@
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PTO/Time Off</label>
+            <label>PAR Form</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
             <sequence>6</sequence>
@@ -554,12 +1934,272 @@
             <sys_created_on>2017-08-24 18:04:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>56b2ae994f704340af76d0af0310c70b</sys_id>
+            <sys_id>5ab2ae994f704340af76d0af0310c70a</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 23:33:48</sys_updated_on>
+            <sys_updated_on>2018-01-09 18:22:08</sys_updated_on>
+            <u_task/>
+            <value>PAR Form</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paycheck/Earnings</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>858359b14fe307c0f5f3d49f0310c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Paycheck/Earnings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PTO/Leave of Absence</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8b7e9794f2707c0f5f3d49f0310c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>PTO/Leave of Absence</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quality Assurance / Auditing</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd0599354fe307c0f5f3d49f0310c71c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Quality Assurance / Auditing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return to Work Coordination</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>478611b54fe307c0f5f3d49f0310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>Return to Work Coordination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Returning to Work</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>6</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad74a5f54f2707c0f5f3d49f0310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Returning to Work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Health</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47c6ed394f2707c0f5f3d49f0310c7e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Employee Health</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Job Posting</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8338e1b94f2707c0f5f3d49f0310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Job Posting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:41:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d74a5f54f2707c0f5f3d49f0310c7c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:41:53</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policies and Procedures</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>058359b14fe307c0f5f3d49f0310c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Policies and Procedures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PTO/Time Off</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-24 18:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56b2ae994f704340af76d0af0310c70b</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:22:08</sys_updated_on>
             <u_task/>
             <value>PTO_Time Off</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regulatory &amp; Compliance Reporting (Joint Commission, DOH, CMS, etc…)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d0599354fe307c0f5f3d49f0310c71e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-12 17:44:54</sys_updated_on>
+            <u_task/>
+            <value>Regulatory &amp; Compliance Reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safety/Zero Harm</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c38611b54fe307c0f5f3d49f0310c770</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>Safety/Zero Harm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Statement of Earnings</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>7</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68b7e9794f2707c0f5f3d49f0310c74f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>Statement of Earnings</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
@@ -569,37 +2209,297 @@
             <label>Benefits Appeal</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
-            <sequence>7</sequence>
+            <sequence>8</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-08-24 18:04:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>52b2ae994f704340af76d0af0310c70c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 18:07:48</sys_updated_on>
+            <sys_updated_on>2018-01-09 18:22:08</sys_updated_on>
             <u_task/>
             <value>Benefits Appeal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Relations</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3c6ed394f2707c0f5f3d49f0310c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Employee Relations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manual Data Entry (As Needed)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0338e1b94f2707c0f5f3d49f0310c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Manual Data Entry (As Needed)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Employee Health</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>438611b54fe307c0f5f3d49f0310c772</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:41:06</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PTO Cashout</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>818359b14fe307c0f5f3d49f0310c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>PTO Cashout</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sanctions and Corrective Action</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d90599354fe307c0f5f3d49f0310c720</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Sanctions and Corrective Action</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Time Keeping</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>8</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4b7e9794f2707c0f5f3d49f0310c751</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>Time Keeping</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR Continuous Improvement</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>9</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43c6ed394f2707c0f5f3d49f0310c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>HR Continuous Improvement</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>HSA/FSA</label>
+            <label>HSA/FSA/Dependent Care</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
-            <sequence>8</sequence>
+            <sequence>9</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-08-24 18:04:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5eb2ae994f704340af76d0af0310c70c</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 23:34:03</sys_updated_on>
+            <sys_updated_on>2018-01-09 18:22:46</sys_updated_on>
             <u_task/>
-            <value>HSA_FSA</value>
+            <value>HSA_FSA_dependent_care</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer/Compensation/Support</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>9</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f38e1b94f2707c0f5f3d49f0310c7af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Offer/Compensation/Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salary Grade/Range</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>9</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>018359b14fe307c0f5f3d49f0310c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Salary Grade/Range</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuition Loan Assistance</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>9</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>590599354fe307c0f5f3d49f0310c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Tuition Loan Assistance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>W2/Taxes</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>9</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64b7e9794f2707c0f5f3d49f0310c753</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>W2/Taxes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR Program Management</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>10</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfc6ed394f2707c0f5f3d49f0310c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>HR Program Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onboarding/NEO/Background Check</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>10</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f38e1b94f2707c0f5f3d49f0310c7b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Onboarding/NEO/Background Check</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
@@ -609,17 +2509,597 @@
             <label>Other</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
-            <sequence>9</sequence>
+            <sequence>10</sequence>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-08-24 18:04:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5ab2ae994f704340af76d0af0310c70d</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-08-24 18:07:48</sys_updated_on>
+            <sys_updated_on>2018-01-09 18:22:08</sys_updated_on>
             <u_task/>
             <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thank You Payment</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>10</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d8359b14fe307c0f5f3d49f0310c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Thank You Payment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuition Related</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>10</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d50599354fe307c0f5f3d49f0310c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Tuition Related</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>W4 Allowances</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>10</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0b7e9794f2707c0f5f3d49f0310c755</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>W4 Allowances</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR Special Projects and Initiatives</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>11</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fc6ed394f2707c0f5f3d49f0310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>HR Special Projects and Initiatives</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll Questions and Changes</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>11</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70b7e9794f2707c0f5f3d49f0310c757</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Qualifications</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>11</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b38e1b94f2707c0f5f3d49f0310c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Qualifications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trend Analysis (Internal Offer &amp; Adjustments)</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>11</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d8359b14fe307c0f5f3d49f0310c789</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-11 22:29:26</sys_updated_on>
+            <u_task/>
+            <value>Trend Analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unemployment Claim First Response</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>11</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>550599354fe307c0f5f3d49f0310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Unemployment Claim First Response</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR, Risk, and Compliance</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>12</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbc6ed394f2707c0f5f3d49f0310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>HR, Risk, and Compliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>12</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>898359b14fe307c0f5f3d49f0310c78b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>DATA</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>12</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 18:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d10599354fe307c0f5f3d49f0310c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>References / File check / Verification of min. requirements</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>12</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b38e1b94f2707c0f5f3d49f0310c7b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-13 01:57:42</sys_updated_on>
+            <u_task/>
+            <value>References/File check/Verification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leadership and Organizational Development</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>13</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bc6ed394f2707c0f5f3d49f0310c7ef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-13 01:52:03</sys_updated_on>
+            <u_task/>
+            <value>Leadership and Organization Development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Relocation/Transition Assistance</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>13</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8738e1b94f2707c0f5f3d49f0310c7b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Relocation/Transition Assistance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leadership Institute</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>14</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7c6ed394f2707c0f5f3d49f0310c7f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Leadership Institute</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Talent Acquisition</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>14</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:58:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0738e1b94f2707c0f5f3d49f0310c7b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:58:23</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Live Well</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>15</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47c6ed394f2707c0f5f3d49f0310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Live Well</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LMS Administration</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>16</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3c6ed394f2707c0f5f3d49f0310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>LMS Administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Management and Leadership Development</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>17</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43c6ed394f2707c0f5f3d49f0310c7f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Management and Leadership Development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onboarding and Assimilation</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>18</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfc6ed394f2707c0f5f3d49f0310c7f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Onboarding and Assimilation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Organizational Design</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>19</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fc6ed394f2707c0f5f3d49f0310c7fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:06</sys_updated_on>
+            <u_task/>
+            <value>Organizational Design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performance Management</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>20</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbc6ed394f2707c0f5f3d49f0310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:07</sys_updated_on>
+            <u_task/>
+            <value>Performance Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recognition</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>21</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bc6ed394f2707c0f5f3d49f0310c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:07</sys_updated_on>
+            <u_task/>
+            <value>Recognition</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recruitment and Selection</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>22</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7c621794f2707c0f5f3d49f0310c700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:07</sys_updated_on>
+            <u_task/>
+            <value>Recruitment and Selection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retirement</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>23</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47c621794f2707c0f5f3d49f0310c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:07</sys_updated_on>
+            <u_task/>
+            <value>Retirement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Succession Planning</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>24</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3c621794f2707c0f5f3d49f0310c704</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:07</sys_updated_on>
+            <u_task/>
+            <value>Succession Planning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Talent Mobility and Career Management</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>25</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7e661794f2707c0f5f3d49f0310c7e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:40</sys_updated_on>
+            <u_task/>
+            <value>Talent Mobility and Career Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transition and Change Management</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>26</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57e661794f2707c0f5f3d49f0310c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:40</sys_updated_on>
+            <u_task/>
+            <value>Transition and Change Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Networks of Expertise (NOE)</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Workforce Planning</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>27</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-09 19:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3e661794f2707c0f5f3d49f0310c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-09 19:52:40</sys_updated_on>
+            <u_task/>
+            <value>Workforce Planning</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_case_sub_type</element>
@@ -628,7 +3108,7 @@
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-08-24 18:04:17</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>4f07d80f4f824300f5f3d49f0310c7cf</sys_id>
+            <sys_id>e7a2796e4fb2c700af76d0af0310c7d7</sys_id>
             <sys_mod_count>33</sys_mod_count>
             <sys_name>u_case_sub_type</sys_name>
             <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>

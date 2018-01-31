@@ -7,30 +7,30 @@
         <licensable>true</licensable>
         <license_model>fulfiller</license_model>
         <logo/>
-        <menu display_value="HR Case Management">28482c744f2f3e00f5f3d49f0310c773</menu>
+        <menu/>
         <name>HR Case Management</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
-        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <runtime_access_tracking/>
         <scope>x_inthe_hr_case_mg</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_inthe_hr_case_mg</source>
-        <store_correlation_id>REPOAPP0000042693</store_correlation_id>
+        <store_correlation_id/>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2017-06-21 16:33:47</sys_created_on>
+        <sys_created_on>2017-09-27 03:11:06</sys_created_on>
         <sys_id>e048ecb04f2f3e00f5f3d49f0310c796</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-11-09 20:15:35</sys_updated_on>
+        <sys_updated_on>2018-01-31 16:43:26</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_inthe_hr_case_mg.user" name="x_inthe_hr_case_mg.user">64482c744f2f3e00f5f3d49f0310c774</user_role>
+        <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.7</version>
+        <version>1.0.8</version>
     </sys_app>
 </record_update>

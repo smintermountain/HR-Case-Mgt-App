@@ -29,6 +29,20 @@
             <sys_updated_by>tkaneko</sys_updated_by>
             <sys_updated_on>2017-06-21 16:50:18</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-01-10 20:16:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01e5ba4e4f278300af76d0af0310c743</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inthe_hr_case_mg_case" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">2a0c68384f2f3e00f5f3d49f0310c726</sys_ui_form>
+            <sys_ui_section caption="Manager Info" display_value="Manager Info" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">0de5ba4e4f278300af76d0af0310c73f</sys_ui_section>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-01-10 20:16:09</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_inthe_hr_case_mg_case</name>
             <roles/>
