@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_inthe_hr_case_mg_case">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_quantity" table="x_inthe_hr_case_mg_case">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>live_feed=true,email_client=true</attributes>
-        <audit>true</audit>
-        <calculation>(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);</calculation>
-        <choice/>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Quantity</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,10 +23,10 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_quantity</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_inthe_hr_case_mg_case</name>
@@ -46,23 +41,23 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>322</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2017-06-21 16:33:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>7f92b56e4fb2c700af76d0af0310c711</sys_id>
+        <sys_created_on>2018-02-06 15:58:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7cedbcb24f845740af76d0af0310c753</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_inthe_hr_case_mg_case</sys_name>
+        <sys_name>Quantity</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
-        <sys_update_name>sys_dictionary_x_inthe_hr_case_mg_case_NULL</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-12-05 21:52:14</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_inthe_hr_case_mg_case_u_quantity</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-02-06 15:58:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
