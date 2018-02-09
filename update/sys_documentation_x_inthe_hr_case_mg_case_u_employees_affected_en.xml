@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_employees_affected" label="Employees Affected" language="en" table="x_inthe_hr_case_mg_case">
+    <sys_documentation element="u_employees_affected" label="Caregiver(s) Affected" language="en" table="x_inthe_hr_case_mg_case">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_employees_affected</element>
             <help/>
             <hint/>
-            <label>Employees Affected</label>
+            <label>Caregiver(s) Affected</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
-            <plural>Employees Affected</plural>
+            <plural>Caregiver(s) Affected</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2018-01-10 20:16:09</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>c1e5728e4f278300af76d0af0310c7dd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Employees Affected</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Caregiver(s) Affected</sys_name>
             <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
             <sys_update_name>sys_documentation_x_inthe_hr_case_mg_case_u_employees_affected_en</sys_update_name>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-01-10 20:16:09</sys_updated_on>
+            <sys_updated_on>2018-02-09 01:19:59</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

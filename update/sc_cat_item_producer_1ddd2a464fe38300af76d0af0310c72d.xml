@@ -47,7 +47,8 @@
         <script><![CDATA[current.short_description = 'Manager Portal - ' + producer.description;
 current.description = producer.description;
 current.u_caller = producer.requested_for;
-current.u_origination = 'manager_portal';]]></script>
+current.u_origination = 'manager_portal';
+]]></script>
         <short_description>Submit your manager specific HR questions here</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -56,7 +57,7 @@ current.u_origination = 'manager_portal';]]></script>
         <sys_created_on>2018-01-10 19:45:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1ddd2a464fe38300af76d0af0310c72d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Need Manager Help?</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -64,7 +65,7 @@ current.u_origination = 'manager_portal';]]></script>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sc_cat_item_producer_1ddd2a464fe38300af76d0af0310c72d</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-01-10 19:45:08</sys_updated_on>
+        <sys_updated_on>2018-02-08 20:06:35</sys_updated_on>
         <table_name>x_inthe_hr_case_mg_case</table_name>
         <template/>
         <type>item</type>
