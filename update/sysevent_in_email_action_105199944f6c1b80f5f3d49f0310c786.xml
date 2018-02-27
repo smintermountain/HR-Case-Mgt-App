@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Triggered when an email is auto-forwarded from askhr@imail.org</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">recipientsLIKEaskhr@imail.org^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="false" value="askhr@imail.org"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>HR - Tuition Assistance (Auto-Forward) </name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[var msg;
+
+
+
+current.comments = "Received from: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = email.subject;
+current.description = "From: " + email.from + '\n' + email.body_text;
+
+
+
+
+{
+	msg = "Original Email" + '\n' + "Subject: " + email.subject + '\n' + "Body: " + '\n';
+	msg += email.body_text + '\n';
+    current.work_notes = msg;
+}
+
+
+current.insert();
+
+event.state="stop_processing";]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-02-23 19:30:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>105199944f6c1b80f5f3d49f0310c786</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR - Tuition Assistance (Auto-Forward) </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sysevent_in_email_action_105199944f6c1b80f5f3d49f0310c786</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-02-23 19:30:09</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <template>assignment_group=272aeb254ff84300548be28d0210c7e4^state=1^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>
