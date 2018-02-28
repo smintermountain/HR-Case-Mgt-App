@@ -23,14 +23,14 @@
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-09-27 03:11:06</sys_created_on>
         <sys_id>e048ecb04f2f3e00f5f3d49f0310c796</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-02-24 01:14:24</sys_updated_on>
+        <sys_updated_on>2018-02-28 17:30:52</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.30</version>
+        <version>1.0.31</version>
     </sys_app>
 </record_update>
