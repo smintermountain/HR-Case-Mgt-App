@@ -6,7 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category/>
+        <category display_value="Case" name="Case">3c5215e14fe60300a27160001310c7a5</category>
         <collection>x_inthe_hr_case_mg_case</collection>
         <condition table="x_inthe_hr_case_mg_case">work_notesVALCHANGES^EQ<item endquery="false" field="work_notes" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
@@ -26,7 +26,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>A new work not was recently added to this task. &nbsp;Please read and respond as appropriate.</p>
+        <message_html><![CDATA[<p>A new work note was recently added to this task. &nbsp;Please read and respond as appropriate.</p>
 <p>Click here for more details: ${URI_REF}</p>
 <p><strong>Work Notes:</strong> ${work_notes}</p>]]></message_html>
         <message_list/>
@@ -51,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>80bffb6d4f340340f5f3d49f0310c754</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>(IHC) Work Note is Added</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -60,7 +60,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_80bffb6d4f340340f5f3d49f0310c754</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-09-11 15:18:44</sys_updated_on>
+        <sys_updated_on>2018-03-01 01:30:00</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
