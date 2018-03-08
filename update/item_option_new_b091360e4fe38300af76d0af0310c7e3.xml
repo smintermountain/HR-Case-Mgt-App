@@ -21,7 +21,7 @@
         <example_text/>
         <field>u_case_type</field>
         <global>false</global>
-        <help_tag>More information</help_tag>
+        <help_tag/>
         <help_text/>
         <include_none>true</include_none>
         <instructions/>
@@ -61,7 +61,7 @@
         <sys_created_on>2018-01-10 19:58:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b091360e4fe38300af76d0af0310c7e3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Case Type</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>item_option_new_b091360e4fe38300af76d0af0310c7e3</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-01-10 20:31:43</sys_updated_on>
+        <sys_updated_on>2018-03-08 20:23:40</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
