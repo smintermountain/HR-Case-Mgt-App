@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Triggered when a reply from a ServiceNow email has been sent</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>HR - Reply to ServiceNow email</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[current.comments = "Email reply from: " + email.origemail + "\n\n" + email.body_text;
+current.insert();
+
+event.state="stop_processing";]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-03-13 19:06:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>52987d864f3417c0af76d0af0310c78e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HR - Reply to ServiceNow email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sysevent_in_email_action_52987d864f3417c0af76d0af0310c78e</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-03-13 19:09:27</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>
