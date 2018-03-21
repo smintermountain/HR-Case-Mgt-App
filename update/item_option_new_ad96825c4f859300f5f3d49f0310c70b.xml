@@ -2,7 +2,7 @@
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes>glide_list</attributes>
+        <attributes/>
         <cat_item display_value="Need Manager Help?">1ddd2a464fe38300af76d0af0310c72d</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -19,14 +19,14 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <example_text/>
-        <field>u_employees_affected</field>
+        <field>priority</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table>sys_user</list_table>
+        <list_table/>
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
@@ -37,11 +37,11 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>u_employees_affected</name>
-        <order>350</order>
+        <name>priority</name>
+        <order>285</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Caregiver(s) Affected</question_text>
+        <question_text>Priority</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -58,27 +58,27 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-01-10 20:18:18</sys_created_on>
+        <sys_created_on>2018-03-20 19:54:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>3f26bace4f278300af76d0af0310c708</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>Caregiver(s) Affected</sys_name>
+        <sys_id>ad96825c4f859300f5f3d49f0310c70b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Priority</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
-        <sys_update_name>item_option_new_3f26bace4f278300af76d0af0310c708</sys_update_name>
+        <sys_update_name>item_option_new_ad96825c4f859300f5f3d49f0310c70b</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-03-20 18:43:15</sys_updated_on>
+        <sys_updated_on>2018-03-20 19:58:22</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>21</type>
+        <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
         <variable_set/>
-        <variable_width>50</variable_width>
+        <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -86,25 +86,25 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
         <x_yala_yds_additional_display_fields/>
-        <x_yala_yds_additional_display_fields_list>employee_number,user_name</x_yala_yds_additional_display_fields_list>
+        <x_yala_yds_additional_display_fields_list/>
         <x_yala_yds_search_all_display_fields>true</x_yala_yds_search_all_display_fields>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=3f26bace4f278300af76d0af0310c708"/>
-    <fx_price action="delete_multiple" query="id=3f26bace4f278300af76d0af0310c708"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad96825c4f859300f5f3d49f0310c70b"/>
+    <fx_price action="delete_multiple" query="id=ad96825c4f859300f5f3d49f0310c70b"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>3f26bace4f278300af76d0af0310c708</id>
+        <id>ad96825c4f859300f5f3d49f0310c70b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-01-10 20:18:18</sys_created_on>
-        <sys_id>7466bece4f278300af76d0af0310c76d</sys_id>
+        <sys_created_on>2018-03-20 19:54:54</sys_created_on>
+        <sys_id>26b6c25c4f859300f5f3d49f0310c7a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-01-10 20:18:18</sys_updated_on>
+        <sys_updated_on>2018-03-20 19:54:54</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -112,16 +112,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>3f26bace4f278300af76d0af0310c708</id>
+        <id>ad96825c4f859300f5f3d49f0310c70b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-01-10 20:18:18</sys_created_on>
-        <sys_id>b066bece4f278300af76d0af0310c76c</sys_id>
+        <sys_created_on>2018-03-20 19:54:54</sys_created_on>
+        <sys_id>66b6c25c4f859300f5f3d49f0310c7a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-01-10 20:18:18</sys_updated_on>
+        <sys_updated_on>2018-03-20 19:54:54</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

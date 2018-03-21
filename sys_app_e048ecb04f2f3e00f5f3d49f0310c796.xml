@@ -16,21 +16,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_inthe_hr_case_mg</source>
-        <store_correlation_id>REPOAPP0000054627</store_correlation_id>
+        <store_correlation_id>REPOAPP0000054898</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2017-09-27 03:11:06</sys_created_on>
         <sys_id>e048ecb04f2f3e00f5f3d49f0310c796</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-03-13 19:09:53</sys_updated_on>
+        <sys_updated_on>2018-03-21 19:13:02</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.1.4</version>
+        <version>1.2.0</version>
     </sys_app>
 </record_update>

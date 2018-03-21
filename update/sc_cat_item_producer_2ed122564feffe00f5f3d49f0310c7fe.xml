@@ -44,8 +44,18 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.short_description = 'Self-Service - ' + producer.description;
-current.description = producer.description;
+        <script><![CDATA[//build description field
+if(producer.contact_method == 'email'){
+		current.description = "Preferred Contact Method: Email \n What I need help with: " + producer.description;
+} else if(producer.contact_method == 'phone'){
+	current.description = "Preferred Contact Method: Phone \n" + "Phone Number: " + producer.phone_number + "\n What I need help with: " + producer.description;
+} else {
+	current.description = "What I need help with: " + producer.description;
+}
+
+
+current.short_description = 'Self-Service - ' + producer.description;
+
 current.u_caller = producer.requested_for;
 current.u_origination = 'user_portal';
 current.u_case_type = 'General Inquiries';
@@ -58,7 +68,7 @@ current.u_case_sub_type = 'Triage';]]></script>
         <sys_created_on>2017-06-26 17:18:12</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>2ed122564feffe00f5f3d49f0310c7fe</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Need help?</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -66,7 +76,7 @@ current.u_case_sub_type = 'Triage';]]></script>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sc_cat_item_producer_2ed122564feffe00f5f3d49f0310c7fe</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-02-28 17:29:24</sys_updated_on>
+        <sys_updated_on>2018-03-21 16:24:33</sys_updated_on>
         <table_name>x_inthe_hr_case_mg_case</table_name>
         <template/>
         <type>item</type>
