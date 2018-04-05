@@ -10,7 +10,7 @@
         <filter_condition/>
         <from/>
         <name>HR - Reply to ServiceNow email</name>
-        <order>100</order>
+        <order>400</order>
         <reply_email/>
         <required_roles/>
         <script><![CDATA[//Split reply body from the rest of the email
@@ -29,7 +29,7 @@ event.state="stop_processing";]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>52987d864f3417c0af76d0af0310c78e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>HR - Reply to ServiceNow email</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -38,7 +38,7 @@ event.state="stop_processing";]]></script>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_in_email_action_52987d864f3417c0af76d0af0310c78e</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-03-21 18:27:13</sys_updated_on>
+        <sys_updated_on>2018-03-23 17:53:24</sys_updated_on>
         <table>x_inthe_hr_case_mg_case</table>
         <template/>
         <type>reply</type>

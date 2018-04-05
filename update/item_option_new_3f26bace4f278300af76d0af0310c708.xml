@@ -2,7 +2,7 @@
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes>glide_list</attributes>
+        <attributes/>
         <cat_item display_value="Need Manager Help?">1ddd2a464fe38300af76d0af0310c72d</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -61,7 +61,7 @@
         <sys_created_on>2018-01-10 20:18:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3f26bace4f278300af76d0af0310c708</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Caregiver(s) Affected</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>item_option_new_3f26bace4f278300af76d0af0310c708</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-03-20 18:43:15</sys_updated_on>
+        <sys_updated_on>2018-03-22 23:17:47</sys_updated_on>
         <table/>
         <tooltip/>
         <type>21</type>
@@ -86,7 +86,7 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
         <x_yala_yds_additional_display_fields/>
-        <x_yala_yds_additional_display_fields_list>employee_number,user_name</x_yala_yds_additional_display_fields_list>
+        <x_yala_yds_additional_display_fields_list>u_employee_id,user_name</x_yala_yds_additional_display_fields_list>
         <x_yala_yds_search_all_display_fields>true</x_yala_yds_search_all_display_fields>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=3f26bace4f278300af76d0af0310c708"/>

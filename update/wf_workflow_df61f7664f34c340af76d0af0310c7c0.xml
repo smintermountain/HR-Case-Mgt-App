@@ -32,12 +32,12 @@
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2018-03-21 17:50:43</sys_created_on>
         <sys_id>91e3f66c4f45d300af76d0af0310c75d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-03-21 18:36:47</sys_updated_on>
+        <sys_updated_on>2018-03-23 19:05:38</sys_updated_on>
         <table>x_inthe_hr_case_mg_case</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="(IHC) HR Case Mgt Fulfillment">df61f7664f34c340af76d0af0310c7c0</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
