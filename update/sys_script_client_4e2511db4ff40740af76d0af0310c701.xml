@@ -23,15 +23,15 @@
 	if(!g_form.isNewRecord()){
 		if(group == 'e9e863a14ff84300548be28d0210c74d' || group == '6dd9abe14ff84300548be28d0210c794' || group == '7b196fa14ff84300548be28d0210c774'){
 			g_form.setMandatory('work_notes', false);
-			g_form.setMandatory('priority', false);
+			//g_form.setMandatory('priority', false);
 
 		} else if(newValue!= oldValue) {
 			g_form.setMandatory('work_notes', true);
-			g_form.setMandatory('priority', true);
+			//g_form.setMandatory('priority', true);
 			
 		} else {
 			g_form.setMandatory('work_notes', false);
-			g_form.setMandatory('priority', false);
+			//g_form.setMandatory('priority', false);
 		}
 	}
 
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4e2511db4ff40740af76d0af0310c701</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>(IHC) Require Work Notes Assigned To</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sys_script_client_4e2511db4ff40740af76d0af0310c701</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-03-20 20:22:38</sys_updated_on>
+        <sys_updated_on>2018-04-10 19:36:48</sys_updated_on>
         <table>x_inthe_hr_case_mg_case</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
