@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Case" max_length="40" name="x_inthe_hr_case_mg_case" sizeclass="400" type="collection">
+    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Case" max_length="40" name="x_inthe_hr_case_mg_case" sizeclass="405" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Additional Details" max_length="4000" name="u_additional_details" type="string"/>
         <element hint="Check this box to omit the upon submittal notification" label="Bypass Notification" max_length="40" name="u_bypass_notification" type="boolean"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;u_employee_id,ref_ac_columns_search=true" label="Caller" max_length="32" name="u_caller" reference="sys_user" type="reference"/>
