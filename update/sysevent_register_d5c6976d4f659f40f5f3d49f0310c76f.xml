@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Fire event when an attachment is uploaded to the HR Case Table</description>
+        <event_name>x_inthe_hr_case_mg.attachAdd</event_name>
+        <fired_by>Script Action</fired_by>
+        <queue/>
+        <suffix>attachAdd</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-04-18 19:29:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d5c6976d4f659f40f5f3d49f0310c76f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_inthe_hr_case_mg.attachAdd</sys_name>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sysevent_register_d5c6976d4f659f40f5f3d49f0310c76f</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-04-18 19:29:23</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+    </sysevent_register>
+</record_update>
