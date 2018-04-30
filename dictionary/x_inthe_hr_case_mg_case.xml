@@ -188,7 +188,13 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element label="Defect" max_length="40" name="u_defect" type="boolean"/>
+        <element active="false" label="Defect" max_length="40" name="u_defect" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Defect" max_length="40" name="u_defect_choice" type="string">
+            <choice>
+                <element label="Internal (Solutions Center Defect)" sequence="0" value="Internal"/>
+                <element label="External (Other Dept. Defect)" sequence="1" value="External"/>
+            </choice>
+        </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Caregiver(s) Affected" max_length="1024" name="u_employees_affected" reference="sys_user" type="glide_list"/>
         <element label="Executive" max_length="40" name="u_is_executive" type="boolean"/>
         <element label="Physician" max_length="40" name="u_is_physician" type="boolean"/>

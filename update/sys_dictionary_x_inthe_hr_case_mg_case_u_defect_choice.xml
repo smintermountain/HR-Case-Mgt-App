@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_defect" table="x_inthe_hr_case_mg_case">
-        <active>false</active>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_defect_choice" table="x_inthe_hr_case_mg_case">
+        <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Defect</column_label>
@@ -23,10 +23,10 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_defect</element>
+        <element>u_defect_choice</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_inthe_hr_case_mg_case</name>
@@ -46,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-01-09 17:35:26</sys_created_on>
+        <sys_created_on>2018-04-30 17:27:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>818745f94f6307c0f5f3d49f0310c713</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_id>0c2e20294f711700af76d0af0310c7d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Defect</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
-        <sys_update_name>sys_dictionary_x_inthe_hr_case_mg_case_u_defect</sys_update_name>
+        <sys_update_name>sys_dictionary_x_inthe_hr_case_mg_case_u_defect_choice</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-30 17:25:03</sys_updated_on>
+        <sys_updated_on>2018-04-30 17:27:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -26,12 +26,10 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>${u_caller} has responded to this task.&nbsp; Please review and respond as appropriateomment recently added to ${number}.</p>
+        <message_html><![CDATA[<p>${u_caller} has responded to this task.&nbsp; Please review and respond to the comment recently added to ${number}.</p>
 <p>${URI_REF}</p>
 <p>&nbsp;</p>
-<p><strong>Comments:&nbsp;</strong>${comments}</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>]]></message_html>
+<p><strong>Comments:&nbsp;</strong>${comments}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>(IHC) Comments Added to Case</name>
@@ -54,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fafd736d4f340340f5f3d49f0310c70e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>(IHC) Comments Added to Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -63,7 +61,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_fafd736d4f340340f5f3d49f0310c70e</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-18 18:15:33</sys_updated_on>
+        <sys_updated_on>2018-04-26 16:02:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
