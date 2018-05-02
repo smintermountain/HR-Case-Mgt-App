@@ -6,7 +6,7 @@
         <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_inthe_hr_case_mg_case</collection>
         <condition table="x_inthe_hr_case_mg_case">stateCHANGESTO3^ORstateCHANGESTO4^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
@@ -31,12 +31,16 @@
 <p><strong>Resolution Notes:</strong> ${u_resolution_notes}</p>
 <p>If you feel your request is not resolved, please click the following link to reopen your request: ${URI_REF}</p>
 <p>Thank you for allowing Intermountain Healthcare HR to help you!</p>
+<p>&nbsp;</p>
 <p><strong>Number:&nbsp;</strong>${number}</p>
 <p><strong>Submitted For:&nbsp;</strong>${u_caller}</p>
 <p><strong>Submission Date:&nbsp;</strong>${sys_created_on}</p>
 <p><strong>Resolution Date:</strong> ${u_resolution_date}</p>
 <p><strong>Case Type:&nbsp;</strong>${u_case_type}</p>
 <p><strong>Case Sub-Type:&nbsp;</strong>${u_case_sub_type}</p>
+<p>&nbsp;</p>
+<p>Please tell us what you think about your recent experience with the askHR People Solutions Center.&nbsp;&nbsp; The following link will take you to a quick two-question survey.</p>
+<p><a href="https://www.surveymonkey.com/r/YDRM78P">https://www.surveymonkey.com/r/YDRM78P</a></p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -60,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0fbe776d4f340340f5f3d49f0310c7be</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>(IHC) Case is Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -69,7 +73,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_0fbe776d4f340340f5f3d49f0310c7be</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2017-10-09 19:28:06</sys_updated_on>
+        <sys_updated_on>2018-05-02 19:05:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
