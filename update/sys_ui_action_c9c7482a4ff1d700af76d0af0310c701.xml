@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <comments>Create an HRTask from an Incident using GlideDialogForm.  User has to have the 'itil' AND 'x_inthe_hr_case_mg.user' role to use this action</comments>
+        <condition>gs.hasRole('itil')</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create HRTask</name>
+        <onclick>launch()</onclick>
+        <order>100</order>
+        <script><![CDATA[//This script would go into a UI action with the 'client' tick-box checked, and the 'Onclick' value set to 'launch();'
+var caller,
+	description,
+	shortDescription,
+	phi,
+	phiData,
+	incident;
+	
+
+function launch() {
+	caller = g_form.getValue('caller_id');
+	description = g_form.getValue('description');
+	shortDescription = g_form.getValue('short_description');
+	phi = g_form.getValue('u_contain_phi').toLowerCase();
+	incident = g_form.getValue('number');
+	
+	//If the phi flag is 'Yes' then copy the protected data field over
+	if(phi == 'yes'){
+		phiData = g_form.getValue('u_phi_encrypted');
+	}
+	
+    var dialog = new GlideDialogForm('Create an HRTask', 'x_inthe_hr_case_mg_case', myCallBack);
+    dialog.addParm('sysparm_form_only', 'true'); //don't show related lists
+    dialog.setLoadCallback(myLoadCallBack); //This will execute ON LOAD in the dialog.
+    dialog.render(); //display dialog
+}
+
+function myCallBack(actionName, sid, tableName, recordDisplayVal) {
+	//Set values on the original record and save
+	//g_form.setValue('u_intermountain_project', sid);
+	g_form.setValue('work_notes', 'HRTask: ' + recordDisplayVal + ' has been created');
+	g_form.save();
+}
+
+function myLoadCallBack(frame) {
+    //crumple zone for IE because it can't follow standards:
+    var innerDialog = 'defaultView' in frame ? frame.defaultView : frame.parentWindow; 
+    //The following executes in the context of the form
+
+    //Prepopulate values on dialog form from referring record
+	innerDialog.g_form.setValue('u_caller', caller);
+	innerDialog.g_form.setValue('description', description);
+	innerDialog.g_form.setValue('short_description', shortDescription);
+	innerDialog.g_form.setValue('u_case_type', 'General Inquiries');
+	innerDialog.g_form.setValue('u_case_sub_type', 'Triage');
+	innerDialog.g_form.setValue('u_contain_phi', phi);
+	innerDialog.g_form.setValue('work_notes', 'HRTask created from: ' + incident);
+	
+	if(phi == 'yes'){
+		innerDialog.g_form.setValue('u_protected_data', phiData);
+	}
+	
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-05-03 17:16:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c9c7482a4ff1d700af76d0af0310c701</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create HRTask</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sys_ui_action_c9c7482a4ff1d700af76d0af0310c701</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-05-03 20:08:55</sys_updated_on>
+        <table>incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>
