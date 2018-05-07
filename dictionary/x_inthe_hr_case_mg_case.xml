@@ -128,13 +128,14 @@
                 <element dependent_value="Compensation" label="Salary Grade/Range" sequence="9" value="Salary Grade/Range"/>
                 <element dependent_value="DATA" label="Tuition Loan Assistance" sequence="9" value="Tuition Loan Assistance"/>
                 <element dependent_value="Payroll Questions and Changes" label="W2/Taxes" sequence="9" value="W2/Taxes"/>
+                <element dependent_value="Benefits" label="Deductions Not Taken (DNT)" sequence="10" value="Deductions Not Taken (DNT)"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="HR Program Management" sequence="10" value="HR Program Management"/>
                 <element dependent_value="Talent Acquisition" label="Onboarding/NEO/Background Check" sequence="10" value="Onboarding/NEO/Background Check"/>
-                <element dependent_value="Benefits" label="Other" sequence="10" value="Other"/>
                 <element dependent_value="Compensation" label="Thank You Payment" sequence="10" value="Thank You Payment"/>
                 <element dependent_value="DATA" label="Tuition Related" sequence="10" value="Tuition Related"/>
                 <element dependent_value="Payroll Questions and Changes" label="W4 Allowances" sequence="10" value="W4 Allowances"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="HR Special Projects and Initiatives" sequence="11" value="HR Special Projects and Initiatives"/>
+                <element dependent_value="Benefits" label="ORS" sequence="11" value="ORS"/>
                 <element dependent_value="Payroll Questions and Changes" label="Other" sequence="11" value="Other"/>
                 <element dependent_value="Talent Acquisition" label="Qualifications" sequence="11" value="Qualifications"/>
                 <element dependent_value="Compensation" label="Trend Analysis (Internal Offer &amp; Adjustments)" sequence="11" value="Trend Analysis"/>
@@ -143,7 +144,9 @@
                 <element dependent_value="Compensation" label="Other" sequence="12" value="Other"/>
                 <element dependent_value="DATA" label="Other" sequence="12" value="Other"/>
                 <element dependent_value="Talent Acquisition" label="References / File check / Verification of min. requirements" sequence="12" value="References/File check/Verification"/>
+                <element dependent_value="Benefits" label="Workflow Reports" sequence="12" value="Workflow Reports"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="Leadership and Organizational Development" sequence="13" value="Leadership and Organization Development"/>
+                <element dependent_value="Benefits" label="Other" sequence="13" value="Other"/>
                 <element dependent_value="Talent Acquisition" label="Relocation/Transition Assistance" sequence="13" value="Relocation/Transition Assistance"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="Leadership Institute" sequence="14" value="Leadership Institute"/>
                 <element dependent_value="Talent Acquisition" label="Other" sequence="14" value="Other"/>

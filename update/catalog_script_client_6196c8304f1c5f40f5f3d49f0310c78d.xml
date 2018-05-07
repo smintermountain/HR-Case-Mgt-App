@@ -20,6 +20,9 @@
         <script><![CDATA[function onLoad() {
 	//Remove case sub-types that should not be available on manager portal
 	g_form.removeOption('u_case_sub_type', 'Triage');
+	g_form.removeOption('u_case_sub_type', 'ORS');
+	g_form.removeOption('u_case_sub_type', 'Deductions Not Taken (DNT)');
+	g_form.removeOption('u_case_sub_type', 'Workflow Reports');
 	
    
 }]]></script>
@@ -30,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6196c8304f1c5f40f5f3d49f0310c78d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>(IHC) Remove Case Sub-Types</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -39,7 +42,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>catalog_script_client_6196c8304f1c5f40f5f3d49f0310c78d</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-02-12 17:05:44</sys_updated_on>
+        <sys_updated_on>2018-05-07 17:32:10</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
