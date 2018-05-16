@@ -7,7 +7,8 @@
         <condition_script/>
         <description>Triggered when an email has been redirected by a system configuration</description>
         <event_name>email.read</event_name>
-        <filter_condition table="sys_email">recipientsLIKEretirement@imail.org^subjectNOT LIKEAutomatic reply:^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="false" value="retirement@imail.org"/>
+        <filter_condition table="sys_email">recipientsLIKEretirement@imail.org^ORheadersLIKEretirement@imail.org^subjectNOT LIKEAutomatic reply:^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="false" value="retirement@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="retirement@imail.org"/>
             <item endquery="false" field="subject" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Automatic reply:"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
@@ -47,7 +48,7 @@ event.state="stop_processing";]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>213f82034fd19740f5f3d49f0310c71e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>HR - Retirement (Redirect) </sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -56,7 +57,7 @@ event.state="stop_processing";]]></script>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_in_email_action_213f82034fd19740f5f3d49f0310c71e</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-18 21:03:28</sys_updated_on>
+        <sys_updated_on>2018-05-16 00:33:24</sys_updated_on>
         <table>x_inthe_hr_case_mg_case</table>
         <template>assignment_group=3550dce213eb834ce77d5cc12244b055^state=1^u_case_type=Retirement^u_case_sub_type=Retiree - General^EQ</template>
         <type>new</type>
