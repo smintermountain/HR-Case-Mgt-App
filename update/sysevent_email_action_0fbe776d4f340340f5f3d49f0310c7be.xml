@@ -27,7 +27,10 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Your HR Request ${Number} has been resolved with the following notes:</p>
+        <message_html><![CDATA[<p>Please give us feedback! Our two-question survey takes less than a minute to complete and will help us continuously improve our service to you. Thank you!</p>
+<p><a href="https://www.surveymonkey.com/r/YDRM78P"><img src="survey_image.png" width="224" height="105" /></a></p>
+<p>&nbsp;</p>
+<p>Your HR Request ${Number} has been resolved with the following notes:</p>
 <p><strong>Resolution Notes:</strong> ${u_resolution_notes}</p>
 <p>If you feel your request is not resolved, please click the following link to reopen your request: ${URI_REF}</p>
 <p>Thank you for allowing Intermountain Healthcare HR to help you!</p>
@@ -39,8 +42,7 @@
 <p><strong>Case Type:&nbsp;</strong>${u_case_type}</p>
 <p><strong>Case Sub-Type:&nbsp;</strong>${u_case_sub_type}</p>
 <p>&nbsp;</p>
-<p>Please tell us what you think about your recent experience with the askHR People Solutions Center.&nbsp;&nbsp; The following link will take you to a quick two-question survey.</p>
-<p><a href="https://www.surveymonkey.com/r/YDRM78P">https://www.surveymonkey.com/r/YDRM78P</a></p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -64,7 +66,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0fbe776d4f340340f5f3d49f0310c7be</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>(IHC) Case is Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -73,7 +75,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_0fbe776d4f340340f5f3d49f0310c7be</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-05-02 19:05:21</sys_updated_on>
+        <sys_updated_on>2018-05-23 19:28:48</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

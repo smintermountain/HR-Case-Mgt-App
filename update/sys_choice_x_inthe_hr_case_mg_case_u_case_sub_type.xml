@@ -322,6 +322,26 @@
             <value>New Hire_Newly Eligible</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Feedback/Concerns/Complaints</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safety</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-23 19:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c9aa3304f1a5b40f5f3d49f0310c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-23 19:46:33</sys_updated_on>
+            <u_task/>
+            <value>Safety</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>General Inquiries</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -662,6 +682,26 @@
             <value>Public Service Loan Forgiveness</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Feedback/Concerns/Complaints</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quality</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-23 19:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c9aa3304f1a5b40f5f3d49f0310c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-23 19:46:33</sys_updated_on>
+            <u_task/>
+            <value>Quality</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -882,6 +922,26 @@
             <value>Life Event - Status Change</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Feedback/Concerns/Complaints</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Patient Experience</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-23 19:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c9aa3304f1a5b40f5f3d49f0310c795</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-23 19:46:33</sys_updated_on>
+            <u_task/>
+            <value>Patient Experience</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Educational Assistance</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -980,6 +1040,26 @@
             <sys_updated_on>2018-01-09 19:53:47</sys_updated_on>
             <u_task/>
             <value>TalentLink Tasks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Feedback/Concerns/Complaints</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Access</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-23 19:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c9aa3304f1a5b40f5f3d49f0310c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-23 19:46:33</sys_updated_on>
+            <u_task/>
+            <value>Access</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
@@ -1582,6 +1662,26 @@
             <value>Retiree - General</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Feedback/Concerns/Complaints</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stewardship</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-23 19:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c9aa3304f1a5b40f5f3d49f0310c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-23 19:46:33</sys_updated_on>
+            <u_task/>
+            <value>Stewardship</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Educational Assistance</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -1718,6 +1818,26 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
             <sys_updated_on>2018-01-09 18:36:41</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Feedback/Concerns/Complaints</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-05-23 19:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c9aa3304f1a5b40f5f3d49f0310c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-05-23 19:46:33</sys_updated_on>
             <u_task/>
             <value>Other</value>
         </sys_choice>
