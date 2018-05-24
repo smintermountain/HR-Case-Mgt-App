@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-temp4d41918f470111002ee987e8dee490a5lgmageno</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>lgmageno</sys_created_by>
+        <sys_created_on>2018-05-24 01:18:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4b76fc0d4fda5b40f5f3d49f0310c7da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lgmageno</sys_updated_by>
+        <sys_updated_on>2018-05-24 01:18:15</sys_updated_on>
+        <title>Rpt-temp4d41918f470111002ee987e8dee490a5lgmageno</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
