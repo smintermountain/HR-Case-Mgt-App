@@ -5,8 +5,8 @@
         <active>true</active>
         <client>true</client>
         <comments>Create an HRTask from an Incident using GlideDialogForm.  User has to have the 'itil' AND 'x_inthe_hr_case_mg.user' role to use this action&#13;
-The Incident needs to have 'HRIS' or 'Business Applications Support Level III' in the Assignment group field</comments>
-        <condition>((gs.hasRole('itil')&amp;&amp;gs.hasRole('x_inthe_hr_case_mg.user'))&amp;&amp;((current.assignment_group=='86f0f14d4f1f4200af76d0af0310c7c8'||current.assignment_group=='4ef40dca13fcdf84a0e25d122244b0df')))</condition>
+The Incident needs to have 'HRIS', 'Business Applications Support Level III', or 'Business Applications Support Level I' in the Assignment group field</comments>
+        <condition>((gs.hasRole('itil')&amp;&amp;gs.hasRole('x_inthe_hr_case_mg.user'))&amp;&amp;((current.assignment_group=='86f0f14d4f1f4200af76d0af0310c7c8'||current.assignment_group=='4ef40dca13fcdf84a0e25d122244b0df'||current.assignment_group=='1f5327a91365dfc404337a404244b048')))</condition>
         <form_action>true</form_action>
         <form_button>false</form_button>
         <form_context_menu>false</form_context_menu>
@@ -88,7 +88,7 @@ function myLoadCallBack(frame) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c9c7482a4ff1d700af76d0af0310c701</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Create HRTask</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -97,7 +97,7 @@ function myLoadCallBack(frame) {
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sys_ui_action_c9c7482a4ff1d700af76d0af0310c701</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-05-14 16:53:55</sys_updated_on>
+        <sys_updated_on>2018-06-04 19:12:16</sys_updated_on>
         <table>incident</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

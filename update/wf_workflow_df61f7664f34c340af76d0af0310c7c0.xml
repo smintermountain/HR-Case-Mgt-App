@@ -1719,6 +1719,123 @@ function lookupGroup(){&#13;
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Requested For is a Doctor?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
+        <sys_id>605a8e8b4f919740f5f3d49f0310c7d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">9c5a4e8b4f919740f5f3d49f0310c768</workflow_version>
+        <x>595</x>
+        <y>257</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=605a8e8b4f919740f5f3d49f0310c7d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>605a8e8b4f919740f5f3d49f0310c7d3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
+        <sys_id>e05a8e8b4f919740f5f3d49f0310c7d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
+        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
+var o = workflow.scratchpad.title.startsWith('DO-');&#13;
+var isDoctor = false;&#13;
+&#13;
+if(n == true || o == true ){	&#13;
+	isDoctor = true;&#13;
+	&#13;
+} else {&#13;
+	isDoctor = false;&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>605a8e8b4f919740f5f3d49f0310c7d3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
+        <sys_id>e05a8e8b4f919740f5f3d49f0310c7d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
+        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
+var o = workflow.scratchpad.title.startsWith('DO-');&#13;
+var isDoctor = false;&#13;
+&#13;
+if(n == true || o == true ){	&#13;
+	isDoctor = true;&#13;
+	&#13;
+} else {&#13;
+	isDoctor = false;&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Requested For is a Doctor?">605a8e8b4f919740f5f3d49f0310c7d3</activity>
+        <condition>isDoctor == true;</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Doctor</name>
+        <order>1</order>
+        <short_description>Is a Doctor</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
+        <sys_id>285a8e8b4f919740f5f3d49f0310c7d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Requested For is a Doctor?">605a8e8b4f919740f5f3d49f0310c7d3</activity>
+        <condition>isDoctor == false;</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Not a Doctor</name>
+        <order>2</order>
+        <short_description>Not a Doctor</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
+        <sys_id>a85a8e8b4f919740f5f3d49f0310c7d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
         <databus_lookup_id>22</databus_lookup_id>
         <height/>
         <input>{}</input>
@@ -1833,123 +1950,6 @@ if(n == true || o == true ){	&#13;
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2018-04-10 19:29:35</sys_created_on>
         <sys_id>6c5a4e8b4f919740f5f3d49f0310c76f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>16</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name>Requested For is a Doctor?</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage/>
-        <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
-        <sys_id>605a8e8b4f919740f5f3d49f0310c7d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">9c5a4e8b4f919740f5f3d49f0310c768</workflow_version>
-        <x>595</x>
-        <y>257</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=605a8e8b4f919740f5f3d49f0310c7d3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>605a8e8b4f919740f5f3d49f0310c7d3</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
-        <sys_id>e05a8e8b4f919740f5f3d49f0310c7d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
-        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
-var o = workflow.scratchpad.title.startsWith('DO-');&#13;
-var isDoctor = false;&#13;
-&#13;
-if(n == true || o == true ){	&#13;
-	isDoctor = true;&#13;
-	&#13;
-} else {&#13;
-	isDoctor = false;&#13;
-}</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>605a8e8b4f919740f5f3d49f0310c7d3</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
-        <sys_id>e05a8e8b4f919740f5f3d49f0310c7d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
-        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
-var o = workflow.scratchpad.title.startsWith('DO-');&#13;
-var isDoctor = false;&#13;
-&#13;
-if(n == true || o == true ){	&#13;
-	isDoctor = true;&#13;
-	&#13;
-} else {&#13;
-	isDoctor = false;&#13;
-}</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">605a8e8b4f919740f5f3d49f0310c7d3</activity>
-        <condition>isDoctor == true;</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>false</is_positive>
-        <name>Doctor</name>
-        <order>1</order>
-        <short_description>Is a Doctor</short_description>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
-        <sys_id>285a8e8b4f919740f5f3d49f0310c7d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
-    </wf_condition>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">605a8e8b4f919740f5f3d49f0310c7d3</activity>
-        <condition>isDoctor == false;</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>false</is_positive>
-        <name>Not a Doctor</name>
-        <order>2</order>
-        <short_description>Not a Doctor</short_description>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>tkaneko</sys_created_by>
-        <sys_created_on>2018-04-10 19:29:35</sys_created_on>
-        <sys_id>a85a8e8b4f919740f5f3d49f0310c7d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tkaneko</sys_updated_by>
         <sys_updated_on>2018-04-10 19:29:35</sys_updated_on>
