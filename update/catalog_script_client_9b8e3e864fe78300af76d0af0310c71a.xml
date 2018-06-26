@@ -274,6 +274,19 @@
 		g_form.addOption('u_case_sub_type', 'Relocation/Transition Assistance','Relocation/Transition Assistance',14);
 		g_form.addOption('u_case_sub_type', 'Other', 'Other',15);		
 		
+	} else if(newValue == 'Feedback/Concerns/Complaints'){
+		//Remove Options
+		removeAllOptions();
+		
+		//ADD OPTIONS
+		//Feedback/Concerns/Complaints
+		g_form.addOption('u_case_sub_type', 'Safety','Safety',1);
+		g_form.addOption('u_case_sub_type', 'Quality','Quality',2);
+		g_form.addOption('u_case_sub_type', 'Patient Experience','Patient Experience',3);
+		g_form.addOption('u_case_sub_type', 'Access','Access',4);
+		g_form.addOption('u_case_sub_type', 'Stewardship','Stewardship',5);
+		g_form.addOption('u_case_sub_type', 'Other','Other',6);	
+		
 	}
 	
 	function removeAllOptions(){
@@ -438,6 +451,14 @@
 		g_form.removeOption('u_case_sub_type', 'References/File check/Verification');
 		g_form.removeOption('u_case_sub_type', 'Relocation/Transition Assistance');
 		
+		//Feedback/Concerns/Complaints
+		g_form.removeOption('u_case_sub_type', 'Safety');
+		g_form.removeOption('u_case_sub_type', 'Quality');
+		g_form.removeOption('u_case_sub_type', 'Patient Experience');
+		g_form.removeOption('u_case_sub_type', 'Access');
+		g_form.removeOption('u_case_sub_type', 'Stewardship');
+		
+		
 		//All Case Types
 		g_form.removeOption('u_case_sub_type', 'Other');  		
 	}
@@ -449,7 +470,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b8e3e864fe78300af76d0af0310c71a</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>(IHC) Filter Case Sub-Type Selectbox</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -458,7 +479,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>catalog_script_client_9b8e3e864fe78300af76d0af0310c71a</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-01-13 02:00:01</sys_updated_on>
+        <sys_updated_on>2018-06-26 19:39:56</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
