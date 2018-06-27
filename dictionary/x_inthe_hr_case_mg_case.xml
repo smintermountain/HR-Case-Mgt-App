@@ -105,13 +105,13 @@
                 <element dependent_value="Employee Relations" label="Unemployment Escalations" sequence="5" value="Unemployment Escalations"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="Employee Assistance Program (EAP)" sequence="6" value="Employee Assistance Program (EAP)"/>
                 <element dependent_value="Talent Acquisition" label="Job Grades" sequence="6" value="Job Grades"/>
+                <element dependent_value="Employee Health" label="OTG" sequence="6" value="OTG"/>
                 <element dependent_value="Employee Relations" label="Other" sequence="6" value="Other"/>
                 <element dependent_value="Retirement" label="Other" sequence="6" value="Other"/>
                 <element dependent_value="Benefits" label="PAR Form" sequence="6" value="PAR Form"/>
                 <element dependent_value="Compensation" label="Paycheck/Earnings" sequence="6" value="Paycheck/Earnings"/>
                 <element dependent_value="Payroll Questions and Changes" label="PTO/Leave of Absence" sequence="6" value="PTO/Leave of Absence"/>
                 <element dependent_value="DATA" label="Quality Assurance / Auditing" sequence="6" value="Quality Assurance / Auditing"/>
-                <element dependent_value="Employee Health" label="Return to Work Coordination" sequence="6" value="Return to Work Coordination"/>
                 <element dependent_value="Leave of Absence" label="Returning to Work" sequence="6" value="Returning to Work"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="Employee Health" sequence="7" value="Employee Health"/>
                 <element dependent_value="Talent Acquisition" label="Job Posting" sequence="7" value="Job Posting"/>
@@ -119,18 +119,19 @@
                 <element dependent_value="Compensation" label="Policies and Procedures" sequence="7" value="Policies and Procedures"/>
                 <element dependent_value="Benefits" label="PTO/Time Off" sequence="7" value="PTO_Time Off"/>
                 <element dependent_value="DATA" label="Regulatory &amp; Compliance Reporting (Joint Commission, DOH, CMS, etc…)" sequence="7" value="Regulatory &amp; Compliance Reporting"/>
-                <element dependent_value="Employee Health" label="Safety/Zero Harm" sequence="7" value="Safety/Zero Harm"/>
+                <element dependent_value="Employee Health" label="Return to Work Coordination" sequence="7" value="Return to Work Coordination"/>
                 <element dependent_value="Payroll Questions and Changes" label="Statement of Earnings" sequence="7" value="Statement of Earnings"/>
                 <element dependent_value="Benefits" label="Benefits Appeal" sequence="8" value="Benefits Appeal"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="Employee Relations" sequence="8" value="Employee Relations"/>
                 <element dependent_value="Talent Acquisition" label="Manual Data Entry (As Needed)" sequence="8" value="Manual Data Entry (As Needed)"/>
-                <element dependent_value="Employee Health" label="Other" sequence="8" value="Other"/>
                 <element dependent_value="Compensation" label="PTO Cashout" sequence="8" value="PTO Cashout"/>
+                <element dependent_value="Employee Health" label="Safety/Zero Harm" sequence="8" value="Safety/Zero Harm"/>
                 <element dependent_value="DATA" label="Sanctions and Corrective Action" sequence="8" value="Sanctions and Corrective Action"/>
                 <element dependent_value="Payroll Questions and Changes" label="Time Keeping" sequence="8" value="Time Keeping"/>
                 <element dependent_value="Networks of Expertise (NOE)" label="HR Continuous Improvement" sequence="9" value="HR Continuous Improvement"/>
                 <element dependent_value="Benefits" label="HSA/FSA/Dependent Care" sequence="9" value="HSA_FSA_dependent_care"/>
                 <element dependent_value="Talent Acquisition" label="Offer/Compensation/Support" sequence="9" value="Offer/Compensation/Support"/>
+                <element dependent_value="Employee Health" label="Other" sequence="9" value="Other"/>
                 <element dependent_value="Compensation" label="Salary Grade/Range" sequence="9" value="Salary Grade/Range"/>
                 <element dependent_value="DATA" label="Tuition Loan Assistance" sequence="9" value="Tuition Loan Assistance"/>
                 <element dependent_value="Payroll Questions and Changes" label="W2/Taxes" sequence="9" value="W2/Taxes"/>

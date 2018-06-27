@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Assignment Matrix" max_length="40" name="x_inthe_hr_case_mg_assignment_matrix" type="collection">
+    <element attributes="update_synch=true" extends="sys_metadata" label="Assignment Matrix" max_length="40" name="x_inthe_hr_case_mg_assignment_matrix" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Assignment Group" max_length="32" name="u_assignment_group" reference="sys_user_group" reference_qual="typeLIKEea06e3e54fb84300548be28d0210c780^active=true^EQ" reference_qual_condition="typeLIKEea06e3e54fb84300548be28d0210c780^active=true^EQ" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="u_case_sub_type" choice_table="x_inthe_hr_case_mg_case" dependent="u_case_type" dependent_on_field="u_case_type" label="Case Sub-Type" max_length="40" name="u_case_sub_type" type="choice" use_dependent_field="true">
@@ -10,19 +10,21 @@
             <choice>
                 <element label="Benefits" sequence="0" value="Benefits"/>
                 <element label="Compensation" sequence="1" value="Compensation"/>
-                <element label="DATA" sequence="2" value="DATA"/>
-                <element label="Education and Learning" sequence="3" value="Education and Learning"/>
-                <element label="Educational Assistance" sequence="4" value="Educational Assistance"/>
-                <element label="Employee Health" sequence="5" value="Employee Health"/>
-                <element label="Employee Relations" sequence="6" value="Employee Relations"/>
-                <element label="Employment Verifications" sequence="7" value="Employment Verifications"/>
-                <element label="Leave of Absence" sequence="8" value="Leave of Absence"/>
-                <element label="Networks of Expertise (NOE)" sequence="9" value="Networks of Expertise (NOE)"/>
-                <element label="Onboarding" sequence="10" value="Onboarding"/>
-                <element label="Payroll Questions and Changes" sequence="11" value="Payroll Questions and Changes"/>
-                <element label="Retirement" sequence="12" value="Retirement"/>
-                <element label="Talent Acquisition" sequence="13" value="Talent Acquisition"/>
-                <element label="Other" sequence="14" value="Other"/>
+                <element label="Education and Learning" sequence="2" value="Education and Learning"/>
+                <element label="Educational Assistance" sequence="3" value="Educational Assistance"/>
+                <element label="Employee Health" sequence="4" value="Employee Health"/>
+                <element label="Employee Relations" sequence="5" value="Employee Relations"/>
+                <element label="Employment Verifications" sequence="6" value="Employment Verifications"/>
+                <element label="Feedback/Concerns/Complaints" sequence="7" value="Feedback/Concerns/Complaints"/>
+                <element label="General Inquiries" sequence="8" value="General Inquiries"/>
+                <element label="Leave of Absence" sequence="9" value="Leave of Absence"/>
+                <element label="Networks of Expertise (NOE)" sequence="10" value="Networks of Expertise (NOE)"/>
+                <element label="Onboarding" sequence="11" value="Onboarding"/>
+                <element label="Payroll Questions and Changes" sequence="12" value="Payroll Questions and Changes"/>
+                <element label="Retirement" sequence="13" value="Retirement"/>
+                <element label="Talent Acquisition" sequence="14" value="Talent Acquisition"/>
+                <element label="DATA" sequence="15" value="DATA"/>
+                <element label="Other" sequence="16" value="Other"/>
             </choice>
         </element>
         <element label="Group (All Others)" max_length="32" name="u_group_all_others" reference="sys_user_group" reference_qual="typeLIKEea06e3e54fb84300548be28d0210c780^EQ" reference_qual_condition="typeLIKEea06e3e54fb84300548be28d0210c780^EQ" type="reference"/>

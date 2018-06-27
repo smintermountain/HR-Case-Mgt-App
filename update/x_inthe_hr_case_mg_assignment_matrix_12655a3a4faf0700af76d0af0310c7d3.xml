@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_inthe_hr_case_mg_assignment_matrix">
+    <x_inthe_hr_case_mg_assignment_matrix action="INSERT_OR_UPDATE">
+        <sys_class_name>x_inthe_hr_case_mg_assignment_matrix</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-01-13 01:49:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>12655a3a4faf0700af76d0af0310c7d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>x_inthe_hr_case_mg_assignment_matrix_12655a3a4faf0700af76d0af0310c7d3</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-01-13 01:49:41</sys_updated_on>
+        <u_active>true</u_active>
+        <u_assignment_group/>
+        <u_case_sub_type>Job Posting</u_case_sub_type>
+        <u_case_type>Talent Acquisition</u_case_type>
+        <u_group_all_others display_value="Applicant Team" name="Applicant Team">4dc6d4ee1323c34ce77d5cc12244b0c6</u_group_all_others>
+        <u_group_executive display_value="Applicant Team" name="Applicant Team">4dc6d4ee1323c34ce77d5cc12244b0c6</u_group_executive>
+        <u_group_physician display_value="TA Manager" name="TA Manager">6a2614261323c34ce77d5cc12244b0e4</u_group_physician>
+        <u_organization/>
+        <u_physician>false</u_physician>
+    </x_inthe_hr_case_mg_assignment_matrix>
+</record_update>
