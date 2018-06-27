@@ -17,7 +17,28 @@
         <messages/>
         <name>(IHC) Filter Case Sub-Type Selectbox</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+        <script><![CDATA[//This script is necessary to mirror the dependency of Case Type and Case Sub-type on the table.
+/* If creating a new type you must add the new sub-types to the removeAllOptions() function
+	You must also create a new 'else if' statement to remove all options and add back the correct sub-types
+	Example:
+	 else if(newValue == {Case Type Value}){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options		
+		//Name of Case Type	
+		g_form.addOption('u_case_sub_type', '', '', 1);
+		g_form.addOption('u_case_sub_type', '', '', 2);
+		g_form.addOption('u_case_sub_type', '', '', 3);
+		g_form.addOption('u_case_sub_type', '', '', 4);	
+
+	}
+	
+	If removing sub-types then you must find the correct type and comment out the correct sub-type line
+*/
+
+
+function onChange(control, oldValue, newValue, isLoading) {
    if (isLoading) {
 	   if(newValue == ''){
 		  return;
@@ -470,7 +491,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b8e3e864fe78300af76d0af0310c71a</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>(IHC) Filter Case Sub-Type Selectbox</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -479,7 +500,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>catalog_script_client_9b8e3e864fe78300af76d0af0310c71a</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-06-26 19:39:56</sys_updated_on>
+        <sys_updated_on>2018-06-26 19:54:47</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
