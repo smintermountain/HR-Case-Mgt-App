@@ -289,12 +289,16 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Job Grades','Job Grades',7);
 		g_form.addOption('u_case_sub_type', 'Job Posting','Job Posting',8);
 		g_form.addOption('u_case_sub_type', 'Manual Data Entry (As Needed)','Manual Data Entry (As Needed)',9);
-		g_form.addOption('u_case_sub_type', 'Offer/Compensation/Support','Offer/Compensation/Support',10);
-		//g_form.addOption('u_case_sub_type', 'Onboarding/NEO/Background Check','Onboarding/NEO/Background Check',11);
-		//g_form.addOption('u_case_sub_type', 'Qualifications','Qualifications',12);
-		g_form.addOption('u_case_sub_type', 'References/File check/Verification','References / File check / Verification of min. requirements',13);
-		g_form.addOption('u_case_sub_type', 'Relocation/Transition Assistance','Relocation/Transition Assistance',14);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other',15);		
+		g_form.addOption('u_case_sub_type', 'New Hire Paperwork (Manual PARS, General Questions)', 'New Hire Paperwork (Manual PARS, General Questions)', 10);
+		g_form.addOption('u_case_sub_type', 'Offer/Compensation/Support','Offer/Compensation/Support',11);
+		//g_form.addOption('u_case_sub_type', 'Onboarding/NEO/Background Check','Onboarding/NEO/Background Check',12);
+		//g_form.addOption('u_case_sub_type', 'Qualifications','Qualifications',13);
+		g_form.addOption('u_case_sub_type', 'References/File check/Verification','References / File check / Verification of min. requirements',14);
+		g_form.addOption('u_case_sub_type', 'Reference Check - Internal/File Check', 'Reference Check - Internal/File Check', 15);
+		g_form.addOption('u_case_sub_type', 'Reference Check - External', 'Reference Check - External', 16);
+		g_form.addOption('u_case_sub_type', 'Reference Check - Both Internal and External', 'Reference Check - Both Internal and External', 17);
+		g_form.addOption('u_case_sub_type', 'Relocation/Transition Assistance','Relocation/Transition Assistance',18);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',19);		
 		
 	} else if(newValue == 'Feedback/Concerns/Complaints'){
 		//Remove Options
@@ -468,10 +472,14 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.removeOption('u_case_sub_type', 'Job Grades');
 		g_form.removeOption('u_case_sub_type', 'Job Posting');
 		g_form.removeOption('u_case_sub_type', 'Manual Data Entry (As Needed)');
+		g_form.removeOption('u_case_sub_type', 'New Hire Paperwork (Manual PARS, General Questions)');
 		g_form.removeOption('u_case_sub_type', 'Offer/Compensation/Support');
 		g_form.removeOption('u_case_sub_type', 'Onboarding/NEO/Background Check');
 		g_form.removeOption('u_case_sub_type', 'Qualifications');
 		g_form.removeOption('u_case_sub_type', 'References/File check/Verification');
+		g_form.removeOption('u_case_sub_type', 'Reference Check - Internal/File Check');
+		g_form.removeOption('u_case_sub_type', 'Reference Check - External');
+		g_form.removeOption('u_case_sub_type', 'Reference Check - Both Internal and External');
 		g_form.removeOption('u_case_sub_type', 'Relocation/Transition Assistance');
 		
 		//Feedback/Concerns/Complaints
@@ -493,7 +501,7 @@ function onChange(control, oldValue, newValue, isLoading) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b8e3e864fe78300af76d0af0310c71a</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>(IHC) Filter Case Sub-Type Selectbox</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -502,7 +510,7 @@ function onChange(control, oldValue, newValue, isLoading) {
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>catalog_script_client_9b8e3e864fe78300af76d0af0310c71a</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-06-28 15:55:04</sys_updated_on>
+        <sys_updated_on>2018-06-28 17:34:51</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

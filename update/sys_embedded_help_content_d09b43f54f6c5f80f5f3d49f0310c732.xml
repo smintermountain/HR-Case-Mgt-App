@@ -4,7 +4,7 @@
         <active>true</active>
         <category/>
         <content><![CDATA[    <h1 class="title topictitle1">Alert-based remediations</h1>            <div class="body taskbody"><p class="shortdesc">Use the Alert Action Rules form to create new alert rules and also to configure        remediations to associate workflows with alerts for manual or automated remediation.        </p>        <ol class="ol steps" id="em_alert_rule_list-normal__s_CreateCredAndTest"><li class="li step">                <span class="ph cmd">To create a new alert rule, click <span class="ph uicontrol">New</span>.</span>            </li><li class="li step">                <span class="ph cmd">To configure remediations to associate workflows with alerts, <span class="ph">Find the alert that you want to                            remediate.</span></span>                <table class="simpletable choicetable choicetableborder" id="em_alert_rule_list-normal__choicetable_pjs_jbw_rw"><thead><tr><th id="d371223e41-option">Option</th><th id="d371223e41-desc">Description</th></tr></thead><tbody><tr class="strow chrow"><td id="d371223e45" class="stentry choption"><strong>From the <span class="ph">Event Management</span> dashboard</strong></td><td class="stentry chdesc">Navigate to <span class="ph menucascade"><span class="ph uicontrol">Event Management</span> &gt; <span class="ph uicontrol">Dashboard</span></span>. You have these options for selecting an alert: <ul class="ul" id="em_alert_rule_list-normal__d21228e2482"><li class="li">Select an alert from the list at the bottom of the                                        dashboard.</li><li class="li">Click a business service tile and select an alert from the                                        list at the bottom of the service map.</li><li class="li">Click a technical service tile and select an alert from the                                        technical service object list, or select an alert from the                                            <span class="ph uicontrol">Alerts</span> tab.</li></ul></td></tr><tr class="strow chrow"><td id="d371223e80" class="stentry choption"><strong>From the Alerts Console</strong></td><td class="stentry chdesc">                                <ol class="ol" id="em_alert_rule_list-normal__d21228e2505"><li class="li">Navigate to <span class="ph menucascade"><span class="ph uicontrol">Event Management</span> &gt; <span class="ph uicontrol">Alerts Console</span></span>.</li><li class="li">Select an alert from the list.</li></ol>                            </td></tr></tbody></table>            </li><li class="li step">                <span class="ph cmd"><span class="ph">Right-click the alert, and select                                <span class="ph uicontrol">Run remediation</span>.</span></span>            </li><li class="li step">                <span class="ph cmd"><span class="ph">In the <span class="ph uicontrol">Remediation options</span>                            dialog box, select the remediation workflow that you want to apply and                            click <span class="ph uicontrol">Run</span>.</span></span>            </li></ol>    </div>]]></content>
-        <last_sync>2018-06-13 20:18:10</last_sync>
+        <last_sync>2018-06-28 20:19:05</last_sync>
         <modifier>normal</modifier>
         <name>em_alert_rule_list-normal</name>
         <page>em_alert_rule_list</page>
@@ -18,7 +18,7 @@
         <sys_created_on>2018-02-28 20:15:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d09b43f54f6c5f80f5f3d49f0310c732</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>em_alert_rule_list-normal</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -26,7 +26,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sys_embedded_help_content_d09b43f54f6c5f80f5f3d49f0310c732</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-06-13 20:18:10</sys_updated_on>
+        <sys_updated_on>2018-06-28 20:19:05</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
 </record_update>
