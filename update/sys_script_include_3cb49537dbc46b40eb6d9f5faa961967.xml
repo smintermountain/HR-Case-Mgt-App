@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_inthe_hr_case_mg.IHCHRCaseUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>Used for all functions related to the HR Case Management Scoped App</description>
+        <name>IHCHRCaseUtils</name>
+        <script><![CDATA[var IHCHRCaseUtils = Class.create();
+IHCHRCaseUtils.prototype = {
+	initialize: function() {
+	},
+	
+	//Condition for Create HRTask UI Action with added group of Business Applications HCM Support
+	
+	checkCreateHRTaskAccess: function(current){
+		
+		if ((gs.hasRole('itil') && gs.hasRole('x_inthe_hr_case_mg.user')) && ((current.assignment_group == '86f0f14d4f1f4200af76d0af0310c7c8' || current.assignment_group == '4ef40dca13fcdf84a0e25d122244b0df' || current.assignment_group == '1f5327a91365dfc404337a404244b048' || current.assignment_group == '0b1d4c174f135f04336ad49f0310c77b')))
+			
+		{
+			
+			return true;
+			
+		}
+		
+		else {
+			
+			return false;
+			
+		}
+		
+	},
+	
+	type: 'IHCHRCaseUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>tramos12</sys_created_by>
+        <sys_created_on>2018-08-27 16:45:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3cb49537dbc46b40eb6d9f5faa961967</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>IHCHRCaseUtils</sys_name>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sys_script_include_3cb49537dbc46b40eb6d9f5faa961967</sys_update_name>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-08-27 17:40:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

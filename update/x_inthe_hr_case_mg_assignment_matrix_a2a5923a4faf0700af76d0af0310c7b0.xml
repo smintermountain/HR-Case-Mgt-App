@@ -6,7 +6,7 @@
         <sys_created_on>2018-01-13 01:50:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a2a5923a4faf0700af76d0af0310c7b0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -14,8 +14,8 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>x_inthe_hr_case_mg_assignment_matrix_a2a5923a4faf0700af76d0af0310c7b0</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-02-12 01:38:17</sys_updated_on>
-        <u_active>true</u_active>
+        <sys_updated_on>2018-06-29 17:32:02</sys_updated_on>
+        <u_active>false</u_active>
         <u_assignment_group/>
         <u_case_sub_type>Onboarding/NEO/Background Check</u_case_sub_type>
         <u_case_type>Talent Acquisition</u_case_type>

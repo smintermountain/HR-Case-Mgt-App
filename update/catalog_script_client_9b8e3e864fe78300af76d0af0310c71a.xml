@@ -19,42 +19,42 @@
         <order/>
         <script><![CDATA[//This script is necessary to mirror the dependency of Case Type and Case Sub-type on the table.
 /* If creating a new type you must add the new sub-types to the removeAllOptions() function
-	You must also create a new 'else if' statement to remove all options and add back the correct sub-types
-	Example:
-	 else if(newValue == {Case Type Value}){
-		//Remove Options
-		removeAllOptions();
-		
-		//Add Options		
-		//Name of Case Type	
-		g_form.addOption('u_case_sub_type', '', '', 1);
-		g_form.addOption('u_case_sub_type', '', '', 2);
-		g_form.addOption('u_case_sub_type', '', '', 3);
-		g_form.addOption('u_case_sub_type', '', '', 4);	
-
-	}
+You must also create a new 'else if' statement to remove all options and add back the correct sub-types
+Example:
+else if(newValue == {Case Type Value}){
+	//Remove Options
+	removeAllOptions();
 	
-	If removing sub-types then you must find the correct type and comment out the correct sub-type line
-*/
+	//Add Options
+	//Name of Case Type
+	g_form.addOption('u_case_sub_type', '', '', 1);
+	g_form.addOption('u_case_sub_type', '', '', 2);
+	g_form.addOption('u_case_sub_type', '', '', 3);
+	g_form.addOption('u_case_sub_type', '', '', 4);
+	
+}
+
+If removing sub-types then you must find the correct type and comment out the correct sub-type line
+ */
 
 
 function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading) {
-	   if(newValue == ''){
-		  return;
-	   }
-   }
+	if (isLoading) {
+		if(newValue == ''){
+			return;
+		}
+	}
 	//g_form.clearOptions('u_case_sub_type');
 	if(newValue == ''){
 		//Remove Options
 		removeAllOptions();
-
+		
 	} else if(newValue == 'Benefits'){
 		//Remove Options
 		removeAllOptions();
 		
-		//Add Options		
-		//Benefits	
+		//Add Options
+		//Benefits
 		g_form.addOption('u_case_sub_type', 'Benefits Appeal','Benefits Appeal', 1);
 		g_form.addOption('u_case_sub_type', 'Benefits Eligibility', 'Benefits Eligibility', 2);
 		g_form.addOption('u_case_sub_type', 'Demographic and other changes', 'Demographic and other changes', 3);
@@ -65,9 +65,9 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Open Enrollment', 'Open Enrollment', 8);
 		g_form.addOption('u_case_sub_type', 'PAR Form', 'PAR Form', 9);
 		g_form.addOption('u_case_sub_type', 'PTO_Time Off', 'PTO/Time Off', 10);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other', 11);		
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 11);
 		
-
+		
 	} else if(newValue == 'Compensation'){
 		//Remove Options
 		removeAllOptions();
@@ -86,12 +86,12 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Salary Grade/Range','Salary Grade/Range',10);
 		g_form.addOption('u_case_sub_type', 'Thank You Payment','Thank You Payment',11);
 		g_form.addOption('u_case_sub_type', 'Trend Analysis','Trend Analysis (Internal Offer & Adjustments)',12);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other', 13);	
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 13);
 		
-
+		
 	} else if(newValue == 'DATA'){
 		//Remove Options
-		removeAllOptions();	
+		removeAllOptions();
 		
 		//Add Options
 		//DATA
@@ -107,21 +107,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Tuition Loan Assistance','Tuition Loan Assistance',10);
 		g_form.addOption('u_case_sub_type', 'Tuition Related','Tuition Related',11);
 		g_form.addOption('u_case_sub_type', 'Unemployment Claim First Response','Unemployment Claim First Response',12);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other', 13);	
-		
-
-	} else if(newValue == 'Education and Learning'){
-		//Remove Options
-		removeAllOptions();	
-		
-		//Add Options
-		//Education and Learning
-		g_form.addOption('u_case_sub_type', 'Corrective Action and Sanctions','Corrective Action and Sanctions',1);
-		g_form.addOption('u_case_sub_type', 'Education Requirements','Education Requirements',2);
-		g_form.addOption('u_case_sub_type', 'Licensure and Certification','Licensure and Certification including RQI',3);
-		g_form.addOption('u_case_sub_type', 'My Learning Modules and Classes','My Learning Modules and Classes',4);
-		g_form.addOption('u_case_sub_type', 'On the Job Training','On the Job Training',5);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other', 6);			
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 13);
 		
 	} else if(newValue == 'Educational Assistance'){
 		//Remove Options
@@ -150,8 +136,8 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'OTG','OTG',7);
 		g_form.addOption('u_case_sub_type', 'Return to Work Coordination','Return to Work Coordination',8);
 		g_form.addOption('u_case_sub_type', 'Safety/Zero Harm','Safety/Zero Harm',9);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other', 10);	
-				
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 10);
+		
 	} else if(newValue == 'Employee Relations'){
 		//Remove Options
 		removeAllOptions();
@@ -164,8 +150,8 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Managing caregiver behavior','Managing caregiver behavior',4);
 		g_form.addOption('u_case_sub_type', 'Policies and Procedures','Policies and Procedures',5);
 		g_form.addOption('u_case_sub_type', 'Unemployment Escalations','Unemployment Escalations',6);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other', 7);	
-				
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 7);
+		
 	} else if(newValue == 'Employment Verifications'){
 		//Remove Options
 		removeAllOptions();
@@ -193,6 +179,21 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Short/Long Term Disability','Short/Long Term Disability',7);
 		g_form.addOption('u_case_sub_type', 'Other', 'Other', 8);
 		
+	} else if (newValue == 'My Learning'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//My Learning
+		g_form.addOption('u_case_sub_type', 'Registrations', 'Registrations: Assign, Record, Remove', 1);
+		g_form.addOption('u_case_sub_type', 'Course/Schedule Creation and Maintenance', 'Course/Schedule Creation and Maintenance', 2);
+		g_form.addOption('u_case_sub_type', 'Reports/Audits', 'Reports/Audits', 3);
+		g_form.addOption('u_case_sub_type', 'System Access Requests/Training', 'System Access Requests/Training', 4);
+		g_form.addOption('u_case_sub_type', 'Troubleshooting', 'Troubleshooting', 5);
+		g_form.addOption('u_case_sub_type', 'Request New Education', 'Request New Education', 6);
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 7);
+		
+		
 	} else if(newValue == 'Networks of Expertise (NOE)'){
 		//Remove Options
 		removeAllOptions();
@@ -218,7 +219,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'LMS Administration','LMS Administration',17);
 		g_form.addOption('u_case_sub_type', 'Management and Leadership Development','Management and Leadership Development',18);
 		g_form.addOption('u_case_sub_type', 'Onboarding and Assimilation','Onboarding and Assimilation',19);
-		g_form.addOption('u_case_sub_type', 'Organizational Design','Organizational Design',20);	
+		g_form.addOption('u_case_sub_type', 'Organizational Design','Organizational Design',20);
 		g_form.addOption('u_case_sub_type', 'Performance Management','Performance Management',21);
 		g_form.addOption('u_case_sub_type', 'Recognition','Recognition',22);
 		g_form.addOption('u_case_sub_type', 'Recruitment and Selection','Recruitment and Selection',23);
@@ -227,7 +228,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Talent Mobility and Career Management','Talent Mobility and Career Management',26);
 		g_form.addOption('u_case_sub_type', 'Transition and Change Management','Transition and Change Management',27);
 		g_form.addOption('u_case_sub_type', 'Workforce Planning','Workforce Planning',28);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other', 29);		
+		g_form.addOption('u_case_sub_type', 'Other', 'Other', 29);
 		
 	} else if(newValue == 'Onboarding'){
 		//Remove Options
@@ -239,7 +240,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Orientation','Orientation',2);
 		g_form.addOption('u_case_sub_type', 'TalentLink Tasks','TalentLink Tasks',3);
 		g_form.addOption('u_case_sub_type', 'Training/Learning','Training/Learning',4);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other',5);		
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',5);
 		
 	} else if(newValue == 'Payroll Questions and Changes'){
 		//Remove Options
@@ -257,12 +258,12 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Statement of Earnings','Statement of Earnings',8);
 		g_form.addOption('u_case_sub_type', 'Time Keeping','Time Keeping',9);
 		g_form.addOption('u_case_sub_type', 'W2/Taxes','W2/Taxes',10);
-		g_form.addOption('u_case_sub_type', 'W4 Allowances','W4 Allowances',11);	
+		g_form.addOption('u_case_sub_type', 'W4 Allowances','W4 Allowances',11);
 		g_form.addOption('u_case_sub_type', 'Other', 'Other',12);
 		
 	} else if(newValue == 'Retirement'){
 		//Remove Options
-		removeAllOptions();	
+		removeAllOptions();
 		
 		//Add Options
 		//Retirement
@@ -272,7 +273,15 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Pension','Pension',4);
 		g_form.addOption('u_case_sub_type', 'Retiree - General','Retiree - General',5);
 		g_form.addOption('u_case_sub_type', 'Retiree Medical_Dental_Vision_Life','Retiree Medical/Dental/Vision/Life',6);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other',7);		
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',7);
+		
+	} else if(newValue == 'Retro PAR Form'){
+		//Remove Options
+		removeAllOptions();
+		
+		//Add Options
+		//Retirement
+		g_form.addOption('u_case_sub_type', 'PAR Form','PAR Form',1);
 		
 	} else if(newValue == 'Talent Acquisition'){
 		//Remove Options
@@ -293,12 +302,12 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Offer/Compensation/Support','Offer/Compensation/Support',11);
 		//g_form.addOption('u_case_sub_type', 'Onboarding/NEO/Background Check','Onboarding/NEO/Background Check',12);
 		//g_form.addOption('u_case_sub_type', 'Qualifications','Qualifications',13);
-		g_form.addOption('u_case_sub_type', 'References/File check/Verification','References / File check / Verification of min. requirements',14);
+		//g_form.addOption('u_case_sub_type', 'References/File check/Verification','References / File check / Verification of min. requirements',14);
 		g_form.addOption('u_case_sub_type', 'Reference Check - Internal/File Check', 'Reference Check - Internal/File Check', 15);
 		g_form.addOption('u_case_sub_type', 'Reference Check - External', 'Reference Check - External', 16);
 		g_form.addOption('u_case_sub_type', 'Reference Check - Both Internal and External', 'Reference Check - Both Internal and External', 17);
 		g_form.addOption('u_case_sub_type', 'Relocation/Transition Assistance','Relocation/Transition Assistance',18);
-		g_form.addOption('u_case_sub_type', 'Other', 'Other',19);		
+		g_form.addOption('u_case_sub_type', 'Other', 'Other',19);
 		
 	} else if(newValue == 'Feedback/Concerns/Complaints'){
 		//Remove Options
@@ -311,13 +320,13 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.addOption('u_case_sub_type', 'Patient Experience','Patient Experience',3);
 		g_form.addOption('u_case_sub_type', 'Access','Access',4);
 		g_form.addOption('u_case_sub_type', 'Stewardship','Stewardship',5);
-		g_form.addOption('u_case_sub_type', 'Other','Other',6);	
+		g_form.addOption('u_case_sub_type', 'Other','Other',6);
 		
 	}
 	
 	function removeAllOptions(){
 		//Remove Options
-		//Benefits		
+		//Benefits
 		g_form.removeOption('u_case_sub_type', 'Benefits Appeal');
 		g_form.removeOption('u_case_sub_type', 'Benefits Eligibility');
 		g_form.removeOption('u_case_sub_type', 'Demographic and other changes');
@@ -328,7 +337,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.removeOption('u_case_sub_type', 'Open Enrollment');
 		g_form.removeOption('u_case_sub_type', 'PAR Form');
 		g_form.removeOption('u_case_sub_type', 'PTO_Time Off');
-
+		
 		//Compensation
 		g_form.removeOption('u_case_sub_type', 'Annual Increase Process Support');
 		g_form.removeOption('u_case_sub_type', 'Compensation Audits');
@@ -356,13 +365,6 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.removeOption('u_case_sub_type', 'Tuition Loan Assistance');
 		g_form.removeOption('u_case_sub_type', 'Tuition Related');
 		g_form.removeOption('u_case_sub_type', 'Unemployment Claim First Response');
-		
-		//Education and Learning
-		g_form.removeOption('u_case_sub_type', 'Corrective Action and Sanctions');
-		g_form.removeOption('u_case_sub_type', 'Education Requirements');
-		g_form.removeOption('u_case_sub_type', 'Licensure and Certification');
-		g_form.removeOption('u_case_sub_type', 'My Learning Modules and Classes');
-		g_form.removeOption('u_case_sub_type', 'On the Job Training');
 		
 		//Educational Assistance
 		g_form.removeOption('u_case_sub_type', 'Check Request Form Status');
@@ -405,6 +407,14 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.removeOption('u_case_sub_type', 'Returning to Work');
 		g_form.removeOption('u_case_sub_type', 'Short/Long Term Disability');
 		
+		//My Learning
+		g_form.removeOption('u_case_sub_type', 'Registrations');
+		g_form.removeOption('u_case_sub_type', 'Course / Schedule Creation and Maintenance');
+		g_form.removeOption('u_case_sub_type', 'Reports / Audits');
+		g_form.removeOption('u_case_sub_type', 'System Access Requests/Training');
+		g_form.removeOption('u_case_sub_type', 'Troubleshooting');
+		g_form.removeOption('u_case_sub_type', 'Request New Education');
+		
 		//Networks of Expertise (NOE)
 		g_form.removeOption('u_case_sub_type', 'Benefits');
 		g_form.removeOption('u_case_sub_type', 'Branding and Sourcing');
@@ -425,7 +435,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.removeOption('u_case_sub_type', 'LMS Administration');
 		g_form.removeOption('u_case_sub_type', 'Management and Leadership Development');
 		g_form.removeOption('u_case_sub_type', 'Onboarding and Assimilation');
-		g_form.removeOption('u_case_sub_type', 'Organizational Design');	
+		g_form.removeOption('u_case_sub_type', 'Organizational Design');
 		g_form.removeOption('u_case_sub_type', 'Performance Management');
 		g_form.removeOption('u_case_sub_type', 'Recognition');
 		g_form.removeOption('u_case_sub_type', 'Recruitment and Selection');
@@ -434,13 +444,13 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.removeOption('u_case_sub_type', 'Talent Mobility and Career Management');
 		g_form.removeOption('u_case_sub_type', 'Transition and Change Management');
 		g_form.removeOption('u_case_sub_type', 'Workforce Planning');
-	
+		
 		//Onboarding
 		g_form.removeOption('u_case_sub_type', 'Forms/Paperwork');
 		g_form.removeOption('u_case_sub_type', 'Orientation');
 		g_form.removeOption('u_case_sub_type', 'TalentLink Tasks');
 		g_form.removeOption('u_case_sub_type', 'Training/Learning');
-			
+		
 		//Payroll Questions and Changes
 		g_form.removeOption('u_case_sub_type', '401(k)/403(b)');
 		g_form.removeOption('u_case_sub_type', 'Additional Amounts / Lump Sum');
@@ -461,6 +471,9 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.removeOption('u_case_sub_type', 'Pension');
 		g_form.removeOption('u_case_sub_type', 'Retiree - General');
 		g_form.removeOption('u_case_sub_type', 'Retiree Medical_Dental_Vision_Life');
+		
+		//Retro PAR Form
+		g_form.removeOption('u_case_sub_type', 'PAR Form');
 		
 		//Talent Acquisition
 		g_form.removeOption('u_case_sub_type', 'Applicant Inquiry');
@@ -491,7 +504,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		
 		
 		//All Case Types
-		g_form.removeOption('u_case_sub_type', 'Other');  		
+		g_form.removeOption('u_case_sub_type', 'Other');
 	}
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -501,7 +514,7 @@ function onChange(control, oldValue, newValue, isLoading) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b8e3e864fe78300af76d0af0310c71a</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name>(IHC) Filter Case Sub-Type Selectbox</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -509,8 +522,8 @@ function onChange(control, oldValue, newValue, isLoading) {
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>catalog_script_client_9b8e3e864fe78300af76d0af0310c71a</sys_update_name>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-06-28 17:34:51</sys_updated_on>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-09-12 17:47:53</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
