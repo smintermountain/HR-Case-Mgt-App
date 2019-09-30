@@ -1,185 +1,199 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_inthe_hr_case_mg_case" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>dc639b834f561380af76d0af0310c74f</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>cbf5a73c13c113c8a0e25d122244b07a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_caller</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>sys_created_on</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>50639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>0bf5a73c13c113c8a0e25d122244b087</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_caller.user_name</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>u_caller</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>d0639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>8bf5a73c13c113c8a0e25d122244b087</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_caller.u_employee_id</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>u_caller.user_name</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>54639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>0ff5a73c13c113c8a0e25d122244b087</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_employees_affected</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>u_caller.u_employee_id</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>d4639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>8ff5a73c13c113c8a0e25d122244b087</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_case_type</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>u_employees_affected</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>58639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>03f5a73c13c113c8a0e25d122244b088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>u_case_type</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>d8639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>83f5a73c13c113c8a0e25d122244b088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>short_description</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>5c639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>07f5a73c13c113c8a0e25d122244b088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>dc639b834f561380af76d0af0310c750</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>87f5a73c13c113c8a0e25d122244b088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>state</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>60639b834f561380af76d0af0310c751</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>0bf5a73c13c113c8a0e25d122244b088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assignment_group</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>assigned_to</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>e0639b834f561380af76d0af0310c751</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>8bf5a73c13c113c8a0e25d122244b088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>active</element>
-            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">58639b834f561380af76d0af0310c74f</list_id>
+            <element>assignment_group</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
             <sum>false</sum>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
-            <sys_id>64639b834f561380af76d0af0310c751</sys_id>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>0ff5a73c13c113c8a0e25d122244b088</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_inthe_hr_case_mg_case" element="NULL" name="x_inthe_hr_case_mg_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83f5a73c13c113c8a0e25d122244b07a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
+            <sys_id>8ff5a73c13c113c8a0e25d122244b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tkaneko</sys_updated_by>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -193,11 +207,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-05-30 17:51:35</sys_created_on>
+            <sys_created_on>2018-03-22 16:08:03</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ec639b834f561380af76d0af0310c75e</sys_id>
+            <sys_id>83f5a73c13c113c8a0e25d122244b07a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_inthe_hr_case_mg_case</sys_name>
             <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -206,7 +220,7 @@
             <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
             <sys_update_name>sys_ui_list_x_inthe_hr_case_mg_case_null</sys_update_name>
             <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-30 17:51:35</sys_updated_on>
+            <sys_updated_on>2018-03-22 16:08:03</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

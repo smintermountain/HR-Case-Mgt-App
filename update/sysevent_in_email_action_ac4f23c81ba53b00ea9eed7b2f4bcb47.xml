@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Triggered when an email has been redirected by a system configuration</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">recipientsLIKEloa.administration@imail.org^ORheadersLIKEloa.administration@imail.org^ORrecipientsLIKEleave.absence@imail.org^ORheadersLIKEleave.absence@imail.org^subjectNOT LIKEAutomatic reply:^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="false" value="loa.administration@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="loa.administration@imail.org"/>
+            <item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="true" value="leave.absence@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="leave.absence@imail.org"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Automatic reply:"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>HR - Leave of Absence (Redirect) </name>
+        <order>100</order>
+        <reply_email><![CDATA[<p> </p>
+<div id="simple-translate"> </div>]]></reply_email>
+        <required_roles/>
+        <script><![CDATA[var msg;
+
+current.comments = "Received from: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = "Email - " + email.subject;
+current.description = "From: " + email.from + '\n' + email.body_text;
+
+{
+	msg = "Original Email" + '\n' + "Subject: " + email.subject + '\n' + "Body: " + '\n';
+	msg += email.body_text + '\n';
+    current.work_notes = msg;
+}
+
+current.insert();
+event.state="stop_processing";]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>grosale1</sys_created_by>
+        <sys_created_on>2019-05-16 21:46:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac4f23c81ba53b00ea9eed7b2f4bcb47</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>HR - Leave of Absence (Redirect) </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sysevent_in_email_action_ac4f23c81ba53b00ea9eed7b2f4bcb47</sys_update_name>
+        <sys_updated_by>schan12</sys_updated_by>
+        <sys_updated_on>2019-09-05 14:16:00</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <template>assignment_group=797318aa13af834ce77d5cc12244b0fd^state=1^u_case_type=Leave of Absence^u_case_sub_type=LOA Triage^u_callerDYNAMIC2fd8e97bef3221002841f7f775c0fbc1^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

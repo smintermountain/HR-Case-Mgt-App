@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_security_acl_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
@@ -12,7 +11,7 @@
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
-        <sys_security_acl display_value="x_inthe_hr_case_mg_case.number">f512e1944fac1b80f5f3d49f0310c7a4</sys_security_acl>
+        <sys_security_acl display_value="x_inthe_hr_case_mg_case.*">f512e1944fac1b80f5f3d49f0310c7a4</sys_security_acl>
         <sys_update_name>sys_security_acl_role_7112e1944fac1b80f5f3d49f0310c7a6</sys_update_name>
         <sys_updated_by>tkaneko</sys_updated_by>
         <sys_updated_on>2018-02-23 20:43:26</sys_updated_on>

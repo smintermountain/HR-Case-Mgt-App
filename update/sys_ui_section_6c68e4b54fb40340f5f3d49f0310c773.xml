@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="6c68e4b54fb40340f5f3d49f0310c773" sys_domain="global" table="x_inthe_hr_case_mg_assignment_matrix" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_case_type</element>

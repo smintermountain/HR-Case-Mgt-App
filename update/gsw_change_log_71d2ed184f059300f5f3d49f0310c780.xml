@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="gsw_change_log">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2018-03-20 17:18:06</change_date>
-        <changed_by display_value="Tyler Kaneko">f6633c034f784600af76d0af0310c74e</changed_by>
+        <changed_by display_value="Tyler Kaneko (tkaneko)">f6633c034f784600af76d0af0310c74e</changed_by>
         <content display_value="Event Management">88e2668b13e1120009c43d62f244b0da</content>
         <related_change_log_entry/>
         <related_task_entry/>

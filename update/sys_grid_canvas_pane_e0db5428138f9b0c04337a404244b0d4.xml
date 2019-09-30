@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">32bbdce4138f9b0c04337a404244b07e</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 06-28-2018 10:51:52">50db5428138f9b0c04337a404244b0d1</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-06-28 16:51:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e0db5428138f9b0c04337a404244b0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>32bbdce4138f9b0c04337a404244b07e</sys_name>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_e0db5428138f9b0c04337a404244b0d4</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-06-28 16:51:52</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

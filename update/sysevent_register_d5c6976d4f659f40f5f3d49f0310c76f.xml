@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sysevent_register">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
     <sysevent_register action="INSERT_OR_UPDATE">
         <description>Fire event when an attachment is uploaded to the HR Case Table</description>
         <event_name>x_inthe_hr_case_mg.attachAdd</event_name>

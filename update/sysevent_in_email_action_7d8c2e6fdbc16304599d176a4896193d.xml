@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Triggered when an email has been redirected by a system configuration</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">recipientsLIKElearning@imail.org^ORheadersLIKElearning@imail.org^ORheadersLIKEEducation@imail.org^ORheadersLIKELMS.ItemRequest@imail.org^ORheadersLIKECELMS@imail.org^ORheadersLIKEHCLMS@imail.org^ORheadersLIKEMGEducation@imail.org^ORheadersLIKENREducation@imail.org^ORheadersLIKEMKLMS@imail.org^ORheadersLIKEPC-LMS@imail.org^ORheadersLIKELearningServices@Selecthealth.org^subjectNOT LIKEAutomatic reply:^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="false" value="learning@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="learning@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="Education@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="LMS.ItemRequest@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="CELMS@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="HCLMS@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="MGEducation@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="NREducation@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="MKLMS@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="PC-LMS@imail.org"/>
+            <item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="true" value="LearningServices@Selecthealth.org"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Automatic reply:"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>HR - MyLearning (Redirect) </name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[var msg;
+
+
+
+current.comments = "Received from: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = "Email - " + email.subject;
+current.description = "From: " + email.from + '\n' + email.body_text;
+
+
+
+
+{
+	msg = "Original Email" + '\n' + "Subject: " + email.subject + '\n' + "Body: " + '\n';
+	msg += email.body_text + '\n';
+    current.work_notes = msg;
+}
+
+
+current.insert();
+
+event.state="stop_processing";]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>tramos12</sys_created_by>
+        <sys_created_on>2018-10-15 21:11:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d8c2e6fdbc16304599d176a4896193d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR - MyLearning (Redirect) </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>sysevent_in_email_action_7d8c2e6fdbc16304599d176a4896193d</sys_update_name>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-10-25 22:30:43</sys_updated_on>
+        <table>x_inthe_hr_case_mg_case</table>
+        <template>assignment_group=75125c66136f834ce77d5cc12244b054^state=1^u_case_type=My Learning^u_case_sub_type=Triage^u_callerDYNAMIC2fd8e97bef3221002841f7f775c0fbc1^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

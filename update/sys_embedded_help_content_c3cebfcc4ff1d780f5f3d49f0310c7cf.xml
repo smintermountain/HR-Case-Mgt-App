@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_embedded_help_content">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
         <category>assessment</category>
@@ -32,7 +31,7 @@
   </div>
  </div>
 </div>]]></content>
-        <last_sync>2018-09-08 16:52:04</last_sync>
+        <last_sync>2019-04-01 18:45:05</last_sync>
         <modifier>normal</modifier>
         <name>asmt_assessable_record_list-normal</name>
         <page>asmt_assessable_record_list</page>
@@ -45,8 +44,10 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2018-04-26 16:48:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>c3cebfcc4ff1d780f5f3d49f0310c7cf</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>asmt_assessable_record_list-normal</sys_name>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
         <sys_policy/>
@@ -54,7 +55,7 @@
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sys_embedded_help_content_c3cebfcc4ff1d780f5f3d49f0310c7cf</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-08 16:52:04</sys_updated_on>
+        <sys_updated_on>2019-04-01 18:45:05</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
 </record_update>

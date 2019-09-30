@@ -1,45 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Notes" section_id="e20c68384f2f3e00f5f3d49f0310c726" sys_domain="global" table="x_inthe_hr_case_mg_case" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>time_worked</element>
             <position>0</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:50:19</sys_created_on>
-            <sys_id>b60c68384f2f3e00f5f3d49f0310c72a</sys_id>
+            <sys_created_by>schan12</sys_created_by>
+            <sys_created_on>2019-09-25 14:05:05</sys_created_on>
+            <sys_id>bb67b1aadb484850c1869ec2ca9619b2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">e20c68384f2f3e00f5f3d49f0310c726</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:50:19</sys_updated_on>
+            <sys_updated_by>schan12</sys_updated_by>
+            <sys_updated_on>2019-09-25 14:05:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>schan12</sys_created_by>
+            <sys_created_on>2019-09-25 14:05:05</sys_created_on>
+            <sys_id>3367b1aadb484850c1869ec2ca9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">e20c68384f2f3e00f5f3d49f0310c726</sys_ui_section>
+            <sys_updated_by>schan12</sys_updated_by>
+            <sys_updated_on>2019-09-25 14:05:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
-            <position>1</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:50:19</sys_created_on>
-            <sys_id>3a0c68384f2f3e00f5f3d49f0310c72a</sys_id>
+            <position>2</position>
+            <sys_created_by>schan12</sys_created_by>
+            <sys_created_on>2019-09-25 14:05:05</sys_created_on>
+            <sys_id>b367b1aadb484850c1869ec2ca9619b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">e20c68384f2f3e00f5f3d49f0310c726</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:50:19</sys_updated_on>
+            <sys_updated_by>schan12</sys_updated_by>
+            <sys_updated_on>2019-09-25 14:05:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>2</position>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-06-21 16:50:19</sys_created_on>
-            <sys_id>ba0c68384f2f3e00f5f3d49f0310c72a</sys_id>
+            <position>3</position>
+            <sys_created_by>schan12</sys_created_by>
+            <sys_created_on>2019-09-25 14:05:05</sys_created_on>
+            <sys_id>3767b1aadb484850c1869ec2ca9619b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_inthe_hr_case_mg_case" sys_domain="global" view="Default view">e20c68384f2f3e00f5f3d49f0310c726</sys_ui_section>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2017-06-21 16:50:19</sys_updated_on>
+            <sys_updated_by>schan12</sys_updated_by>
+            <sys_updated_on>2019-09-25 14:05:05</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

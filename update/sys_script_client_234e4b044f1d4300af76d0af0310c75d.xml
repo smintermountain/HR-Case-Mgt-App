@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script_client">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_extended>true</applies_extended>
@@ -7,6 +6,7 @@
         <description>Populate the resolution date field when the state goes to 'Closed Complete' or 'Closed Incomplete'</description>
         <field>state</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>(IHC) Populate Resolution Date</name>
         <order/>

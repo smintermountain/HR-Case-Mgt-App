@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_inthe_hr_case_mg_assignment_matrix">
+    <x_inthe_hr_case_mg_assignment_matrix action="INSERT_OR_UPDATE">
+        <sys_class_name>x_inthe_hr_case_mg_assignment_matrix</sys_class_name>
+        <sys_created_by>tkaneko</sys_created_by>
+        <sys_created_on>2018-02-18 01:11:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4ac5e71a4fdc9380f5f3d49f0310c73d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
+        <sys_update_name>x_inthe_hr_case_mg_assignment_matrix_4ac5e71a4fdc9380f5f3d49f0310c73d</sys_update_name>
+        <sys_updated_by>tkaneko</sys_updated_by>
+        <sys_updated_on>2018-02-18 01:11:13</sys_updated_on>
+        <u_active>true</u_active>
+        <u_assignment_group/>
+        <u_case_sub_type/>
+        <u_case_type>Other</u_case_type>
+        <u_group_all_others display_value="General Inquiries Triage" name="General Inquiries Triage">03dd017d13a7838804337a404244b09b</u_group_all_others>
+        <u_group_executive display_value="General Inquiries Triage" name="General Inquiries Triage">03dd017d13a7838804337a404244b09b</u_group_executive>
+        <u_group_physician display_value="General Inquiries Triage" name="General Inquiries Triage">03dd017d13a7838804337a404244b09b</u_group_physician>
+        <u_organization/>
+        <u_physician>false</u_physician>
+    </x_inthe_hr_case_mg_assignment_matrix>
+</record_update>

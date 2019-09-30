@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>10</order>
         <sc_cat_item display_value="Need help?">2ed122564feffe00f5f3d49f0310c7fe</sc_cat_item>

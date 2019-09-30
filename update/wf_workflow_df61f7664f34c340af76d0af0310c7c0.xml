@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["51a32407db18a380eb6d9f5faa96199e"]}</activity_stages>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["2a04b134dbd5a300599d176a48961923"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +9,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description>Fulfillment workflow for HR Case Management tickets</description>
-        <expected_sequences>99a32407db18a380eb6d9f5faa9619a4,5da32407db18a380eb6d9f5faa9619a2,5da32407db18a380eb6d9f5faa96199e,dda32407db18a380eb6d9f5faa96199f,9da32883db18a380eb6d9f5faa96196d,51a32407db18a380eb6d9f5faa96199e</expected_sequences>
+        <expected_sequences>aa04b134dbd5a300599d176a48961927,ea04b134dbd5a300599d176a48961926,e604b134dbd5a300599d176a48961924,ea04b134dbd5a300599d176a48961929,2e04b134dbd5a300599d176a48961928,2a04b134dbd5a300599d176a48961923</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>99a32407db18a380eb6d9f5faa9619a4,5da32407db18a380eb6d9f5faa9619a2,5da32407db18a380eb6d9f5faa96199e,dda32407db18a380eb6d9f5faa96199f,d9a32407db18a380eb6d9f5faa9619a3,19a32407db18a380eb6d9f5faa96199c,9da32883db18a380eb6d9f5faa96196d,5da32407db18a380eb6d9f5faa9619a1,11a32883db18a380eb6d9f5faa96196b,55a32883db18a380eb6d9f5faa961968,51a32407db18a380eb6d9f5faa96199e,dda32407db18a380eb6d9f5faa9619a0,91a32883db18a380eb6d9f5faa96196a,11a32883db18a380eb6d9f5faa96196c,11a32883db18a380eb6d9f5faa96196d</full_sequences>
+        <full_sequences>aa04b134dbd5a300599d176a48961927,ea04b134dbd5a300599d176a48961926,e604b134dbd5a300599d176a48961924,ea04b134dbd5a300599d176a48961929,aa04b134dbd5a300599d176a48961925,aa043134dbd5a300599d176a489619fd,2e04b134dbd5a300599d176a48961928,a6047134dbd5a300599d176a48961902,e604b134dbd5a300599d176a48961922,66047134dbd5a300599d176a48961901,2a04b134dbd5a300599d176a48961923,e6043134dbd5a300599d176a489619ff,e6047134dbd5a300599d176a48961903,66043134dbd5a300599d176a489619fb,a6047134dbd5a300599d176a48961900</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>(IHC) HR Case Mgt Fulfillment</name>
@@ -28,13 +27,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">99a32407db18a380eb6d9f5faa9619a4</start>
+        <start display_value="Begin">aa04b134dbd5a300599d176a48961927</start>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d5a32883db18a380eb6d9f5faa961966</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>jsizemor</sys_updated_by>
-        <sys_updated_on>2018-09-11 16:47:57</sys_updated_on>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>62043134dbd5a300599d176a489619f9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>aguerra1</sys_updated_by>
+        <sys_updated_on>2018-11-09 22:14:10</sys_updated_on>
         <table>x_inthe_hr_case_mg_case</table>
         <timezone/>
         <validated>true</validated>
@@ -83,44 +82,44 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>19a32407db18a380eb6d9f5faa96199c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>aa043134dbd5a300599d176a489619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>163</x>
         <y>556</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=19a32407db18a380eb6d9f5faa96199c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aa043134dbd5a300599d176a489619fd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>19a32407db18a380eb6d9f5faa96199c</document_key>
+        <document_key>aa043134dbd5a300599d176a489619fd</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>1da32407db18a380eb6d9f5faa96199c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>22043134dbd5a300599d176a489619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>assignment_groupISEMPTY^assigned_toISEMPTY^EQ</value>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>19a32407db18a380eb6d9f5faa96199c</document_key>
+        <document_key>aa043134dbd5a300599d176a489619fd</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32407db18a380eb6d9f5faa96199d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a6043134dbd5a300599d176a489619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -138,57 +137,57 @@
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>19a32407db18a380eb6d9f5faa96199c</document_key>
+        <document_key>aa043134dbd5a300599d176a489619fd</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa96199c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e2043134dbd5a300599d176a489619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>0</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>19a32407db18a380eb6d9f5faa96199c</document_key>
+        <document_key>aa043134dbd5a300599d176a489619fd</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>1da32407db18a380eb6d9f5faa96199c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>22043134dbd5a300599d176a489619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>assignment_groupISEMPTY^assigned_toISEMPTY^EQ</value>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>19a32407db18a380eb6d9f5faa96199c</document_key>
+        <document_key>aa043134dbd5a300599d176a489619fd</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa96199c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e2043134dbd5a300599d176a489619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>0</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>19a32407db18a380eb6d9f5faa96199c</document_key>
+        <document_key>aa043134dbd5a300599d176a489619fd</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32407db18a380eb6d9f5faa96199d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a6043134dbd5a300599d176a489619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -205,7 +204,7 @@
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Assigned to and Assignment group is Empty?">19a32407db18a380eb6d9f5faa96199c</activity>
+        <activity display_value="Assigned to and Assignment group is Empty?">aa043134dbd5a300599d176a489619fd</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -219,14 +218,14 @@
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d9a32407db18a380eb6d9f5faa96199d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae043134dbd5a300599d176a489619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Assigned to and Assignment group is Empty?">19a32407db18a380eb6d9f5faa96199c</activity>
+        <activity display_value="Assigned to and Assignment group is Empty?">aa043134dbd5a300599d176a489619fd</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -240,11 +239,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>59a32407db18a380eb6d9f5faa96199d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>22043134dbd5a300599d176a489619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -262,21 +261,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>99a32407db18a380eb6d9f5faa9619a4</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>aa04b134dbd5a300599d176a48961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=99a32407db18a380eb6d9f5faa9619a4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aa04b134dbd5a300599d176a48961927"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">99a32407db18a380eb6d9f5faa9619a4</activity>
+        <activity display_value="Begin">aa04b134dbd5a300599d176a48961927</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -290,11 +289,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>91a32407db18a380eb6d9f5faa9619a5</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6604b134dbd5a300599d176a48961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -312,30 +311,30 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>11a32883db18a380eb6d9f5faa96196d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a6047134dbd5a300599d176a48961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>1258</x>
         <y>525</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=11a32883db18a380eb6d9f5faa96196d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a6047134dbd5a300599d176a48961900"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>11a32883db18a380eb6d9f5faa96196d</document_key>
+        <document_key>a6047134dbd5a300599d176a48961900</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32883db18a380eb6d9f5faa96196d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2a047134dbd5a300599d176a48961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>//If we cannot find group on the Assignment Matrix table then set default group based on Case Type&#13;
 &#13;
 setDefaultGroup(current.u_case_type);&#13;
@@ -421,15 +420,15 @@ function setDefaultGroup(x){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>11a32883db18a380eb6d9f5faa96196d</document_key>
+        <document_key>a6047134dbd5a300599d176a48961900</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32883db18a380eb6d9f5faa96196d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2a047134dbd5a300599d176a48961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>//If we cannot find group on the Assignment Matrix table then set default group based on Case Type&#13;
 &#13;
 setDefaultGroup(current.u_case_type);&#13;
@@ -514,7 +513,7 @@ function setDefaultGroup(x){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Default All Others Group">11a32883db18a380eb6d9f5faa96196d</activity>
+        <activity display_value="Default All Others Group">a6047134dbd5a300599d176a48961900</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -528,11 +527,11 @@ function setDefaultGroup(x){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d5a32883db18a380eb6d9f5faa96196d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae047134dbd5a300599d176a48961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -550,30 +549,30 @@ function setDefaultGroup(x){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32883db18a380eb6d9f5faa96196a</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e6047134dbd5a300599d176a48961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>1252</x>
         <y>201</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=91a32883db18a380eb6d9f5faa96196a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e6047134dbd5a300599d176a48961903"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>91a32883db18a380eb6d9f5faa96196a</document_key>
+        <document_key>e6047134dbd5a300599d176a48961903</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>15a32883db18a380eb6d9f5faa96196a</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a047134dbd5a300599d176a48961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>//If we cannot find group on the Assignment Matrix table then set default group based on Case Type&#13;
 setDefaultGroup(current.u_case_type);&#13;
 &#13;
@@ -658,15 +657,15 @@ function setDefaultGroup(x){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>91a32883db18a380eb6d9f5faa96196a</document_key>
+        <document_key>e6047134dbd5a300599d176a48961903</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>15a32883db18a380eb6d9f5faa96196a</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a047134dbd5a300599d176a48961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>//If we cannot find group on the Assignment Matrix table then set default group based on Case Type&#13;
 setDefaultGroup(current.u_case_type);&#13;
 &#13;
@@ -750,7 +749,7 @@ function setDefaultGroup(x){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Default Executive Group">91a32883db18a380eb6d9f5faa96196a</activity>
+        <activity display_value="Default Executive Group">e6047134dbd5a300599d176a48961903</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -764,11 +763,11 @@ function setDefaultGroup(x){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>59a32883db18a380eb6d9f5faa96196a</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2204b134dbd5a300599d176a48961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -786,30 +785,30 @@ function setDefaultGroup(x){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa9619a0</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e6043134dbd5a300599d176a489619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>1261</x>
         <y>328</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=dda32407db18a380eb6d9f5faa9619a0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e6043134dbd5a300599d176a489619ff"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dda32407db18a380eb6d9f5faa9619a0</document_key>
+        <document_key>e6043134dbd5a300599d176a489619ff</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>51a32407db18a380eb6d9f5faa9619a1</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a043134dbd5a300599d176a489619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>//If we cannot find group on the Assignment Matrix table then set default group based on Case Type&#13;
 setDefaultGroup(current.u_case_type);&#13;
 &#13;
@@ -894,15 +893,15 @@ function setDefaultGroup(x){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dda32407db18a380eb6d9f5faa9619a0</document_key>
+        <document_key>e6043134dbd5a300599d176a489619ff</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>51a32407db18a380eb6d9f5faa9619a1</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a043134dbd5a300599d176a489619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>//If we cannot find group on the Assignment Matrix table then set default group based on Case Type&#13;
 setDefaultGroup(current.u_case_type);&#13;
 &#13;
@@ -986,7 +985,7 @@ function setDefaultGroup(x){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Default Physician Group">dda32407db18a380eb6d9f5faa9619a0</activity>
+        <activity display_value="Default Physician Group">e6043134dbd5a300599d176a489619ff</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1000,11 +999,11 @@ function setDefaultGroup(x){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>95a32407db18a380eb6d9f5faa9619a1</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ee043134dbd5a300599d176a489619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1022,49 +1021,49 @@ function setDefaultGroup(x){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa96199e</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e604b134dbd5a300599d176a48961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>39</x>
         <y>200</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=5da32407db18a380eb6d9f5faa96199e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e604b134dbd5a300599d176a48961924"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da32407db18a380eb6d9f5faa96199e</document_key>
+        <document_key>e604b134dbd5a300599d176a48961924</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa96199e</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a04b134dbd5a300599d176a48961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value/>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da32407db18a380eb6d9f5faa96199e</document_key>
+        <document_key>e604b134dbd5a300599d176a48961924</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa96199e</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a04b134dbd5a300599d176a48961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value/>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Determine Ticket Origination">5da32407db18a380eb6d9f5faa96199e</activity>
+        <activity display_value="Determine Ticket Origination">e604b134dbd5a300599d176a48961924</activity>
         <condition>workflow.scratchpad.origination == 'internal';</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1078,14 +1077,14 @@ function setDefaultGroup(x){&#13;
         <short_description>Ticket originated from Internal Team</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>15a32407db18a380eb6d9f5faa96199f</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6204b134dbd5a300599d176a48961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Determine Ticket Origination">5da32407db18a380eb6d9f5faa96199e</activity>
+        <activity display_value="Determine Ticket Origination">e604b134dbd5a300599d176a48961924</activity>
         <condition>workflow.scratchpad.origination == 'manager_portal';</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1099,14 +1098,14 @@ function setDefaultGroup(x){&#13;
         <short_description>Ticket Originated from Manager Portal</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>95a32407db18a380eb6d9f5faa96199f</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e204b134dbd5a300599d176a48961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Determine Ticket Origination">5da32407db18a380eb6d9f5faa96199e</activity>
+        <activity display_value="Determine Ticket Origination">e604b134dbd5a300599d176a48961924</activity>
         <condition>workflow.scratchpad.origination == 'user_portal';</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1120,11 +1119,11 @@ function setDefaultGroup(x){&#13;
         <short_description>Originated from User Portal</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>19a32407db18a380eb6d9f5faa96199f</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ee04b134dbd5a300599d176a48961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -1142,19 +1141,19 @@ function setDefaultGroup(x){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>51a32407db18a380eb6d9f5faa96199e</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2a04b134dbd5a300599d176a48961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>1484</x>
         <y>720</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=51a32407db18a380eb6d9f5faa96199e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2a04b134dbd5a300599d176a48961923"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -1171,30 +1170,30 @@ function setDefaultGroup(x){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa9619a2</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ea04b134dbd5a300599d176a48961926</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:14:05</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:18:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>26</x>
         <y>115</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=5da32407db18a380eb6d9f5faa9619a2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ea04b134dbd5a300599d176a48961926"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da32407db18a380eb6d9f5faa9619a2</document_key>
+        <document_key>ea04b134dbd5a300599d176a48961926</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa9619a2</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6e04b134dbd5a300599d176a48961926</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:14:05</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:18:04</sys_updated_on>
         <value>workflow.scratchpad.caseType = current.u_case_type;&#13;
 workflow.scratchpad.caseSubType = current.u_case_sub_type;&#13;
 //workflow.scratchpad.physician = current.u_is_physician;&#13;
@@ -1207,6 +1206,8 @@ workflow.scratchpad.priority = current.priority;&#13;
 if(current.priority == ''){&#13;
 	if(current.u_case_type == 'Benefits' &amp;&amp; current.u_case_sub_type == 'Involuntary Termination') {&#13;
 		current.priority = '1'; //1 - Critical&#13;
+	//} else if (current.u_case_type == 'Benefits' &amp;&amp; current.u_case_sub_type == 'Physician Comp Changes'){&#13;
+		//current.priority = '2';//2 - High&#13;
 	} else if (current.u_case_type == 'Retro PAR Form') {&#13;
 		current.priority = '2'; //2 - High&#13;
 	} else {&#13;
@@ -1219,15 +1220,15 @@ if(current.priority == ''){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da32407db18a380eb6d9f5faa9619a2</document_key>
+        <document_key>ea04b134dbd5a300599d176a48961926</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa9619a2</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6e04b134dbd5a300599d176a48961926</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:14:05</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:18:04</sys_updated_on>
         <value>workflow.scratchpad.caseType = current.u_case_type;&#13;
 workflow.scratchpad.caseSubType = current.u_case_sub_type;&#13;
 //workflow.scratchpad.physician = current.u_is_physician;&#13;
@@ -1240,6 +1241,8 @@ workflow.scratchpad.priority = current.priority;&#13;
 if(current.priority == ''){&#13;
 	if(current.u_case_type == 'Benefits' &amp;&amp; current.u_case_sub_type == 'Involuntary Termination') {&#13;
 		current.priority = '1'; //1 - Critical&#13;
+	//} else if (current.u_case_type == 'Benefits' &amp;&amp; current.u_case_sub_type == 'Physician Comp Changes'){&#13;
+		//current.priority = '2';//2 - High&#13;
 	} else if (current.u_case_type == 'Retro PAR Form') {&#13;
 		current.priority = '2'; //2 - High&#13;
 	} else {&#13;
@@ -1251,7 +1254,7 @@ if(current.priority == ''){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Initialize Variables">5da32407db18a380eb6d9f5faa9619a2</activity>
+        <activity display_value="Initialize Variables">ea04b134dbd5a300599d176a48961926</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1265,11 +1268,11 @@ if(current.priority == ''){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>15a32407db18a380eb6d9f5faa9619a3</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e204b134dbd5a300599d176a48961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1287,30 +1290,30 @@ if(current.priority == ''){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>11a32883db18a380eb6d9f5faa96196c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>66043134dbd5a300599d176a489619fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>600</x>
         <y>367</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=11a32883db18a380eb6d9f5faa96196c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=66043134dbd5a300599d176a489619fb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>11a32883db18a380eb6d9f5faa96196c</document_key>
+        <document_key>66043134dbd5a300599d176a489619fb</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32883db18a380eb6d9f5faa96196c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae043134dbd5a300599d176a489619fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var lookupGroupFound = 'false';&#13;
 lookupGroupFound = lookupGroup();&#13;
 &#13;
@@ -1339,15 +1342,15 @@ function lookupGroup(){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>11a32883db18a380eb6d9f5faa96196c</document_key>
+        <document_key>66043134dbd5a300599d176a489619fb</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32883db18a380eb6d9f5faa96196c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae043134dbd5a300599d176a489619fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var lookupGroupFound = 'false';&#13;
 lookupGroupFound = lookupGroup();&#13;
 &#13;
@@ -1375,7 +1378,7 @@ function lookupGroup(){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Lookup All Others Group">11a32883db18a380eb6d9f5faa96196c</activity>
+        <activity display_value="Lookup All Others Group">66043134dbd5a300599d176a489619fb</activity>
         <condition>lookupGroupFound == 'true'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1389,14 +1392,14 @@ function lookupGroup(){&#13;
         <short_description>Group Found</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>59a32883db18a380eb6d9f5faa96196c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6e043134dbd5a300599d176a489619fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Lookup All Others Group">11a32883db18a380eb6d9f5faa96196c</activity>
+        <activity display_value="Lookup All Others Group">66043134dbd5a300599d176a489619fb</activity>
         <condition>lookupGroupFound == 'false'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1410,11 +1413,11 @@ function lookupGroup(){&#13;
         <short_description>Group Not Found</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d5a32883db18a380eb6d9f5faa96196c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>22043134dbd5a300599d176a489619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1432,30 +1435,30 @@ function lookupGroup(){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>11a32883db18a380eb6d9f5faa96196b</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e604b134dbd5a300599d176a48961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>552</x>
         <y>95</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=11a32883db18a380eb6d9f5faa96196b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e604b134dbd5a300599d176a48961922"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>11a32883db18a380eb6d9f5faa96196b</document_key>
+        <document_key>e604b134dbd5a300599d176a48961922</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32883db18a380eb6d9f5faa96196b</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a04b134dbd5a300599d176a48961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var lookupGroupFound = 'false';&#13;
 lookupGroupFound = lookupGroup();&#13;
 &#13;
@@ -1484,15 +1487,15 @@ function lookupGroup(){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>11a32883db18a380eb6d9f5faa96196b</document_key>
+        <document_key>e604b134dbd5a300599d176a48961922</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>91a32883db18a380eb6d9f5faa96196b</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6a04b134dbd5a300599d176a48961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var lookupGroupFound = 'false';&#13;
 lookupGroupFound = lookupGroup();&#13;
 &#13;
@@ -1520,7 +1523,7 @@ function lookupGroup(){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Lookup Executive Group">11a32883db18a380eb6d9f5faa96196b</activity>
+        <activity display_value="Lookup Executive Group">e604b134dbd5a300599d176a48961922</activity>
         <condition>lookupGroupFound == 'true'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1534,14 +1537,14 @@ function lookupGroup(){&#13;
         <short_description>Group Found</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>59a32883db18a380eb6d9f5faa96196b</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ee04b134dbd5a300599d176a48961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Lookup Executive Group">11a32883db18a380eb6d9f5faa96196b</activity>
+        <activity display_value="Lookup Executive Group">e604b134dbd5a300599d176a48961922</activity>
         <condition>lookupGroupFound == 'false'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1555,11 +1558,11 @@ function lookupGroup(){&#13;
         <short_description>Group Not Found</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d5a32883db18a380eb6d9f5faa96196b</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6204b134dbd5a300599d176a48961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1577,30 +1580,30 @@ function lookupGroup(){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa9619a1</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a6047134dbd5a300599d176a48961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>956</x>
         <y>256</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=5da32407db18a380eb6d9f5faa9619a1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a6047134dbd5a300599d176a48961902"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da32407db18a380eb6d9f5faa9619a1</document_key>
+        <document_key>a6047134dbd5a300599d176a48961902</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa9619a1</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2a047134dbd5a300599d176a48961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var lookupGroupFound = 'false';&#13;
 //Mark Physician checkbox if the caller is a physician and did not come from the Mgr Portal&#13;
 if(workflow.scratchpad.origination == 'manager_portal'){&#13;
@@ -1636,15 +1639,15 @@ function lookupGroup(){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da32407db18a380eb6d9f5faa9619a1</document_key>
+        <document_key>a6047134dbd5a300599d176a48961902</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa9619a1</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2a047134dbd5a300599d176a48961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var lookupGroupFound = 'false';&#13;
 //Mark Physician checkbox if the caller is a physician and did not come from the Mgr Portal&#13;
 if(workflow.scratchpad.origination == 'manager_portal'){&#13;
@@ -1679,7 +1682,7 @@ function lookupGroup(){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Lookup Physician Group">5da32407db18a380eb6d9f5faa9619a1</activity>
+        <activity display_value="Lookup Physician Group">a6047134dbd5a300599d176a48961902</activity>
         <condition>lookupGroupFound == 'true'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1693,14 +1696,14 @@ function lookupGroup(){&#13;
         <short_description>Group Found</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>15a32407db18a380eb6d9f5faa9619a2</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae047134dbd5a300599d176a48961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Lookup Physician Group">5da32407db18a380eb6d9f5faa9619a1</activity>
+        <activity display_value="Lookup Physician Group">a6047134dbd5a300599d176a48961902</activity>
         <condition>lookupGroupFound == 'false'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1714,128 +1717,11 @@ function lookupGroup(){&#13;
         <short_description>Group Not Found</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>95a32407db18a380eb6d9f5faa9619a2</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>22047134dbd5a300599d176a48961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>16</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name>Requested For is a Doctor?</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage/>
-        <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>55a32883db18a380eb6d9f5faa961968</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
-        <x>595</x>
-        <y>257</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=55a32883db18a380eb6d9f5faa961968"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>55a32883db18a380eb6d9f5faa961968</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d9a32883db18a380eb6d9f5faa961968</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
-        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
-var o = workflow.scratchpad.title.startsWith('DO-');&#13;
-var isDoctor = false;&#13;
-&#13;
-if(n == true || o == true ){	&#13;
-	isDoctor = true;&#13;
-	&#13;
-} else {&#13;
-	isDoctor = false;&#13;
-}</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>55a32883db18a380eb6d9f5faa961968</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d9a32883db18a380eb6d9f5faa961968</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
-        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
-var o = workflow.scratchpad.title.startsWith('DO-');&#13;
-var isDoctor = false;&#13;
-&#13;
-if(n == true || o == true ){	&#13;
-	isDoctor = true;&#13;
-	&#13;
-} else {&#13;
-	isDoctor = false;&#13;
-}</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">55a32883db18a380eb6d9f5faa961968</activity>
-        <condition>isDoctor == true;</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>false</is_positive>
-        <name>Doctor</name>
-        <order>1</order>
-        <short_description>Is a Doctor</short_description>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>59a32883db18a380eb6d9f5faa961969</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
-    </wf_condition>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">55a32883db18a380eb6d9f5faa961968</activity>
-        <condition>isDoctor == false;</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>false</is_positive>
-        <name>Not a Doctor</name>
-        <order>2</order>
-        <short_description>Not a Doctor</short_description>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>d5a32883db18a380eb6d9f5faa961969</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1853,30 +1739,30 @@ if(n == true || o == true ){	&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>d9a32407db18a380eb6d9f5faa9619a3</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>aa04b134dbd5a300599d176a48961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>363</x>
         <y>147</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=d9a32407db18a380eb6d9f5faa9619a3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aa04b134dbd5a300599d176a48961925"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a32407db18a380eb6d9f5faa9619a3</document_key>
+        <document_key>aa04b134dbd5a300599d176a48961925</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa9619a3</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2e04b134dbd5a300599d176a48961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
 var o = workflow.scratchpad.title.startsWith('DO-');&#13;
 var isDoctor = false;&#13;
@@ -1893,15 +1779,15 @@ if(n == true || o == true ){	&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a32407db18a380eb6d9f5faa9619a3</document_key>
+        <document_key>aa04b134dbd5a300599d176a48961925</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa9619a3</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2e04b134dbd5a300599d176a48961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
 var o = workflow.scratchpad.title.startsWith('DO-');&#13;
 var isDoctor = false;&#13;
@@ -1917,7 +1803,7 @@ if(n == true || o == true ){	&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">d9a32407db18a380eb6d9f5faa9619a3</activity>
+        <activity display_value="Requested For is a Doctor?">aa04b134dbd5a300599d176a48961925</activity>
         <condition>isDoctor == true;</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1931,14 +1817,14 @@ if(n == true || o == true ){	&#13;
         <short_description>Is a Doctor</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>91a32407db18a380eb6d9f5faa9619a4</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a204b134dbd5a300599d176a48961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">d9a32407db18a380eb6d9f5faa9619a3</activity>
+        <activity display_value="Requested For is a Doctor?">aa04b134dbd5a300599d176a48961925</activity>
         <condition>isDoctor == false;</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1952,11 +1838,128 @@ if(n == true || o == true ){	&#13;
         <short_description>Not a Doctor</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>15a32407db18a380eb6d9f5faa9619a4</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2604b134dbd5a300599d176a48961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Requested For is a Doctor?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>tramos12</sys_created_by>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>66047134dbd5a300599d176a48961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
+        <x>595</x>
+        <y>257</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=66047134dbd5a300599d176a48961901"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>66047134dbd5a300599d176a48961901</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tramos12</sys_created_by>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e6047134dbd5a300599d176a48961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
+var o = workflow.scratchpad.title.startsWith('DO-');&#13;
+var isDoctor = false;&#13;
+&#13;
+if(n == true || o == true ){	&#13;
+	isDoctor = true;&#13;
+	&#13;
+} else {&#13;
+	isDoctor = false;&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>66047134dbd5a300599d176a48961901</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tramos12</sys_created_by>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e6047134dbd5a300599d176a48961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
+var o = workflow.scratchpad.title.startsWith('DO-');&#13;
+var isDoctor = false;&#13;
+&#13;
+if(n == true || o == true ){	&#13;
+	isDoctor = true;&#13;
+	&#13;
+} else {&#13;
+	isDoctor = false;&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Requested For is a Doctor?">66047134dbd5a300599d176a48961901</activity>
+        <condition>isDoctor == true;</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Doctor</name>
+        <order>1</order>
+        <short_description>Is a Doctor</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tramos12</sys_created_by>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6e047134dbd5a300599d176a48961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Requested For is a Doctor?">66047134dbd5a300599d176a48961901</activity>
+        <condition>isDoctor == false;</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Not a Doctor</name>
+        <order>2</order>
+        <short_description>Not a Doctor</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>tramos12</sys_created_by>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ee047134dbd5a300599d176a48961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tramos12</sys_updated_by>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1974,30 +1977,30 @@ if(n == true || o == true ){	&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa96199f</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ea04b134dbd5a300599d176a48961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>229</x>
         <y>13</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=dda32407db18a380eb6d9f5faa96199f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ea04b134dbd5a300599d176a48961929"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dda32407db18a380eb6d9f5faa96199f</document_key>
+        <document_key>ea04b134dbd5a300599d176a48961929</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>51a32407db18a380eb6d9f5faa9619a0</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6e04b134dbd5a300599d176a48961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
 var o = workflow.scratchpad.title.startsWith('DO-');&#13;
 var isDoctor = false;&#13;
@@ -2012,15 +2015,15 @@ if(n == true || o == true ){	&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dda32407db18a380eb6d9f5faa96199f</document_key>
+        <document_key>ea04b134dbd5a300599d176a48961929</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>51a32407db18a380eb6d9f5faa9619a0</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6e04b134dbd5a300599d176a48961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>var n = workflow.scratchpad.title.startsWith('MD-');&#13;
 var o = workflow.scratchpad.title.startsWith('DO-');&#13;
 var isDoctor = false;&#13;
@@ -2034,7 +2037,7 @@ if(n == true || o == true ){	&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">dda32407db18a380eb6d9f5faa96199f</activity>
+        <activity display_value="Requested For is a Doctor?">ea04b134dbd5a300599d176a48961929</activity>
         <condition>isDoctor == true;</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2048,14 +2051,14 @@ if(n == true || o == true ){	&#13;
         <short_description>Is a Doctor</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>95a32407db18a380eb6d9f5faa9619a0</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>e204b134dbd5a300599d176a4896192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Requested For is a Doctor?">dda32407db18a380eb6d9f5faa96199f</activity>
+        <activity display_value="Requested For is a Doctor?">ea04b134dbd5a300599d176a48961929</activity>
         <condition>isDoctor == false;</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2069,11 +2072,11 @@ if(n == true || o == true ){	&#13;
         <short_description>Not a Doctor</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>19a32407db18a380eb6d9f5faa9619a0</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>6604b134dbd5a300599d176a4896192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -2091,30 +2094,30 @@ if(n == true || o == true ){	&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>9da32883db18a380eb6d9f5faa96196d</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2e04b134dbd5a300599d176a48961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
         <x>1239</x>
         <y>45</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=9da32883db18a380eb6d9f5faa96196d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2e04b134dbd5a300599d176a48961928"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9da32883db18a380eb6d9f5faa96196d</document_key>
+        <document_key>2e04b134dbd5a300599d176a48961928</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>11a32883db18a380eb6d9f5faa96196e</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae04b134dbd5a300599d176a48961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>current.assignment_group = '03dd017d13a7838804337a404244b09b'; //General Questions&#13;
 &#13;
 &#13;
@@ -2123,15 +2126,15 @@ if(n == true || o == true ){	&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9da32883db18a380eb6d9f5faa96196d</document_key>
+        <document_key>2e04b134dbd5a300599d176a48961928</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>11a32883db18a380eb6d9f5faa96196e</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae04b134dbd5a300599d176a48961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
         <value>current.assignment_group = '03dd017d13a7838804337a404244b09b'; //General Questions&#13;
 &#13;
 &#13;
@@ -2139,7 +2142,7 @@ if(n == true || o == true ){	&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set Triage Group">9da32883db18a380eb6d9f5faa96196d</activity>
+        <activity display_value="Set Triage Group">2e04b134dbd5a300599d176a48961928</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2153,278 +2156,278 @@ if(n == true || o == true ){	&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>51a32407db18a380eb6d9f5faa96199c</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2604b134dbd5a300599d176a48961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Doctor">91a32407db18a380eb6d9f5faa9619a4</condition>
-        <from display_value="Requested For is a Doctor?">d9a32407db18a380eb6d9f5faa9619a3</from>
+        <condition display_value="Not a Doctor">ee047134dbd5a300599d176a48961901</condition>
+        <from display_value="Requested For is a Doctor?">66047134dbd5a300599d176a48961901</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>11a32407db18a380eb6d9f5faa9619aa</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2204b134dbd5a300599d176a4896192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Lookup Physician Group">5da32407db18a380eb6d9f5faa9619a1</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Lookup All Others Group">66043134dbd5a300599d176a489619fb</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">95a32407db18a380eb6d9f5faa9619a1</condition>
-        <from display_value="Default Physician Group">dda32407db18a380eb6d9f5faa9619a0</from>
+        <condition display_value="Yes">22043134dbd5a300599d176a489619ff</condition>
+        <from display_value="Assigned to and Assignment group is Empty?">aa043134dbd5a300599d176a489619fd</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>19a32407db18a380eb6d9f5faa9619a9</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2204b134dbd5a300599d176a4896192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Requested For is a Doctor?">66047134dbd5a300599d176a48961901</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">91a32407db18a380eb6d9f5faa9619a5</condition>
-        <from display_value="Begin">99a32407db18a380eb6d9f5faa9619a4</from>
+        <condition display_value="Group Not Found">6204b134dbd5a300599d176a48961923</condition>
+        <from display_value="Lookup Executive Group">e604b134dbd5a300599d176a48961922</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>1da32407db18a380eb6d9f5faa9619a9</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2204b134dbd5a300599d176a4896192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Initialize Variables">5da32407db18a380eb6d9f5faa9619a2</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Default Executive Group">e6047134dbd5a300599d176a48961903</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Doctor">95a32407db18a380eb6d9f5faa9619a0</condition>
-        <from display_value="Requested For is a Doctor?">dda32407db18a380eb6d9f5faa96199f</from>
+        <condition display_value="Always">2204b134dbd5a300599d176a48961922</condition>
+        <from display_value="Default Executive Group">e6047134dbd5a300599d176a48961903</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>1da32407db18a380eb6d9f5faa9619aa</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2204b134dbd5a300599d176a48961930</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Lookup Physician Group">5da32407db18a380eb6d9f5faa9619a1</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Doctor">59a32883db18a380eb6d9f5faa961969</condition>
-        <from display_value="Requested For is a Doctor?">55a32883db18a380eb6d9f5faa961968</from>
+        <condition display_value="User Portal">ee04b134dbd5a300599d176a48961924</condition>
+        <from display_value="Determine Ticket Origination">e604b134dbd5a300599d176a48961924</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>51a32407db18a380eb6d9f5faa9619a8</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2604b134dbd5a300599d176a4896192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Lookup Physician Group">5da32407db18a380eb6d9f5faa9619a1</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Requested For is a Doctor?">ea04b134dbd5a300599d176a48961929</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="User Portal">19a32407db18a380eb6d9f5faa96199f</condition>
-        <from display_value="Determine Ticket Origination">5da32407db18a380eb6d9f5faa96199e</from>
+        <condition display_value="Not a Doctor">6604b134dbd5a300599d176a4896192a</condition>
+        <from display_value="Requested For is a Doctor?">ea04b134dbd5a300599d176a48961929</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>55a32407db18a380eb6d9f5faa9619a6</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2604b134dbd5a300599d176a4896192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Requested For is a Doctor?">dda32407db18a380eb6d9f5faa96199f</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Set Triage Group">2e04b134dbd5a300599d176a48961928</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Group Found">59a32883db18a380eb6d9f5faa96196c</condition>
-        <from display_value="Lookup All Others Group">11a32883db18a380eb6d9f5faa96196c</from>
+        <condition display_value="Not a Doctor">2604b134dbd5a300599d176a48961926</condition>
+        <from display_value="Requested For is a Doctor?">aa04b134dbd5a300599d176a48961925</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>55a32407db18a380eb6d9f5faa9619a7</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2604b134dbd5a300599d176a4896192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Lookup Executive Group">e604b134dbd5a300599d176a48961922</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Internal">15a32407db18a380eb6d9f5faa96199f</condition>
-        <from display_value="Determine Ticket Origination">5da32407db18a380eb6d9f5faa96199e</from>
+        <condition display_value="Always">ae047134dbd5a300599d176a48961900</condition>
+        <from display_value="Default All Others Group">a6047134dbd5a300599d176a48961900</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>59a32407db18a380eb6d9f5faa9619a6</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2a04b134dbd5a300599d176a4896192b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Assigned to and Assignment group is Empty?">19a32407db18a380eb6d9f5faa96199c</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d5a32883db18a380eb6d9f5faa96196d</condition>
-        <from display_value="Default All Others Group">11a32883db18a380eb6d9f5faa96196d</from>
+        <condition display_value="Group Not Found">22043134dbd5a300599d176a489619fd</condition>
+        <from display_value="Lookup All Others Group">66043134dbd5a300599d176a489619fb</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>59a32407db18a380eb6d9f5faa9619a7</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2e04b134dbd5a300599d176a4896192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Default All Others Group">a6047134dbd5a300599d176a48961900</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Group Not Found">95a32407db18a380eb6d9f5faa9619a2</condition>
-        <from display_value="Lookup Physician Group">5da32407db18a380eb6d9f5faa9619a1</from>
+        <condition display_value="Group Found">ae047134dbd5a300599d176a48961902</condition>
+        <from display_value="Lookup Physician Group">a6047134dbd5a300599d176a48961902</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>59a32407db18a380eb6d9f5faa9619a8</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>2e04b134dbd5a300599d176a4896192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Default Physician Group">dda32407db18a380eb6d9f5faa9619a0</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Group Not Found">d5a32883db18a380eb6d9f5faa96196b</condition>
-        <from display_value="Lookup Executive Group">11a32883db18a380eb6d9f5faa96196b</from>
+        <condition display_value="Internal">6204b134dbd5a300599d176a48961925</condition>
+        <from display_value="Determine Ticket Origination">e604b134dbd5a300599d176a48961924</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa9619a6</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a204b134dbd5a300599d176a4896192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Default Executive Group">91a32883db18a380eb6d9f5faa96196a</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Assigned to and Assignment group is Empty?">aa043134dbd5a300599d176a489619fd</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">59a32883db18a380eb6d9f5faa96196a</condition>
-        <from display_value="Default Executive Group">91a32883db18a380eb6d9f5faa96196a</from>
+        <condition display_value="No">ae043134dbd5a300599d176a489619fe</condition>
+        <from display_value="Assigned to and Assignment group is Empty?">aa043134dbd5a300599d176a489619fd</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa9619a7</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a204b134dbd5a300599d176a4896192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">d9a32407db18a380eb6d9f5faa96199d</condition>
-        <from display_value="Assigned to and Assignment group is Empty?">19a32407db18a380eb6d9f5faa96199c</from>
+        <condition display_value="Manager Portal">e204b134dbd5a300599d176a48961925</condition>
+        <from display_value="Determine Ticket Origination">e604b134dbd5a300599d176a48961924</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>5da32407db18a380eb6d9f5faa9619a8</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a604b134dbd5a300599d176a4896192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Requested For is a Doctor?">aa04b134dbd5a300599d176a48961925</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Not a Doctor">15a32407db18a380eb6d9f5faa9619a4</condition>
-        <from display_value="Requested For is a Doctor?">d9a32407db18a380eb6d9f5faa9619a3</from>
+        <condition display_value="Doctor">e204b134dbd5a300599d176a4896192a</condition>
+        <from display_value="Requested For is a Doctor?">ea04b134dbd5a300599d176a48961929</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>91a32407db18a380eb6d9f5faa9619aa</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a604b134dbd5a300599d176a4896192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Lookup Executive Group">11a32883db18a380eb6d9f5faa96196b</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Lookup Physician Group">a6047134dbd5a300599d176a48961902</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">51a32407db18a380eb6d9f5faa96199c</condition>
-        <from display_value="Set Triage Group">9da32883db18a380eb6d9f5faa96196d</from>
+        <condition display_value="Always">ee043134dbd5a300599d176a489619ff</condition>
+        <from display_value="Default Physician Group">e6043134dbd5a300599d176a489619ff</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>95a32407db18a380eb6d9f5faa9619aa</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a604b134dbd5a300599d176a4896192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Not a Doctor">19a32407db18a380eb6d9f5faa9619a0</condition>
-        <from display_value="Requested For is a Doctor?">dda32407db18a380eb6d9f5faa96199f</from>
+        <condition display_value="Doctor">a204b134dbd5a300599d176a48961926</condition>
+        <from display_value="Requested For is a Doctor?">aa04b134dbd5a300599d176a48961925</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>99a32407db18a380eb6d9f5faa9619aa</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>a604b134dbd5a300599d176a4896192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Set Triage Group">9da32883db18a380eb6d9f5faa96196d</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Lookup Physician Group">a6047134dbd5a300599d176a48961902</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Group Not Found">d5a32883db18a380eb6d9f5faa96196c</condition>
-        <from display_value="Lookup All Others Group">11a32883db18a380eb6d9f5faa96196c</from>
+        <condition display_value="Always">6604b134dbd5a300599d176a48961928</condition>
+        <from display_value="Begin">aa04b134dbd5a300599d176a48961927</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>d1a32407db18a380eb6d9f5faa9619a7</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>aa04b134dbd5a300599d176a4896192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Default All Others Group">11a32883db18a380eb6d9f5faa96196d</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Initialize Variables">ea04b134dbd5a300599d176a48961926</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Not a Doctor">d5a32883db18a380eb6d9f5faa961969</condition>
-        <from display_value="Requested For is a Doctor?">55a32883db18a380eb6d9f5faa961968</from>
+        <condition display_value="Group Found">6e043134dbd5a300599d176a489619fc</condition>
+        <from display_value="Lookup All Others Group">66043134dbd5a300599d176a489619fb</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>d1a32407db18a380eb6d9f5faa9619a8</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>aa04b134dbd5a300599d176a4896192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Lookup All Others Group">11a32883db18a380eb6d9f5faa96196c</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">15a32407db18a380eb6d9f5faa9619a3</condition>
-        <from display_value="Initialize Variables">5da32407db18a380eb6d9f5faa9619a2</from>
+        <condition display_value="Always">e204b134dbd5a300599d176a48961927</condition>
+        <from display_value="Initialize Variables">ea04b134dbd5a300599d176a48961926</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>d1a32407db18a380eb6d9f5faa9619a9</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>aa04b134dbd5a300599d176a4896192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Determine Ticket Origination">5da32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Determine Ticket Origination">e604b134dbd5a300599d176a48961924</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Manager Portal">95a32407db18a380eb6d9f5faa96199f</condition>
-        <from display_value="Determine Ticket Origination">5da32407db18a380eb6d9f5faa96199e</from>
+        <condition display_value="Group Not Found">22047134dbd5a300599d176a48961903</condition>
+        <from display_value="Lookup Physician Group">a6047134dbd5a300599d176a48961902</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>d5a32407db18a380eb6d9f5faa9619a6</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>aa04b134dbd5a300599d176a4896192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Requested For is a Doctor?">d9a32407db18a380eb6d9f5faa9619a3</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Default Physician Group">e6043134dbd5a300599d176a489619ff</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Group Found">15a32407db18a380eb6d9f5faa9619a2</condition>
-        <from display_value="Lookup Physician Group">5da32407db18a380eb6d9f5faa9619a1</from>
+        <condition display_value="Always">2604b134dbd5a300599d176a48961929</condition>
+        <from display_value="Set Triage Group">2e04b134dbd5a300599d176a48961928</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>d5a32407db18a380eb6d9f5faa9619a8</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae04b134dbd5a300599d176a4896192b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Group Found">59a32883db18a380eb6d9f5faa96196b</condition>
-        <from display_value="Lookup Executive Group">11a32883db18a380eb6d9f5faa96196b</from>
+        <condition display_value="Doctor">6e047134dbd5a300599d176a48961901</condition>
+        <from display_value="Requested For is a Doctor?">66047134dbd5a300599d176a48961901</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa9619a6</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae04b134dbd5a300599d176a4896192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="End">51a32407db18a380eb6d9f5faa96199e</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="Lookup Physician Group">a6047134dbd5a300599d176a48961902</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">59a32407db18a380eb6d9f5faa96199d</condition>
-        <from display_value="Assigned to and Assignment group is Empty?">19a32407db18a380eb6d9f5faa96199c</from>
+        <condition display_value="Group Found">ee04b134dbd5a300599d176a48961922</condition>
+        <from display_value="Lookup Executive Group">e604b134dbd5a300599d176a48961922</from>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:22</sys_created_on>
-        <sys_id>dda32407db18a380eb6d9f5faa9619a8</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>ae04b134dbd5a300599d176a4896192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:22</sys_updated_on>
-        <to display_value="Requested For is a Doctor?">55a32883db18a380eb6d9f5faa961968</to>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <to display_value="End">2a04b134dbd5a300599d176a48961923</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>tramos12</sys_created_by>
-        <sys_created_on>2018-09-06 15:09:21</sys_created_on>
-        <sys_id>99a32883db18a380eb6d9f5faa961966</sys_id>
+        <sys_created_on>2018-10-19 14:17:04</sys_created_on>
+        <sys_id>66043134dbd5a300599d176a489619f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tramos12</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:09:21</sys_updated_on>
-        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">d5a32883db18a380eb6d9f5faa961966</workflow_version>
+        <sys_updated_on>2018-10-19 14:17:04</sys_updated_on>
+        <workflow_version display_value="(IHC) HR Case Mgt Fulfillment">62043134dbd5a300599d176a489619f9</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=df61f7664f34c340af76d0af0310c7c0^sys_id!=d5a32883db18a380eb6d9f5faa961966">
+    <wf_workflow_version action="update_multiple" query="workflow=df61f7664f34c340af76d0af0310c7c0^sys_id!=62043134dbd5a300599d176a489619f9">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

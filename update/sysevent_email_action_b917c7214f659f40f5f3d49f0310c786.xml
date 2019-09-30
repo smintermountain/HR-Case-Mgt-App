@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
@@ -10,7 +9,17 @@
         <collection>x_inthe_hr_case_mg_case</collection>
         <condition/>
         <content_type>text/html</content_type>
+        <default_interval/>
         <description>Notify Assigned to when an attachment is added</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>x_inthe_hr_case_mg.attachAdd</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>

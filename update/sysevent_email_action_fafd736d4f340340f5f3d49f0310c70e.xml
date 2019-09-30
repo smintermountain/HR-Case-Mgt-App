@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
@@ -8,11 +7,24 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_inthe_hr_case_mg_case</collection>
-        <condition table="x_inthe_hr_case_mg_case">commentsVALCHANGES^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        <condition table="x_inthe_hr_case_mg_case">commentsVALCHANGES^u_bypass_notification=false^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_bypass_notification" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_interval/>
         <description>Notify Caller when Comments are added to the case</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>approval.cancelled</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
@@ -26,7 +38,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>${u_caller} has responded to this task.&nbsp; Please review and respond to the comment recently added to ${number}.</p>
+        <message_html><![CDATA[<p>${mail_script:get_latest_commenter} has responded to this task.&nbsp; Please review and respond to the comment recently added to ${number}.</p>
 <p>${URI_REF}</p>
 <p>&nbsp;</p>
 <p><strong>Comments:&nbsp;</strong>${comments}</p>]]></message_html>
@@ -43,7 +55,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>PLEASE REVIEW - ${number} has a new response provided by ${u_caller}</subject>
+        <subject>PLEASE REVIEW - ${number} has a new response provided by ${mail_script:get_latest_commenter} </subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
@@ -52,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fafd736d4f340340f5f3d49f0310c70e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>(IHC) Comments Added to Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -60,8 +72,8 @@
         <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_fafd736d4f340340f5f3d49f0310c70e</sys_update_name>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-04-26 16:02:37</sys_updated_on>
+        <sys_updated_by>grosale1</sys_updated_by>
+        <sys_updated_on>2019-05-23 17:02:28</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

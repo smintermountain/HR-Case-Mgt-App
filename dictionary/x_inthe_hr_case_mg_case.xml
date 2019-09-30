@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Case" max_length="40" name="x_inthe_hr_case_mg_case" sizeclass="658" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Case" max_length="40" name="x_inthe_hr_case_mg_case" sizeclass="29" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Additional Details" max_length="4000" name="u_additional_details" type="string"/>
         <element hint="Check this box to omit the upon submittal notification" label="Bypass Notification" max_length="40" name="u_bypass_notification" type="boolean"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;u_employee_id,ref_ac_columns_search=true" label="Caller" max_length="32" name="u_caller" reference="sys_user" type="reference"/>
@@ -8,205 +7,237 @@
         <element attributes="edge_encryption_enabled=true" label="Person Type" max_length="40" name="u_caller_person_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_case_type" dependent_on_field="u_case_type" label="Case Sub-Type" max_length="80" name="u_case_sub_type" type="string" use_dependent_field="true">
             <choice>
-                <element dependent_value="Retirement" label="401(k)/403(b)" sequence="0" value="401_k_403_b"/>
-                <element dependent_value="Payroll Questions and Changes" label="401(k)/403(b)" sequence="0" value="401(k)/403(b)"/>
-                <element dependent_value="Employee Health" label="ADA/Accommodations" sequence="0" value="ADA/Accommodations"/>
-                <element dependent_value="Compensation" label="Annual Increase Process Support" sequence="0" value="Annual Increase Process Support"/>
-                <element dependent_value="Talent Acquisition" label="Applicant Inquiry" sequence="0" value="Applicant Inquiry"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Benefits" sequence="0" value="Benefits"/>
-                <element dependent_value="Employee Relations" label="Caregiver complaints and investigations" sequence="0" value="Caregiver complaints and investigations"/>
-                <element dependent_value="Leave of Absence NCOL" label="Check Application Status" sequence="0" value="Check Application Status"/>
-                <element dependent_value="Leave of Absence" label="Check for Eligibility" sequence="0" value="Check for Eligibility"/>
-                <element dependent_value="Educational Assistance" label="Check Request Form Status" sequence="0" value="Check Request Form Status"/>
-                <element dependent_value="DATA" label="Data Entry and Scanning (including PARS)" sequence="0" value="Data Entry and Scanning (including PARS)"/>
-                <element dependent_value="Leave of Absence COL" label="Extending Leave" sequence="0" value="Extending Leave"/>
-                <element dependent_value="Onboarding" label="Forms/Paperwork" sequence="0" value="Forms/Paperwork"/>
-                <element dependent_value="Employment Verifications" label="General Verifications" sequence="0" value="General Verifications"/>
-                <element dependent_value="Benefits" label="New Hire/Newly Eligible" sequence="0" value="New Hire_Newly Eligible"/>
-                <element dependent_value="Retro PAR Form" label="PAR Form" sequence="0" value="PAR Form"/>
-                <element dependent_value="My Learning" label="Registrations: Assign, Record, Remove" sequence="0" value="Registrations"/>
-                <element dependent_value="Feedback/Concerns/Complaints" label="Safety" sequence="0" value="Safety"/>
-                <element dependent_value="General Inquiries" label="Triage" sequence="0" value="Triage"/>
-                <element dependent_value="Payroll Questions and Changes" label="Additional Amounts / Lump Sum" sequence="1" value="Additional Amounts / Lump Sum"/>
-                <element dependent_value="Retirement" label="Appeals" sequence="1" value="Appeals"/>
-                <element dependent_value="Talent Acquisition" label="Application Process" sequence="1" value="Application Process"/>
-                <element dependent_value="Leave of Absence" label="Applying for Leave" sequence="1" value="Applying for Leave"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Branding and Sourcing" sequence="1" value="Branding and Sourcing"/>
-                <element dependent_value="Employee Health" label="Caregiver Medical Surveillance" sequence="1" value="Caregiver Medical Surveillance"/>
-                <element dependent_value="Compensation" label="Compensation Audits" sequence="1" value="Compensation Audits"/>
-                <element dependent_value="Employee Relations" label="Corrective Action" sequence="1" value="Corrective Action"/>
-                <element dependent_value="My Learning" label="Course/Schedule Creation and Maintenance" sequence="1" value="Course/Schedule Creation and Maintenance"/>
-                <element dependent_value="DATA" label="Data Entry into Oracle (including PARS)" sequence="1" value="Data Entry into Oracle (including PARS)"/>
-                <element dependent_value="Educational Assistance" label="Eligibility" sequence="1" value="Eligibility"/>
-                <element dependent_value="Benefits" label="Open Enrollment" sequence="1" value="Open Enrollment"/>
-                <element dependent_value="Onboarding" label="Orientation" sequence="1" value="Orientation"/>
-                <element dependent_value="Leave of Absence COL" label="Premium Payments" sequence="1" value="Premium Payments"/>
-                <element dependent_value="Employment Verifications" label="Public Service Loan Forgiveness" sequence="1" value="Public Service Loan Forgiveness"/>
-                <element dependent_value="Feedback/Concerns/Complaints" label="Quality" sequence="1" value="Quality"/>
-                <element dependent_value="Retirement" label="Begin Retirement Process" sequence="2" value="Begin Retirement Process"/>
-                <element dependent_value="Talent Acquisition" label="Caregiver Economy Vetting" sequence="2" value="Caregiver Economy Vetting"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Caregiver Education" sequence="2" value="Caregiver Education"/>
-                <element dependent_value="Leave of Absence" label="Check Application Status" sequence="2" value="Check Application Status"/>
-                <element dependent_value="DATA" label="Data Purges / Backups / HRIS support" sequence="2" value="Data Purges / Backups / HRIS support"/>
-                <element dependent_value="Payroll Questions and Changes" label="Demographic and other changes" sequence="2" value="Demographic and other changes"/>
-                <element dependent_value="Employee Health" label="Exposure Tracking and Reporting" sequence="2" value="Exposure Tracking and Reporting"/>
-                <element dependent_value="Compensation" label="Incentive Plan/Variable Pay Plan Support" sequence="2" value="Incentive Plan/Variable Pay Plan Support"/>
-                <element dependent_value="Employee Relations" label="Job Eliminations" sequence="2" value="Job Eliminations"/>
-                <element dependent_value="Benefits" label="Life Event - Status Change" sequence="2" value="Life Event - Status Change"/>
-                <element dependent_value="Feedback/Concerns/Complaints" label="Patient Experience" sequence="2" value="Patient Experience"/>
-                <element dependent_value="Educational Assistance" label="Public Service Loan Forgiveness" sequence="2" value="Public Service Loan Forgiveness"/>
-                <element dependent_value="My Learning" label="Reports/Audits" sequence="2" value="Reports/Audits"/>
-                <element dependent_value="Leave of Absence COL" label="Returning to Work" sequence="2" value="Returning to Work"/>
-                <element dependent_value="Employment Verifications" label="Submit Forms and Paperwork" sequence="2" value="Submit Forms and Paperwork"/>
-                <element dependent_value="Onboarding" label="TalentLink Tasks" sequence="2" value="TalentLink Tasks"/>
-                <element dependent_value="Feedback/Concerns/Complaints" label="Access" sequence="3" value="Access"/>
-                <element dependent_value="Benefits" label="Benefits Eligibility" sequence="3" value="Benefits Eligibility"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Caregiver Engagement and Retention" sequence="3" value="Caregiver Engagement and Retention"/>
-                <element dependent_value="Payroll Questions and Changes" label="Direct Deposit" sequence="3" value="Direct Deposit"/>
-                <element dependent_value="Employee Health" label="Fitness for Duty" sequence="3" value="Fitness for Duty"/>
-                <element dependent_value="Talent Acquisition" label="I9 / VISA" sequence="3" value="I9 / VISA"/>
-                <element dependent_value="Compensation" label="Internal Equity" sequence="3" value="Internal Equity"/>
-                <element dependent_value="Employee Relations" label="Managing caregiver behavior" sequence="3" value="Managing caregiver behavior"/>
-                <element dependent_value="DATA" label="Ongoing Licensure / Certification / Registration" sequence="3" value="Licensure/Certification/Registration"/>
-                <element dependent_value="Leave of Absence NCOL" label="Other" sequence="3" value="Other"/>
-                <element dependent_value="Retirement" label="Pension" sequence="3" value="Pension"/>
-                <element dependent_value="Leave of Absence" label="Short/Long Term Disability" sequence="3" value="Short/Long Term Disability"/>
-                <element dependent_value="Educational Assistance" label="Submit Education Plan" sequence="3" value="Submit Education Plan"/>
-                <element dependent_value="Employment Verifications" label="Subpoenas" sequence="3" value="Subpoenas"/>
-                <element dependent_value="My Learning" label="System Access Requests/Training" sequence="3" value="System Access Requests/Training"/>
-                <element dependent_value="Onboarding" label="Training/Learning" sequence="3" value="Training/Learning"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Caregiver Value Proposition" sequence="4" value="Caregiver Value Proposition"/>
-                <element dependent_value="Benefits" label="Demographic and other changes" sequence="4" value="Demographic and other changes"/>
-                <element dependent_value="Payroll Questions and Changes" label="Garnishments" sequence="4" value="Garnishments"/>
-                <element dependent_value="Employee Health" label="Immunization Tracking / Request for Records" sequence="4" value="Immunization Tracking/Request for Record"/>
-                <element dependent_value="Talent Acquisition" label="Interviews / Candidate Travel" sequence="4" value="Interviews / Candidate Travel"/>
-                <element dependent_value="Compensation" label="Merit/Market Increases" sequence="4" value="Merit/Market Increases"/>
-                <element dependent_value="DATA" label="OTG Scanning" sequence="4" value="OTG Scanning"/>
-                <element dependent_value="Leave of Absence COL" label="Other" sequence="4" value="Other"/>
-                <element dependent_value="Onboarding" label="Other" sequence="4" value="Other"/>
-                <element dependent_value="Employment Verifications" label="Other" sequence="4" value="Other"/>
-                <element dependent_value="Employee Relations" label="Policies and Procedures" sequence="4" value="Policies and Procedures"/>
-                <element dependent_value="Leave of Absence" label="Premium Payments" sequence="4" value="Premium Payments"/>
-                <element dependent_value="Retirement" label="Retiree - General" sequence="4" value="Retiree - General"/>
-                <element dependent_value="Feedback/Concerns/Complaints" label="Stewardship" sequence="4" value="Stewardship"/>
-                <element dependent_value="Educational Assistance" label="Submit Request Form" sequence="4" value="Submit Request Form"/>
-                <element dependent_value="My Learning" label="Troubleshooting" sequence="4" value="Troubleshooting"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Compensation" sequence="5" value="Compensation"/>
-                <element dependent_value="Leave of Absence" label="Extending Leave" sequence="5" value="Extending Leave"/>
-                <element dependent_value="Employee Health" label="Injury / Illness Reporting" sequence="5" value="Injury / Illness Reporting"/>
-                <element dependent_value="Benefits" label="Involuntary Termination" sequence="5" value="Involuntary Termination"/>
-                <element dependent_value="Talent Acquisition" label="Job Grades" sequence="5" value="Job Grades"/>
-                <element dependent_value="Educational Assistance" label="Other" sequence="5" value="Other"/>
-                <element dependent_value="Feedback/Concerns/Complaints" label="Other" sequence="5" value="Other"/>
-                <element dependent_value="DATA" label="Other Report Writing and Distribution (including RQI)" sequence="5" value="Other Report Writing and Distribution"/>
-                <element dependent_value="Compensation" label="PAR Form" sequence="5" value="PAR Form"/>
-                <element dependent_value="Payroll Questions and Changes" label="Payroll Deductions" sequence="5" value="Payroll Deductions"/>
-                <element dependent_value="My Learning" label="Request New Education" sequence="5" value="Request New Education"/>
-                <element dependent_value="Retirement" label="Retiree Medical/Dental/Vision/Life" sequence="5" value="Retiree Medical_Dental_Vision_Life"/>
-                <element dependent_value="Employee Relations" label="Unemployment Escalations" sequence="5" value="Unemployment Escalations"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Employee Assistance Program (EAP)" sequence="6" value="Employee Assistance Program (EAP)"/>
-                <element dependent_value="Talent Acquisition" label="Job Posting" sequence="6" value="Job Posting"/>
-                <element dependent_value="Employee Health" label="OTG" sequence="6" value="OTG"/>
-                <element dependent_value="My Learning" label="Other" sequence="6" value="Other"/>
-                <element dependent_value="Employee Relations" label="Other" sequence="6" value="Other"/>
-                <element dependent_value="Retirement" label="Other" sequence="6" value="Other"/>
-                <element dependent_value="Benefits" label="PAR Form" sequence="6" value="PAR Form"/>
-                <element dependent_value="Compensation" label="Paycheck/Earnings" sequence="6" value="Paycheck/Earnings"/>
-                <element dependent_value="Payroll Questions and Changes" label="PTO/Leave of Absence" sequence="6" value="PTO/Leave of Absence"/>
-                <element dependent_value="DATA" label="Quality Assurance / Auditing" sequence="6" value="Quality Assurance / Auditing"/>
-                <element dependent_value="Leave of Absence" label="Returning to Work" sequence="6" value="Returning to Work"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Employee Health" sequence="7" value="Employee Health"/>
-                <element dependent_value="Talent Acquisition" label="Manual Data Entry (As Needed)" sequence="7" value="Manual Data Entry (As Needed)"/>
-                <element dependent_value="Leave of Absence" label="Other" sequence="7" value="Other"/>
-                <element dependent_value="Compensation" label="Policies and Procedures" sequence="7" value="Policies and Procedures"/>
-                <element dependent_value="Benefits" label="PTO/Time Off" sequence="7" value="PTO_Time Off"/>
-                <element dependent_value="DATA" label="Regulatory &amp; Compliance Reporting (Joint Commission, DOH, CMS, etc…)" sequence="7" value="Regulatory &amp; Compliance Reporting"/>
-                <element dependent_value="Employee Health" label="Return to Work Coordination" sequence="7" value="Return to Work Coordination"/>
-                <element dependent_value="Payroll Questions and Changes" label="Statement of Earnings" sequence="7" value="Statement of Earnings"/>
-                <element dependent_value="Benefits" label="Benefits Appeal" sequence="8" value="Benefits Appeal"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Employee Relations" sequence="8" value="Employee Relations"/>
-                <element dependent_value="Talent Acquisition" label="New Hire Paperwork (Manual PARS, General Questions)" sequence="8" value="New Hire Paperwork (Manual PARS, General Questions)"/>
-                <element dependent_value="Compensation" label="PTO Cashout" sequence="8" value="PTO Cashout"/>
-                <element dependent_value="Employee Health" label="Safety/Zero Harm" sequence="8" value="Safety/Zero Harm"/>
-                <element dependent_value="DATA" label="Sanctions and Corrective Action" sequence="8" value="Sanctions and Corrective Action"/>
-                <element dependent_value="Payroll Questions and Changes" label="Time Keeping" sequence="8" value="Time Keeping"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="HR Continuous Improvement" sequence="9" value="HR Continuous Improvement"/>
-                <element dependent_value="Benefits" label="HSA/FSA/Dependent Care" sequence="9" value="HSA_FSA_dependent_care"/>
-                <element dependent_value="Talent Acquisition" label="Offer/Compensation/Support" sequence="9" value="Offer/Compensation/Support"/>
-                <element dependent_value="Employee Health" label="Other" sequence="9" value="Other"/>
-                <element dependent_value="Compensation" label="Salary Grade/Range" sequence="9" value="Salary Grade/Range"/>
-                <element dependent_value="DATA" label="Tuition Loan Assistance" sequence="9" value="Tuition Loan Assistance"/>
-                <element dependent_value="Payroll Questions and Changes" label="W2/Taxes" sequence="9" value="W2/Taxes"/>
-                <element dependent_value="Benefits" label="Deductions Not Taken (DNT)" sequence="10" value="Deductions Not Taken (DNT)"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="HR Program Management" sequence="10" value="HR Program Management"/>
-                <element dependent_value="Talent Acquisition" label="Reference Check - Internal/File Check" sequence="10" value="Reference Check - Internal/File Check"/>
-                <element dependent_value="Compensation" label="Thank You Payment" sequence="10" value="Thank You Payment"/>
-                <element dependent_value="DATA" label="Tuition Related" sequence="10" value="Tuition Related"/>
-                <element dependent_value="Payroll Questions and Changes" label="W4 Allowances" sequence="10" value="W4 Allowances"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="HR Special Projects and Initiatives" sequence="11" value="HR Special Projects and Initiatives"/>
-                <element dependent_value="Benefits" label="ORS" sequence="11" value="ORS"/>
-                <element dependent_value="Payroll Questions and Changes" label="Other" sequence="11" value="Other"/>
-                <element dependent_value="Talent Acquisition" label="Reference Check - External" sequence="11" value="Reference Check - External"/>
-                <element dependent_value="Compensation" label="Trend Analysis (Internal Offer &amp; Adjustments)" sequence="11" value="Trend Analysis"/>
-                <element dependent_value="DATA" label="Unemployment Claim First Response" sequence="11" value="Unemployment Claim First Response"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="HR, Risk, and Compliance" sequence="12" value="HR, Risk, and Compliance"/>
-                <element dependent_value="Compensation" label="Other" sequence="12" value="Other"/>
-                <element dependent_value="DATA" label="Other" sequence="12" value="Other"/>
-                <element dependent_value="Talent Acquisition" label="Reference Check - Both Internal and External" sequence="12" value="Reference Check - Both Internal and External"/>
-                <element dependent_value="Benefits" label="Workflow Reports" sequence="12" value="Workflow Reports"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Leadership and Organizational Development" sequence="13" value="Leadership and Organization Development"/>
-                <element dependent_value="Benefits" label="Other" sequence="13" value="Other"/>
-                <element dependent_value="Talent Acquisition" label="Relocation/Transition Assistance" sequence="13" value="Relocation/Transition Assistance"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Leadership Institute" sequence="14" value="Leadership Institute"/>
-                <element dependent_value="Talent Acquisition" label="Other" sequence="14" value="Other"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Live Well" sequence="15" value="Live Well"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="LMS Administration" sequence="16" value="LMS Administration"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Management and Leadership Development" sequence="17" value="Management and Leadership Development"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Onboarding and Assimilation" sequence="18" value="Onboarding and Assimilation"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Organizational Design" sequence="19" value="Organizational Design"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Performance Management" sequence="20" value="Performance Management"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Recognition" sequence="21" value="Recognition"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Recruitment and Selection" sequence="22" value="Recruitment and Selection"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Retirement" sequence="23" value="Retirement"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Succession Planning" sequence="24" value="Succession Planning"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Talent Mobility and Career Management" sequence="25" value="Talent Mobility and Career Management"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Transition and Change Management" sequence="26" value="Transition and Change Management"/>
-                <element dependent_value="Networks of Expertise (NOE)" label="Workforce Planning" sequence="27" value="Workforce Planning"/>
+                <element dependent_value="Retirement" inactive_on_update="false" label="401(k)/403(b)" sequence="0" value="401_k_403_b"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="401(k)/403(b)" sequence="0" value="401(k)/403(b)"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="ADA/Accommodations" sequence="0" value="ADA/Accommodations"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Annual Increase Process Support" sequence="0" value="Annual Increase Process Support"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Applicant Inquiry" sequence="0" value="Applicant Inquiry"/>
+                <element dependent_value="AV Services" inactive_on_update="false" label="AV Equipment Support Needed in Room" sequence="0" value="AV Equipment Support Needed in Room"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Benefits" sequence="0" value="Benefits"/>
+                <element dependent_value="Employee Relations" inactive_on_update="false" label="Caregiver complaints and investigations" sequence="0" value="Caregiver complaints and investigations"/>
+                <element dependent_value="Leave of Absence NCOL" inactive_on_update="false" label="Check Application Status" sequence="0" value="Check Application Status"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Check for Eligibility" sequence="0" value="Check for Eligibility"/>
+                <element dependent_value="Educational Assistance" inactive_on_update="false" label="Check Request Form Status" sequence="0" value="Check Request Form Status"/>
+                <element dependent_value="Physician Benefits" inactive_on_update="false" label="Compensation" sequence="0" value="Compensation"/>
+                <element dependent_value="Education and Learning" inactive="true" inactive_on_update="true" label="Corrective Action and Sanctions" sequence="0" value="Corrective Action and Sanctions"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Data Entry and Scanning (including PARS)" sequence="0" value="Data Entry and Scanning (including PARS)"/>
+                <element dependent_value="Leave of Absence COL" inactive_on_update="false" label="Extending Leave" sequence="0" value="Extending Leave"/>
+                <element dependent_value="Talent Acquisition" inactive="true" inactive_on_update="true" label="Final Dispositioning of Candidates" sequence="0" value="Final Dispositioning of Candidates"/>
+                <element dependent_value="Onboarding" inactive_on_update="false" label="Forms/Paperwork" sequence="0" value="Forms/Paperwork"/>
+                <element dependent_value="Employment Verifications" inactive_on_update="false" label="General Verifications" sequence="0" value="General Verifications"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="LOA Triage" sequence="0" value="LOA Triage"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="New Hire/Newly Eligible" sequence="0" value="New Hire_Newly Eligible"/>
+                <element dependent_value="Retro PAR Form" inactive_on_update="false" label="PAR Form" sequence="0" value="PAR Form"/>
+                <element dependent_value="My Learning" inactive_on_update="false" label="Registrations: Assign, Record, Remove" sequence="0" value="Registrations"/>
+                <element dependent_value="My Learning" inactive="true" inactive_on_update="true" label="Request New Education" sequence="0" value="Request New Education"/>
+                <element dependent_value="Feedback/Concerns/Complaints" inactive_on_update="false" label="Safety" sequence="0" value="Safety"/>
+                <element dependent_value="General Inquiries" inactive_on_update="false" label="Triage" sequence="0" value="Triage"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Additional Amounts / Lump Sum" sequence="1" value="Additional Amounts / Lump Sum"/>
+                <element dependent_value="Retirement" inactive_on_update="false" label="Appeals" sequence="1" value="Appeals"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Application Process" sequence="1" value="Application Process"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Applying for Leave" sequence="1" value="Applying for Leave"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Branding and Sourcing" sequence="1" value="Branding and Sourcing"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Caregiver Medical Surveillance" sequence="1" value="Caregiver Medical Surveillance"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Compensation Audits" sequence="1" value="Compensation Audits"/>
+                <element dependent_value="Employee Relations" inactive_on_update="false" label="Corrective Action" sequence="1" value="Corrective Action"/>
+                <element dependent_value="My Learning" inactive_on_update="false" label="Course/Schedule Creation and Maintenance" sequence="1" value="Course/Schedule Creation and Maintenance"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Data Entry into Oracle (including PARS)" sequence="1" value="Data Entry into Oracle (including PARS)"/>
+                <element dependent_value="Education and Learning" inactive="true" inactive_on_update="true" label="Education Requirements" sequence="1" value="Education Requirements"/>
+                <element dependent_value="Educational Assistance" inactive_on_update="false" label="Eligibility" sequence="1" value="Eligibility"/>
+                <element dependent_value="Leave of Absence NCOL" inactive="true" inactive_on_update="true" label="Eligibility/Policy" sequence="1" value="Eligibility_Policy"/>
+                <element dependent_value="AV Services" inactive_on_update="false" label="Furniture Setup Needed in Room" sequence="1" value="Furniture Setup Needed in Room"/>
+                <element dependent_value="Physician Benefits" inactive_on_update="false" label="LOA" sequence="1" value="LOA"/>
+                <element dependent_value="Talent Acquisition" inactive="true" inactive_on_update="true" label="Onboarding/NEO/Background Check" sequence="1" value="Onboarding/NEO/Background Check"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Open Enrollment" sequence="1" value="Open Enrollment"/>
+                <element dependent_value="Onboarding" inactive_on_update="false" label="Orientation" sequence="1" value="Orientation"/>
+                <element dependent_value="Leave of Absence COL" inactive_on_update="false" label="Premium Payments" sequence="1" value="Premium Payments"/>
+                <element dependent_value="Employment Verifications" inactive_on_update="false" label="Public Service Loan Forgiveness" sequence="1" value="Public Service Loan Forgiveness"/>
+                <element dependent_value="Feedback/Concerns/Complaints" inactive_on_update="false" label="Quality" sequence="1" value="Quality"/>
+                <element dependent_value="Retirement" inactive_on_update="false" label="Begin Retirement Process" sequence="2" value="Begin Retirement Process"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Caregiver Economy Vetting" sequence="2" value="Caregiver Economy Vetting"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Caregiver Education" sequence="2" value="Caregiver Education"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Check Application Status" sequence="2" value="Check Application Status"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Data Purges / Backups / HRIS support" sequence="2" value="Data Purges / Backups / HRIS support"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Demographic and other changes" sequence="2" value="Demographic and other changes"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Exposure Tracking and Reporting" sequence="2" value="Exposure Tracking and Reporting"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Incentive Plan/Variable Pay Plan Support" sequence="2" value="Incentive Plan/Variable Pay Plan Support"/>
+                <element dependent_value="Employee Relations" inactive_on_update="false" label="Job Eliminations" sequence="2" value="Job Eliminations"/>
+                <element dependent_value="Education and Learning" inactive="true" inactive_on_update="true" label="Licensure and Certification including RQI" sequence="2" value="Licensure and Certification"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Life Event - Status Change" sequence="2" value="Life Event - Status Change"/>
+                <element dependent_value="Physician Benefits" inactive_on_update="false" label="New Hire" sequence="2" value="New Hire"/>
+                <element dependent_value="Feedback/Concerns/Complaints" inactive_on_update="false" label="Patient Experience" sequence="2" value="Patient Experience"/>
+                <element dependent_value="Educational Assistance" inactive="true" inactive_on_update="true" label="Public Service Loan Forgiveness" sequence="2" value="Public Service Loan Forgiveness"/>
+                <element dependent_value="Talent Acquisition" inactive="true" inactive_on_update="true" label="Qualifications" sequence="2" value="Qualifications"/>
+                <element dependent_value="My Learning" inactive_on_update="false" label="Reports/Audits" sequence="2" value="Reports/Audits"/>
+                <element dependent_value="Leave of Absence COL" inactive_on_update="false" label="Returning to Work" sequence="2" value="Returning to Work"/>
+                <element dependent_value="AV Services" inactive_on_update="false" label="Room Scheduling Through EMS" sequence="2" value="Room Scheduling Through EMS"/>
+                <element dependent_value="Leave of Absence NCOL" inactive="true" inactive_on_update="true" label="Submit Application" sequence="2" value="Submit Application"/>
+                <element dependent_value="Employment Verifications" inactive_on_update="false" label="Submit Forms and Paperwork" sequence="2" value="Submit Forms and Paperwork"/>
+                <element dependent_value="Onboarding" inactive_on_update="false" label="TalentLink Tasks" sequence="2" value="TalentLink Tasks"/>
+                <element dependent_value="Feedback/Concerns/Complaints" inactive_on_update="false" label="Access" sequence="3" value="Access"/>
+                <element dependent_value="AV Services" inactive_on_update="false" label="AV Equipment Check-out to Client" sequence="3" value="AV Equipment Check-out to Client"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Benefits Eligibility" sequence="3" value="Benefits Eligibility"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Caregiver Engagement and Retention" sequence="3" value="Caregiver Engagement and Retention"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Direct Deposit" sequence="3" value="Direct Deposit"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Fitness for Duty" sequence="3" value="Fitness for Duty"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="I9 / VISA" sequence="3" value="I9 / VISA"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Internal Equity" sequence="3" value="Internal Equity"/>
+                <element dependent_value="Employee Relations" inactive_on_update="false" label="Managing caregiver behavior" sequence="3" value="Managing caregiver behavior"/>
+                <element dependent_value="Education and Learning" inactive="true" inactive_on_update="true" label="My Learning Modules and Classes" sequence="3" value="My Learning Modules and Classes"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Ongoing Licensure / Certification / Registration" sequence="3" value="Licensure/Certification/Registration"/>
+                <element dependent_value="Leave of Absence NCOL" inactive_on_update="false" label="Other" sequence="3" value="Other"/>
+                <element dependent_value="Retirement" inactive_on_update="false" label="Pension" sequence="3" value="Pension"/>
+                <element dependent_value="Talent Acquisition" inactive="true" inactive_on_update="true" label="References / File check / Verification of min. requirements" sequence="3" value="References/File check/Verification"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Short/Long Term Disability" sequence="3" value="Short/Long Term Disability"/>
+                <element dependent_value="Leave of Absence COL" inactive="true" inactive_on_update="true" label="Short/Long-Term Disability" sequence="3" value="Short_Long-Term Disability"/>
+                <element dependent_value="Educational Assistance" inactive_on_update="false" label="Submit Education Plan" sequence="3" value="Submit Education Plan"/>
+                <element dependent_value="Employment Verifications" inactive_on_update="false" label="Subpoenas" sequence="3" value="Subpoenas"/>
+                <element dependent_value="My Learning" inactive_on_update="false" label="System Access Requests/Training" sequence="3" value="System Access Requests/Training"/>
+                <element dependent_value="Physician Benefits" inactive_on_update="false" label="Terminations" sequence="3" value="Terminations"/>
+                <element dependent_value="Onboarding" inactive_on_update="false" label="Training/Learning" sequence="3" value="Training/Learning"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Caregiver Value Proposition" sequence="4" value="Caregiver Value Proposition"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Demographic and other changes" sequence="4" value="Demographic and other changes"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Garnishments" sequence="4" value="Garnishments"/>
+                <element dependent_value="AV Services" inactive_on_update="false" label="General Questions About Rooms/Space" sequence="4" value="General Questions About Rooms/Space"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Immunization Tracking / Request for Records" sequence="4" value="Immunization Tracking/Request for Record"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Interviews / Candidate Travel" sequence="4" value="Interviews / Candidate Travel"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Merit/Market Increases" sequence="4" value="Merit/Market Increases"/>
+                <element dependent_value="Education and Learning" inactive="true" inactive_on_update="true" label="On the Job Training" sequence="4" value="On the Job Training"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="OTG Scanning" sequence="4" value="OTG Scanning"/>
+                <element dependent_value="Physician Benefits" inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+                <element dependent_value="Leave of Absence COL" inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+                <element dependent_value="Onboarding" inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+                <element dependent_value="Employment Verifications" inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+                <element dependent_value="Employee Relations" inactive_on_update="false" label="Policies and Procedures" sequence="4" value="Policies and Procedures"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Premium Payments" sequence="4" value="Premium Payments"/>
+                <element dependent_value="Retirement" inactive_on_update="false" label="Retiree - General" sequence="4" value="Retiree - General"/>
+                <element dependent_value="Feedback/Concerns/Complaints" inactive_on_update="false" label="Stewardship" sequence="4" value="Stewardship"/>
+                <element dependent_value="Educational Assistance" inactive_on_update="false" label="Submit Request Form" sequence="4" value="Submit Request Form"/>
+                <element dependent_value="My Learning" inactive_on_update="false" label="Troubleshooting" sequence="4" value="Troubleshooting"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Compensation" sequence="5" value="Compensation"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Extending Leave" sequence="5" value="Extending Leave"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Injury / Illness Reporting" sequence="5" value="Injury / Illness Reporting"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Involuntary Termination" sequence="5" value="Involuntary Termination"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Job Grades" sequence="5" value="Job Grades"/>
+                <element dependent_value="Educational Assistance" inactive_on_update="false" label="Other" sequence="5" value="Other"/>
+                <element dependent_value="Feedback/Concerns/Complaints" inactive_on_update="false" label="Other" sequence="5" value="Other"/>
+                <element dependent_value="Education and Learning" inactive="true" inactive_on_update="true" label="Other" sequence="5" value="Other"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Other Report Writing and Distribution (including RQI)" sequence="5" value="Other Report Writing and Distribution"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="PAR Form" sequence="5" value="PAR Form"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Payroll Deductions" sequence="5" value="Payroll Deductions"/>
+                <element dependent_value="Retirement" inactive_on_update="false" label="Retiree Medical/Dental/Vision/Life" sequence="5" value="Retiree Medical_Dental_Vision_Life"/>
+                <element dependent_value="My Learning" inactive_on_update="false" label="Triage" sequence="5" value="Triage"/>
+                <element dependent_value="Employee Relations" inactive_on_update="false" label="Unemployment Escalations" sequence="5" value="Unemployment Escalations"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Employee Assistance Program (EAP)" sequence="6" value="Employee Assistance Program (EAP)"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Job Posting" sequence="6" value="Job Posting"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="OTG" sequence="6" value="OTG"/>
+                <element dependent_value="My Learning" inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+                <element dependent_value="Employee Relations" inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+                <element dependent_value="Retirement" inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+                <element dependent_value="Benefits" inactive="true" inactive_on_update="true" label="PAR Form" sequence="6" value="PAR Form"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Paycheck/Earnings" sequence="6" value="Paycheck/Earnings"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="PTO/Leave of Absence" sequence="6" value="PTO/Leave of Absence"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Quality Assurance / Auditing" sequence="6" value="Quality Assurance / Auditing"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Returning to Work" sequence="6" value="Returning to Work"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Employee Health" sequence="7" value="Employee Health"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Manual Data Entry (As Needed)" sequence="7" value="Manual Data Entry (As Needed)"/>
+                <element dependent_value="Leave of Absence" inactive_on_update="false" label="Other" sequence="7" value="Other"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Policies and Procedures" sequence="7" value="Policies and Procedures"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="PTO/Time Off" sequence="7" value="PTO_Time Off"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Regulatory &amp; Compliance Reporting (Joint Commission, DOH, CMS, etc…)" sequence="7" value="Regulatory &amp; Compliance Reporting"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Return to Work Coordination" sequence="7" value="Return to Work Coordination"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Statement of Earnings" sequence="7" value="Statement of Earnings"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Benefits Appeal" sequence="8" value="Benefits Appeal"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Employee Relations" sequence="8" value="Employee Relations"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="New Hire Paperwork (Manual PARS, General Questions)" sequence="8" value="New Hire Paperwork (Manual PARS, General Questions)"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="PTO Cashout" sequence="8" value="PTO Cashout"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Safety/Zero Harm" sequence="8" value="Safety/Zero Harm"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Sanctions and Corrective Action" sequence="8" value="Sanctions and Corrective Action"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Time Keeping" sequence="8" value="Time Keeping"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="HR Continuous Improvement" sequence="9" value="HR Continuous Improvement"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="HSA/FSA/Dependent Care" sequence="9" value="HSA_FSA_dependent_care"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Offer/Compensation/Support" sequence="9" value="Offer/Compensation/Support"/>
+                <element dependent_value="Employee Health" inactive_on_update="false" label="Other" sequence="9" value="Other"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Salary Grade/Range" sequence="9" value="Salary Grade/Range"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Tuition Loan Assistance" sequence="9" value="Tuition Loan Assistance"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="W2/Taxes" sequence="9" value="W2/Taxes"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Deductions Not Taken (DNT)" sequence="10" value="Deductions Not Taken (DNT)"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="HR Program Management" sequence="10" value="HR Program Management"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Reference Check - Internal/File Check" sequence="10" value="Reference Check - Internal/File Check"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Thank You Payment" sequence="10" value="Thank You Payment"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Tuition Related" sequence="10" value="Tuition Related"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="W4 Allowances" sequence="10" value="W4 Allowances"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="HR Special Projects and Initiatives" sequence="11" value="HR Special Projects and Initiatives"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="ORS" sequence="11" value="ORS"/>
+                <element dependent_value="Payroll Questions and Changes" inactive_on_update="false" label="Other" sequence="11" value="Other"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Reference Check - External" sequence="11" value="Reference Check - External"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Trend Analysis (Internal Offer &amp; Adjustments)" sequence="11" value="Trend Analysis"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Unemployment Claim First Response" sequence="11" value="Unemployment Claim First Response"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="HR, Risk, and Compliance" sequence="12" value="HR, Risk, and Compliance"/>
+                <element dependent_value="DATA" inactive_on_update="false" label="Other" sequence="12" value="Other"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Reference Check - Both Internal and External" sequence="12" value="Reference Check - Both Internal and External"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Tuition Loan Repayment" sequence="12" value="Tuition Loan Repayment"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Workflow Reports" sequence="12" value="Workflow Reports"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Leadership and Organizational Development" sequence="13" value="Leadership and Organization Development"/>
+                <element dependent_value="Compensation" inactive_on_update="false" label="Other" sequence="13" value="Other"/>
+                <element dependent_value="Benefits" inactive="true" inactive_on_update="true" label="Physician Comp Changes" sequence="13" value="Physician Comp Changes"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Relocation/Transition Assistance" sequence="13" value="Relocation/Transition Assistance"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Leadership Institute" sequence="14" value="Leadership Institute"/>
+                <element dependent_value="Talent Acquisition" inactive_on_update="false" label="Other" sequence="14" value="Other"/>
+                <element dependent_value="Benefits" inactive_on_update="false" label="Other" sequence="14" value="Other"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Live Well" sequence="15" value="Live Well"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="LMS Administration" sequence="16" value="LMS Administration"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Management and Leadership Development" sequence="17" value="Management and Leadership Development"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Onboarding and Assimilation" sequence="18" value="Onboarding and Assimilation"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Organizational Design" sequence="19" value="Organizational Design"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Performance Management" sequence="20" value="Performance Management"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Recognition" sequence="21" value="Recognition"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Recruitment and Selection" sequence="22" value="Recruitment and Selection"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Retirement" sequence="23" value="Retirement"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Succession Planning" sequence="24" value="Succession Planning"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Talent Mobility and Career Management" sequence="25" value="Talent Mobility and Career Management"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Transition and Change Management" sequence="26" value="Transition and Change Management"/>
+                <element dependent_value="Networks of Expertise (NOE)" inactive_on_update="false" label="Workforce Planning" sequence="27" value="Workforce Planning"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Case Type" max_length="40" name="u_case_type" type="string">
             <choice>
-                <element label="Benefits" sequence="0" value="Benefits"/>
-                <element label="Compensation" sequence="1" value="Compensation"/>
-                <element label="Educational Assistance" sequence="2" value="Educational Assistance"/>
-                <element label="Employee Health" sequence="3" value="Employee Health"/>
-                <element label="Employee Relations" sequence="4" value="Employee Relations"/>
-                <element label="Employment Verifications" sequence="5" value="Employment Verifications"/>
-                <element label="Feedback/Concerns/Complaints" sequence="6" value="Feedback/Concerns/Complaints"/>
-                <element label="General Inquiries" sequence="7" value="General Inquiries"/>
-                <element label="Leave of Absence" sequence="8" value="Leave of Absence"/>
-                <element label="My Learning" sequence="9" value="My Learning"/>
-                <element label="Networks of Expertise (NOE)" sequence="10" value="Networks of Expertise (NOE)"/>
-                <element label="Onboarding" sequence="11" value="Onboarding"/>
-                <element label="Payroll Questions and Changes" sequence="12" value="Payroll Questions and Changes"/>
-                <element label="Retirement" sequence="13" value="Retirement"/>
-                <element label="Retro PAR Form" sequence="14" value="Retro PAR Form"/>
-                <element label="Talent Acquisition" sequence="15" value="Talent Acquisition"/>
-                <element label="DATA" sequence="16" value="DATA"/>
-                <element label="Other" sequence="17" value="Other"/>
+                <element inactive_on_update="false" label="AV Service Team" sequence="0" value="AV Services"/>
+                <element inactive_on_update="false" label="Benefits" sequence="0" value="Benefits"/>
+                <element inactive="true" inactive_on_update="true" label="Leave of Absence (Currently On Leave)" sequence="0" value="Leave of Absence COL"/>
+                <element inactive_on_update="false" label="Compensation" sequence="1" value="Compensation"/>
+                <element inactive="true" inactive_on_update="true" label="Leave of Absence (NOT Currently on Leave)" sequence="1" value="Leave of Absence NCOL"/>
+                <element inactive_on_update="false" label="Educational Assistance" sequence="2" value="Educational Assistance"/>
+                <element inactive="true" inactive_on_update="true" label="Education and Learning" sequence="3" value="Education and Learning"/>
+                <element inactive_on_update="false" label="Employee Health" sequence="4" value="Employee Health"/>
+                <element inactive_on_update="false" label="Employee Relations" sequence="5" value="Employee Relations"/>
+                <element inactive_on_update="false" label="Employment Verifications" sequence="6" value="Employment Verifications"/>
+                <element inactive_on_update="false" label="Feedback/Concerns/Complaints" sequence="7" value="Feedback/Concerns/Complaints"/>
+                <element inactive_on_update="false" label="General Inquiries" sequence="7" value="General Inquiries"/>
+                <element inactive_on_update="false" label="Leave of Absence" sequence="8" value="Leave of Absence"/>
+                <element inactive_on_update="false" label="My Learning" sequence="9" value="My Learning"/>
+                <element inactive_on_update="false" label="Networks of Expertise (NOE)" sequence="9" value="Networks of Expertise (NOE)"/>
+                <element inactive="true" inactive_on_update="true" label="Onboarding" sequence="10" value="Onboarding"/>
+                <element inactive_on_update="false" label="Payroll Questions and Changes" sequence="11" value="Payroll Questions and Changes"/>
+                <element inactive_on_update="false" label="Retirement" sequence="12" value="Retirement"/>
+                <element inactive_on_update="false" label="Physician Benefits" sequence="13" value="Physician Benefits"/>
+                <element inactive_on_update="false" label="Talent Acquisition" sequence="13" value="Talent Acquisition"/>
+                <element inactive_on_update="false" label="DATA" sequence="14" value="DATA"/>
+                <element inactive_on_update="false" label="Retro PAR Form" sequence="14" value="Retro PAR Form"/>
+                <element inactive_on_update="false" label="Other" sequence="15" value="Other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Does this request Contain PHI Data" max_length="40" name="u_contain_phi" type="string">
             <choice>
-                <element label="Yes" sequence="0" value="Yes"/>
-                <element label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element active="false" label="Defect" max_length="40" name="u_defect" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Defect" max_length="40" name="u_defect_choice" type="string">
             <choice>
-                <element label="Internal (Solutions Center Defect)" sequence="0" value="Internal"/>
-                <element label="External (Other Dept. Defect)" sequence="1" value="External"/>
+                <element inactive_on_update="false" label="Internal (Solutions Center Defect)" sequence="0" value="Internal"/>
+                <element inactive_on_update="false" label="External (Other Dept. Defect)" sequence="1" value="External"/>
             </choice>
         </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Caregiver(s) Affected" max_length="1024" name="u_employees_affected" reference="sys_user" type="glide_list"/>
@@ -214,9 +245,9 @@
         <element label="Physician" max_length="40" name="u_is_physician" type="boolean"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" default="internal" label="Origination" max_length="40" name="u_origination" type="choice">
             <choice>
-                <element label="Manager Portal" sequence="1" value="manager_portal"/>
-                <element label="User Portal" sequence="2" value="user_portal"/>
-                <element label="Internal" sequence="3" value="internal"/>
+                <element inactive_on_update="false" label="Manager Portal" sequence="1" value="manager_portal"/>
+                <element inactive_on_update="false" label="User Portal" sequence="2" value="user_portal"/>
+                <element inactive_on_update="false" label="Internal" sequence="3" value="internal"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Other Case Type" max_length="40" name="u_other_case_type" type="string"/>

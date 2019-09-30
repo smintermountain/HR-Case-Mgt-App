@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="u_case_sub_type" table="x_inthe_hr_case_mg_case" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Payroll Questions and Changes</dependent_value>
@@ -102,6 +101,26 @@
             <value>Applicant Inquiry</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>AV Services</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AV Equipment Support Needed in Room</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>pr0011</sys_created_by>
+            <sys_created_on>2019-09-09 09:38:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ad06a151b33f300ea9eed7b2f4bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pr0011</sys_updated_by>
+            <sys_updated_on>2019-09-09 09:38:17</sys_updated_on>
+            <u_task/>
+            <value>AV Equipment Support Needed in Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Networks of Expertise (NOE)</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -200,6 +219,26 @@
             <sys_updated_on>2017-08-24 18:18:04</sys_updated_on>
             <u_task/>
             <value>Check Request Form Status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Physician Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compensation</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-12-17 18:41:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed66a677db56af00eb6d9f5faa96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tramos12</sys_updated_by>
+            <sys_updated_on>2018-12-17 18:41:39</sys_updated_on>
+            <u_task/>
+            <value>Compensation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Education and Learning</dependent_value>
@@ -322,6 +361,26 @@
             <value>General Verifications</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Leave of Absence</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LOA Triage</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>grosale1</sys_created_by>
+            <sys_created_on>2019-05-16 17:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c0436081b613b00ea9eed7b2f4bcb08</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>grosale1</sys_updated_by>
+            <sys_updated_on>2019-05-16 19:46:48</sys_updated_on>
+            <u_task/>
+            <value>LOA Triage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -380,6 +439,26 @@
             <sys_updated_on>2018-09-04 15:39:14</sys_updated_on>
             <u_task/>
             <value>Registrations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>My Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Request New Education</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-09-04 15:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24d75a12db54ab40599d176a48961982</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>creatiga</sys_updated_by>
+            <sys_updated_on>2019-09-20 22:37:12</sys_updated_on>
+            <u_task/>
+            <value>Request New Education</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Feedback/Concerns/Complaints</dependent_value>
@@ -680,6 +759,46 @@
             <sys_updated_on>2018-01-10 22:17:24</sys_updated_on>
             <u_task/>
             <value>Eligibility_Policy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>AV Services</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Furniture Setup Needed in Room</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>pr0011</sys_created_by>
+            <sys_created_on>2019-09-09 09:38:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17f0a6151b33f300ea9eed7b2f4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pr0011</sys_updated_by>
+            <sys_updated_on>2019-09-09 09:38:47</sys_updated_on>
+            <u_task/>
+            <value>Furniture Setup Needed in Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Physician Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LOA</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-12-17 18:41:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed66a677db56af00eb6d9f5faa96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tramos12</sys_updated_by>
+            <sys_updated_on>2018-12-17 18:41:39</sys_updated_on>
+            <u_task/>
+            <value>LOA</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Talent Acquisition</dependent_value>
@@ -1022,6 +1141,26 @@
             <value>Life Event - Status Change</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Physician Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Hire</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-12-17 18:41:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed66a677db56af00eb6d9f5faa96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tramos12</sys_updated_by>
+            <sys_updated_on>2018-12-17 18:41:39</sys_updated_on>
+            <u_task/>
+            <value>New Hire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Feedback/Concerns/Complaints</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -1045,7 +1184,7 @@
             <dependent_value>Educational Assistance</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Public Service Loan Forgiveness</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
@@ -1055,9 +1194,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1e8551754fe307c0f5f3d49f0310c7ae</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-01-09 18:36:41</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>grosale1</sys_updated_by>
+            <sys_updated_on>2019-05-23 22:23:10</sys_updated_on>
             <u_task/>
             <value>Public Service Loan Forgiveness</value>
         </sys_choice>
@@ -1120,6 +1259,26 @@
             <sys_updated_on>2017-08-25 14:50:37</sys_updated_on>
             <u_task/>
             <value>Returning to Work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>AV Services</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Room Scheduling Through EMS</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>pr0011</sys_created_by>
+            <sys_created_on>2019-09-09 09:39:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed11ea151b33f300ea9eed7b2f4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pr0011</sys_updated_by>
+            <sys_updated_on>2019-09-09 09:39:05</sys_updated_on>
+            <u_task/>
+            <value>Room Scheduling Through EMS</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence NCOL</dependent_value>
@@ -1200,6 +1359,26 @@
             <sys_updated_on>2018-05-23 19:46:33</sys_updated_on>
             <u_task/>
             <value>Access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>AV Services</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AV Equipment Check-out to Client</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>pr0011</sys_created_by>
+            <sys_created_on>2019-09-09 09:39:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1212a151b33f300ea9eed7b2f4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pr0011</sys_updated_by>
+            <sys_updated_on>2019-09-09 09:39:21</sys_updated_on>
+            <u_task/>
+            <value>AV Equipment Check-out to Client</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
@@ -1542,6 +1721,26 @@
             <value>System Access Requests/Training</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Physician Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Terminations</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-12-17 18:41:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad6666b7db56af00eb6d9f5faa961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tramos12</sys_updated_by>
+            <sys_updated_on>2018-12-17 18:41:39</sys_updated_on>
+            <u_task/>
+            <value>Terminations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Onboarding</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -1620,6 +1819,26 @@
             <sys_updated_on>2018-01-09 19:56:02</sys_updated_on>
             <u_task/>
             <value>Garnishments</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>AV Services</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Questions About Rooms/Space</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>pr0011</sys_created_by>
+            <sys_created_on>2019-09-09 09:39:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea31ea151b33f300ea9eed7b2f4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pr0011</sys_updated_by>
+            <sys_updated_on>2019-09-09 09:39:43</sys_updated_on>
+            <u_task/>
+            <value>General Questions About Rooms/Space</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Employee Health</dependent_value>
@@ -1720,6 +1939,26 @@
             <sys_updated_on>2018-01-09 18:34:26</sys_updated_on>
             <u_task/>
             <value>OTG Scanning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Physician Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-12-17 18:42:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73766a37db56af00eb6d9f5faa9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tramos12</sys_updated_by>
+            <sys_updated_on>2018-12-17 18:42:04</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Leave of Absence COL</dependent_value>
@@ -2122,26 +2361,6 @@
             <value>Payroll Deductions</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>My Learning</dependent_value>
-            <element>u_case_sub_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Request New Education</label>
-            <language>en</language>
-            <name>x_inthe_hr_case_mg_case</name>
-            <sequence>5</sequence>
-            <sys_created_by>tramos12</sys_created_by>
-            <sys_created_on>2018-09-04 15:41:29</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>24d75a12db54ab40599d176a48961982</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tramos12</sys_updated_by>
-            <sys_updated_on>2018-09-04 15:41:29</sys_updated_on>
-            <u_task/>
-            <value>Request New Education</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Retirement</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -2160,6 +2379,26 @@
             <sys_updated_on>2017-08-25 22:39:41</sys_updated_on>
             <u_task/>
             <value>Retiree Medical_Dental_Vision_Life</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>My Learning</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Triage</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-10-12 14:57:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b1a39e2db81afc0599d176a4896193c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>creatiga</sys_updated_by>
+            <sys_updated_on>2019-09-20 22:37:12</sys_updated_on>
+            <u_task/>
+            <value>Triage</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Employee Relations</dependent_value>
@@ -2255,9 +2494,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>04e79a9edb14ab40599d176a489619d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tramos12</sys_updated_by>
-            <sys_updated_on>2018-09-04 15:41:44</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>creatiga</sys_updated_by>
+            <sys_updated_on>2019-09-20 22:37:12</sys_updated_on>
             <u_task/>
             <value>Other</value>
         </sys_choice>
@@ -2305,7 +2544,7 @@
             <dependent_value>Benefits</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>PAR Form</label>
             <language>en</language>
             <name>x_inthe_hr_case_mg_case</name>
@@ -2315,9 +2554,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5ab2ae994f704340af76d0af0310c70a</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-01-09 18:22:08</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>creatiga</sys_updated_by>
+            <sys_updated_on>2019-01-28 23:03:03</sys_updated_on>
             <u_task/>
             <value>PAR Form</value>
         </sys_choice>
@@ -3102,26 +3341,6 @@
             <value>HR, Risk, and Compliance</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Compensation</dependent_value>
-            <element>u_case_sub_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_inthe_hr_case_mg_case</name>
-            <sequence>12</sequence>
-            <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>898359b14fe307c0f5f3d49f0310c78b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-01-09 18:27:51</sys_updated_on>
-            <u_task/>
-            <value>Other</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>DATA</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
@@ -3160,6 +3379,26 @@
             <sys_updated_on>2018-07-10 16:11:43</sys_updated_on>
             <u_task/>
             <value>Reference Check - Both Internal and External</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Compensation</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuition Loan Repayment</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>12</sequence>
+            <sys_created_by>pr0011</sys_created_by>
+            <sys_created_on>2019-08-29 10:05:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d78d39f51baf7f00ea9eed7b2f4bcb58</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>pr0011</sys_updated_by>
+            <sys_updated_on>2019-08-29 10:05:53</sys_updated_on>
+            <u_task/>
+            <value>Tuition Loan Repayment</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Benefits</dependent_value>
@@ -3202,7 +3441,7 @@
             <value>Leadership and Organization Development</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Benefits</dependent_value>
+            <dependent_value>Compensation</dependent_value>
             <element>u_case_sub_type</element>
             <hint/>
             <inactive>false</inactive>
@@ -3211,15 +3450,35 @@
             <name>x_inthe_hr_case_mg_case</name>
             <sequence>13</sequence>
             <sys_created_by>tkaneko</sys_created_by>
-            <sys_created_on>2017-08-24 18:04:17</sys_created_on>
+            <sys_created_on>2018-01-09 18:27:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5ab2ae994f704340af76d0af0310c70d</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>tkaneko</sys_updated_by>
-            <sys_updated_on>2018-05-07 18:34:21</sys_updated_on>
+            <sys_id>898359b14fe307c0f5f3d49f0310c78b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>pr0011</sys_updated_by>
+            <sys_updated_on>2019-08-29 10:06:10</sys_updated_on>
             <u_task/>
             <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Physician Comp Changes</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>13</sequence>
+            <sys_created_by>tramos12</sys_created_by>
+            <sys_created_on>2018-10-11 17:12:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d7f81d6dbc16fc0599d176a489619d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tramos12</sys_updated_by>
+            <sys_updated_on>2018-10-19 14:20:22</sys_updated_on>
+            <u_task/>
+            <value>Physician Comp Changes</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Talent Acquisition</dependent_value>
@@ -3278,6 +3537,26 @@
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>tkaneko</sys_updated_by>
             <sys_updated_on>2018-07-10 16:11:43</sys_updated_on>
+            <u_task/>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Benefits</dependent_value>
+            <element>u_case_sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_inthe_hr_case_mg_case</name>
+            <sequence>14</sequence>
+            <sys_created_by>tkaneko</sys_created_by>
+            <sys_created_on>2017-08-24 18:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ab2ae994f704340af76d0af0310c70d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>tramos12</sys_updated_by>
+            <sys_updated_on>2018-10-11 17:14:33</sys_updated_on>
             <u_task/>
             <value>Other</value>
         </sys_choice>
@@ -3548,7 +3827,7 @@
             <sys_created_by>tkaneko</sys_created_by>
             <sys_created_on>2017-08-24 18:04:17</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>7c066e194f12db40f5f3d49f0310c7f2</sys_id>
+            <sys_id>96b67bdbdbbb6b0878862cc61b96199c</sys_id>
             <sys_mod_count>33</sys_mod_count>
             <sys_name>u_case_sub_type</sys_name>
             <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="x_inthe_hr_case_mg_assignment_matrix">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_inthe_hr_case_mg_assignment_matrix">
     <x_inthe_hr_case_mg_assignment_matrix action="INSERT_OR_UPDATE">
         <sys_class_name>x_inthe_hr_case_mg_assignment_matrix</sys_class_name>
         <sys_created_by>tramos12</sys_created_by>

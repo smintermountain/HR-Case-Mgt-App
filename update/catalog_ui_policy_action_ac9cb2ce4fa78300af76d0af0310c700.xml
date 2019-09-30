@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="catalog_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Need Manager Help?">1ddd2a464fe38300af76d0af0310c72d</catalog_item>
         <catalog_variable>IO:1f38bac64f678300af76d0af0310c7bc</catalog_variable>
+        <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
         <mandatory>false</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
         <sys_created_on>2018-01-10 20:45:32</sys_created_on>

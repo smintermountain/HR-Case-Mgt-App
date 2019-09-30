@@ -1,19 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_inthe_hr_case_mg_case</collection>
-        <condition table="x_inthe_hr_case_mg_case">stateCHANGESTO3^ORstateCHANGESTO4^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <condition table="x_inthe_hr_case_mg_case">stateCHANGESTO3^ORstateCHANGESTO4^u_bypass_notification=false^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
+            <item endquery="false" field="u_bypass_notification" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_interval/>
         <description>Notify Caller when case is closed</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>approval.cancelled</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
@@ -27,14 +39,22 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Please give us feedback! Our two-question survey takes less than a minute to complete and will help us continuously improve our service to you. Thank you!</p>
-<p><a href="https://www.surveymonkey.com/r/YDRM78P"><img src="survey_image.png" width="224" height="105" /></a></p>
-<p>&nbsp;</p>
-<p>Your HR Request ${Number} has been resolved with the following notes:</p>
+        <message_html><![CDATA[<p>Your HR Request ${Number} has been resolved with the following notes:</p>
 <p><strong>Resolution Notes:</strong> ${u_resolution_notes}</p>
 <p>If you feel your request is not resolved, please click the following link to reopen your request: ${URI_REF}</p>
-<p>Thank you for allowing Intermountain Healthcare HR to help you!</p>
-<p>&nbsp;</p>
+<p>Thank you for allowing AskHR to help you!</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="https://www.surveymonkey.com/r/YDRM78P"><img src="survey_image.png" width="224" height="105" /></a></p>
+&nbsp;</td>
+<td style="text-align: left; vertical-align: top;">
+<p>Please give us feedback! Our two-question survey takes less than a minute to complete and will help us continuously improve our service to you. Thank you!</p>
+</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Number:&nbsp;</strong>${number}</p>
 <p><strong>Submitted For:&nbsp;</strong>${u_caller}</p>
 <p><strong>Submission Date:&nbsp;</strong>${sys_created_on}</p>
@@ -57,7 +77,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your HR Request ${Number} has been resolved</subject>
+        <subject>${number} has been resolved - ${short_description}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>tkaneko</sys_created_by>
@@ -66,7 +86,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0fbe776d4f340340f5f3d49f0310c7be</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>(IHC) Case is Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Case Management" source="x_inthe_hr_case_mg">e048ecb04f2f3e00f5f3d49f0310c796</sys_package>
@@ -74,8 +94,8 @@
         <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
         <sys_scope display_value="HR Case Management">e048ecb04f2f3e00f5f3d49f0310c796</sys_scope>
         <sys_update_name>sysevent_email_action_0fbe776d4f340340f5f3d49f0310c7be</sys_update_name>
-        <sys_updated_by>tkaneko</sys_updated_by>
-        <sys_updated_on>2018-05-23 19:28:48</sys_updated_on>
+        <sys_updated_by>grosale1</sys_updated_by>
+        <sys_updated_on>2019-05-23 10:46:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

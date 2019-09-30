@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="x_inthe_hr_case_mg.user" name="x_inthe_hr_case_mg.user">64482c744f2f3e00f5f3d49f0310c774</contains>
         <role display_value="x_inthe_hr_case_mg.admin" name="x_inthe_hr_case_mg.admin">1303e0bd4f740340f5f3d49f0310c74e</role>
